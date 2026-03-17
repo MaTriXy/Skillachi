@@ -60,19 +60,19 @@ async function runScorer(cliName, prompt) {
       result = spawnSync(
         'claude',
         ['-p', promptEscaped, '--no-session-persistence'],
-        { encoding: 'utf8', timeout: 120_000, maxBuffer: 5 * 1024 * 1024 }
+        { encoding: 'utf8', maxBuffer: 5 * 1024 * 1024 }
       );
     } else if (cliName === 'codex') {
       result = spawnSync(
         'codex',
         ['exec', promptEscaped, '--approval-mode=full-auto'],
-        { encoding: 'utf8', timeout: 120_000, maxBuffer: 5 * 1024 * 1024 }
+        { encoding: 'utf8', maxBuffer: 5 * 1024 * 1024 }
       );
     } else if (cliName === 'gemini') {
       result = spawnSync(
         'gemini',
         ['-p', promptEscaped, '--sandbox=false'],
-        { encoding: 'utf8', timeout: 120_000, maxBuffer: 5 * 1024 * 1024 }
+        { encoding: 'utf8', maxBuffer: 5 * 1024 * 1024 }
       );
     }
   } catch (e) {

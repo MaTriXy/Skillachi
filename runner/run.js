@@ -157,19 +157,19 @@ for (let i = 0; i < slots.length; i++) {
           cliResult = spawnSync(
             'claude',
             ['-p', prompt, '--dangerously-skip-permissions', '--no-session-persistence'],
-            { cwd: repoDir, timeout: 300_000, encoding: 'utf8', maxBuffer: 10 * 1024 * 1024 }
+            { cwd: repoDir, encoding: 'utf8', maxBuffer: 10 * 1024 * 1024 }
           );
         } else if (cli === 'codex') {
           cliResult = spawnSync(
             'codex',
             ['exec', prompt, '--approval-mode=full-auto'],
-            { cwd: repoDir, timeout: 300_000, encoding: 'utf8', maxBuffer: 10 * 1024 * 1024 }
+            { cwd: repoDir, encoding: 'utf8', maxBuffer: 10 * 1024 * 1024 }
           );
         } else if (cli === 'gemini') {
           cliResult = spawnSync(
             'gemini',
             ['-p', prompt, '--sandbox=false'],
-            { cwd: repoDir, timeout: 300_000, encoding: 'utf8', maxBuffer: 10 * 1024 * 1024 }
+            { cwd: repoDir, encoding: 'utf8', maxBuffer: 10 * 1024 * 1024 }
           );
         }
       } catch (e) {
