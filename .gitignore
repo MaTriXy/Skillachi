@@ -24,3 +24,5 @@ node_modules/
 
 # Internal notes
 prompt.md
+runner/progress.json
+runner/node_modules/

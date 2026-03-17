@@ -1,0 +1,4 @@
+# GitHub Pages config — disable Jekyll processing
+exclude:
+  - "*.js"
+  - "*.json"

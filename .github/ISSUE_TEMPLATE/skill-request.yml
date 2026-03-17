@@ -1,0 +1,104 @@
+name: Skill Benchmark Request
+description: Request a skill to be added to the Skillachi benchmark
+title: "[Skill Request] "
+labels: ["skill-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Submit a Skill for Benchmarking
+        Use this form to request that a Claude Code skill be added to the Skillachi benchmark dataset.
+        We'll run it against real-world coding tasks and publish the results on the leaderboard.
+
+  - type: input
+    id: skill_name
+    attributes:
+      label: Skill Name
+      description: "The skill name as it appears in the SKILL.md filename (e.g. `react-best-practices`)"
+      placeholder: "e.g. my-awesome-skill"
+    validations:
+      required: true
+
+  - type: input
+    id: skill_repo
+    attributes:
+      label: GitHub Repository URL
+      description: "The GitHub repository containing the SKILL.md file"
+      placeholder: "https://github.com/username/repo"
+    validations:
+      required: true
+
+  - type: input
+    id: skill_md_path
+    attributes:
+      label: Path to SKILL.md
+      description: "Path to the SKILL.md file within the repository"
+      placeholder: "skills/my-skill/SKILL.md"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: target_role
+    attributes:
+      label: Target Engineering Role
+      description: "Which engineering role is this skill most relevant to?"
+      options:
+        - react-developer
+        - frontend-engineer
+        - node-backend-developer
+        - python-backend-developer
+        - fullstack-developer
+        - developer-tooling-engineer
+        - web3-blockchain-developer
+        - ios-developer
+        - android-developer
+        - ai-agent-engineer
+        - llm-prompt-engineer
+        - rag-knowledge-engineer
+        - mcp-integration-engineer
+        - ml-engineer
+        - data-scientist
+        - data-engineer
+        - database-engineer
+        - cloud-architect
+        - devops-engineer
+        - platform-engineer
+        - site-reliability-engineer
+        - security-engineer
+        - penetration-tester
+        - soc-analyst
+        - cryptography-engineer
+        - compliance-auditor
+        - ux-designer
+        - 3d-graphics-engineer
+        - product-manager
+        - growth-marketer
+        - app-store-specialist
+        - technical-writer
+        - creative-media-producer
+        - qa-engineer
+        - e2e-automation-engineer
+        - performance-engineer
+        - embedded-engineer
+        - robotics-engineer
+        - scientific-computing-engineer
+    validations:
+      required: true
+
+  - type: textarea
+    id: why
+    attributes:
+      label: Why benchmark this skill?
+      description: "What makes this skill interesting? What problem does it solve?"
+      placeholder: "This skill helps with..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: sample_trigger
+    attributes:
+      label: Sample Trigger (optional)
+      description: "Paste the trigger text from SKILL.md — when should Claude use this skill?"
+      placeholder: "Use this skill when..."
+    validations:
+      required: false

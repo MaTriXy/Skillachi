@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skillachi Leaderboard — AI Coding Skill Benchmarks</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #0d1117;
+      --surface: #161b22;
+      --border: #21262d;
+      --text: #e6edf3;
+      --muted: #8b949e;
+      --accent: #58a6ff;
+      --green: #3fb950;
+      --yellow: #d29922;
+      --red: #f85149;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+    }
+
+    header {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 1.5rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    header h1 {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 1.5rem;
+      color: var(--accent);
+    }
+
+    header p {
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    #stats-bar {
+      display: flex;
+      gap: 1rem;
+      color: var(--muted);
+      font-size: 0.85rem;
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    #last-updated {
+      color: var(--muted);
+      font-size: 0.8rem;
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    .filters {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 1rem 2rem;
+      display: flex;
+      gap: 1.5rem;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .filters label {
+      color: var(--muted);
+      font-size: 0.85rem;
+    }
+
+    .filters select, .filters input[type="range"] {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 0.3rem 0.6rem;
+      border-radius: 6px;
+      font-size: 0.85rem;
+    }
+
+    .model-btns {
+      display: flex;
+      gap: 0.5rem;
+    }
+
+    .model-btn {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      color: var(--muted);
+      padding: 0.3rem 0.8rem;
+      border-radius: 6px;
+      font-size: 0.8rem;
+      cursor: pointer;
+      font-family: 'JetBrains Mono', monospace;
+      transition: all 0.15s;
+    }
+
+    .model-btn.active, .model-btn:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+
+    main { padding: 1.5rem 2rem; }
+
+    .table-wrap {
+      overflow-x: auto;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.9rem;
+    }
+
+    thead {
+      background: var(--surface);
+      position: sticky;
+      top: 0;
+      z-index: 1;
+    }
+
+    th {
+      padding: 0.75rem 1rem;
+      text-align: left;
+      color: var(--muted);
+      font-weight: 500;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      border-bottom: 1px solid var(--border);
+      white-space: nowrap;
+    }
+
+    th[data-sort]:hover { color: var(--accent); }
+
+    td {
+      padding: 0.65rem 1rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .lb-row:hover td { background: rgba(88, 166, 255, 0.04); }
+
+    .lb-row:last-child td { border-bottom: none; }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      color: var(--muted);
+      font-size: 0.85rem;
+      border-top: 1px solid var(--border);
+      margin-top: 2rem;
+    }
+
+    footer a { color: var(--accent); text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+
+    @media (max-width: 768px) {
+      header, .filters, main { padding: 1rem; }
+      .filters { gap: 1rem; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>Skillachi Leaderboard</h1>
+    <p>AI coding skill benchmarks across 39 engineering roles</p>
+  </div>
+  <div>
+    <div id="stats-bar">Loading...</div>
+    <div id="last-updated"></div>
+  </div>
+</header>
+
+<div class="filters">
+  <label>
+    Role:
+    <select id="filter-role"></select>
+  </label>
+
+  <div>
+    <label>Model: </label>
+    <div class="model-btns">
+      <button class="model-btn active" data-model-filter="all">All</button>
+      <button class="model-btn" data-model-filter="claude">Claude</button>
+      <button class="model-btn" data-model-filter="codex">Codex</button>
+      <button class="model-btn" data-model-filter="gemini">Gemini</button>
+    </div>
+  </div>
+
+  <label>
+    Min score: <span id="filter-score-label">Any</span>
+    <input type="range" id="filter-score" min="0" max="10" step="0.5" value="0" style="width:100px">
+  </label>
+</div>
+
+<main>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th data-sort="skillName">Skill</th>
+          <th data-sort="roleId">Role</th>
+          <th data-sort="claude" style="text-align:center">Claude</th>
+          <th data-sort="codex" style="text-align:center">Codex</th>
+          <th data-sort="gemini" style="text-align:center">Gemini</th>
+          <th data-sort="avg" style="text-align:center">Avg</th>
+          <th data-sort="runCount" style="text-align:center">Runs</th>
+          <th data-sort="lastRun" style="text-align:center">Last Run</th>
+        </tr>
+      </thead>
+      <tbody id="lb-tbody">
+        <tr><td colspan="8" style="text-align:center;color:#666;padding:3rem">Loading leaderboard...</td></tr>
+      </tbody>
+    </table>
+  </div>
+</main>
+
+<footer>
+  <p>
+    <a href="https://github.com/MaTriXy/Skillachi" target="_blank">GitHub</a>
+    &nbsp;&middot;&nbsp;
+    <a href="https://github.com/MaTriXy/Skillachi/issues/new?template=skill-request.yml" target="_blank">Submit Skill Request</a>
+    &nbsp;&middot;&nbsp;
+    121 benchmarks &middot; 39 roles &middot; 3 models
+  </p>
+</footer>
+
+<script src="data-loader.js"></script>
+</body>
+</html>

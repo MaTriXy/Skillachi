@@ -1,0 +1,60 @@
+name: Update Leaderboard
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'benchmarks/leaderboard.json'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  update-leaderboard:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Copy leaderboard to docs
+        run: |
+          mkdir -p docs
+          if [ -f benchmarks/leaderboard.json ]; then
+            cp benchmarks/leaderboard.json docs/leaderboard.json
+            echo "Copied leaderboard.json to docs/"
+          else
+            echo "No leaderboard.json yet, skipping copy"
+          fi
+
+      - name: Commit updated leaderboard
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/leaderboard.json || true
+          git diff --staged --quiet || git commit -m "chore: update leaderboard data"
+          git push || true
+
+  deploy-pages:
+    needs: update-leaderboard
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs/
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,51 @@
+name: Skill Request Handler
+
+on:
+  issues:
+    types: [opened, labeled]
+
+permissions:
+  issues: write
+
+jobs:
+  acknowledge-skill-request:
+    runs-on: ubuntu-latest
+    if: contains(github.event.issue.labels.*.name, 'skill-request')
+    steps:
+      - name: Add pending-review label
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.addLabels({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              labels: ['pending-review']
+            });
+
+      - name: Post acknowledgement comment
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const body = `## Skill Request Received
+
+            Thanks for submitting a skill benchmark request! Here's what happens next:
+
+            1. **Review** — We'll review the skill and verify the SKILL.md is valid
+            2. **Integration** — The skill will be added to the \`augmented-catalog/skills-augmented.json\`
+            3. **Benchmark** — We'll run it against matching benchmarks in the dataset
+            4. **Leaderboard** — Scores will appear on the [Skillachi Leaderboard](https://matrixy.github.io/Skillachi/)
+
+            **What to check:**
+            - Make sure the SKILL.md follows the [Claude skill format](https://docs.anthropic.com/claude/docs/skills)
+            - The skill should have a clear trigger condition and use case
+            - The repo should be publicly accessible
+
+            We'll update this issue when the skill has been benchmarked. Stay tuned!`;
+
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body
+            });
