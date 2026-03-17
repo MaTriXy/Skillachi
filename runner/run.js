@@ -11,6 +11,7 @@
  */
 
 import { readFileSync, writeFileSync, existsSync, mkdirSync, rmSync, copyFileSync } from 'fs';
+import { createHash } from 'crypto';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { execSync, spawnSync } from 'child_process';
@@ -95,7 +96,8 @@ for (let i = 0; i < slots.length; i++) {
   }
 
   const slotStart = Date.now();
-  const tmpDir = `/tmp/skillachi-run-${slot.benchmarkId}-${slot.skillId}`;
+  const slotHash = createHash('sha1').update(`${slot.benchmarkId}:${slot.skillId}`).digest('hex').slice(0, 8);
+  const tmpDir = `/tmp/skillachi-${slotHash}`;
   const repoDir = path.join(tmpDir, 'repo');
 
   console.log(`\n[${i + 1}/${slots.length}] ${slot.skillName} x ${slot.benchmarkId}`);
