@@ -65,13 +65,13 @@ async function runScorer(cliName, prompt) {
     } else if (cliName === 'codex') {
       result = spawnSync(
         'codex',
-        ['exec', promptEscaped, '--approval-mode=full-auto'],
+        ['exec', '--full-auto', promptEscaped],
         { encoding: 'utf8', maxBuffer: 5 * 1024 * 1024 }
       );
     } else if (cliName === 'gemini') {
       result = spawnSync(
         'gemini',
-        ['-p', promptEscaped, '--sandbox=false'],
+        ['-p', promptEscaped, '-y'],
         { encoding: 'utf8', maxBuffer: 5 * 1024 * 1024 }
       );
     }

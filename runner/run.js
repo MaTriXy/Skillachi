@@ -162,13 +162,13 @@ for (let i = 0; i < slots.length; i++) {
         } else if (cli === 'codex') {
           cliResult = spawnSync(
             'codex',
-            ['exec', prompt, '--approval-mode=full-auto'],
+            ['exec', '--full-auto', prompt],
             { cwd: repoDir, encoding: 'utf8', maxBuffer: 10 * 1024 * 1024 }
           );
         } else if (cli === 'gemini') {
           cliResult = spawnSync(
             'gemini',
-            ['-p', prompt, '--sandbox=false'],
+            ['-p', prompt, '-y'],
             { cwd: repoDir, encoding: 'utf8', maxBuffer: 10 * 1024 * 1024 }
           );
         }
