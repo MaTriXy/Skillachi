@@ -8,6 +8,7 @@
  *   node runner/run.js --dry-run          # skip CLI execution, log what would happen
  *   node runner/run.js --limit 5          # run only 5 slots
  *   node runner/run.js --slot sk123:bm456 # run single slot by benchmarkId:skillId
+ *   node runner/run.js --rescore          # re-run slots missing codex or gemini scores
  */
 
 import { readFileSync, writeFileSync, existsSync, mkdirSync, rmSync, copyFileSync } from 'fs';
@@ -23,6 +24,7 @@ const PROJECT_DIR = path.resolve(__dirname, '..');
 // --- CLI args ---
 const args = process.argv.slice(2);
 const DRY_RUN = args.includes('--dry-run');
+const RESCORE = args.includes('--rescore');
 const LIMIT_IDX = args.indexOf('--limit');
 const LIMIT = LIMIT_IDX >= 0 ? parseInt(args[LIMIT_IDX + 1], 10) : Infinity;
 const SLOT_IDX = args.indexOf('--slot');
@@ -60,6 +62,22 @@ function saveLeaderboard() {
 }
 
 // --- Filter pending slots ---
+// --rescore: find slots already marked done but missing codex or gemini scores
+if (RESCORE) {
+  const lbMap = Object.fromEntries(
+    leaderboard.map(s => [`${s.benchmarkId}:${s.skillId}`, s])
+  );
+  for (const [key, entry] of Object.entries(progress)) {
+    if (entry.status !== 'done') continue;
+    const slot = lbMap[key];
+    const d = slot?.scoreDetail || {};
+    if (!d.codex || !d.gemini) {
+      delete progress[key];
+    }
+  }
+  saveProgress();
+}
+
 let slots = scaffold.filter(slot => {
   const key = `${slot.benchmarkId}:${slot.skillId}`;
   if (SLOT_FILTER && key !== SLOT_FILTER) return false;
