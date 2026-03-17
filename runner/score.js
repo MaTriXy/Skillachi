@@ -27,12 +27,25 @@ Respond ONLY with valid JSON, no other text:
 }
 
 /**
+ * Extract the actual model response from codex's session-log output format.
+ * Codex wraps responses with headers: "codex\n<response>\ntokens used\n..."
+ */
+function extractCodexResponse(raw) {
+  // Codex output has a "codex\n" section followed by "tokens used"
+  const match = raw.match(/^codex\n([\s\S]*?)(?:\ntokens used|\nNo JSON)/m);
+  if (match) return match[1].trim();
+  return raw;
+}
+
+/**
  * Parse JSON score response from an LLM. Returns null on failure.
  */
-function parseScoreResponse(raw) {
+function parseScoreResponse(raw, cli) {
   if (!raw) return null;
+  // For codex, extract the actual response section first
+  const text = cli === 'codex' ? extractCodexResponse(raw) : raw;
   // Try to extract JSON from the response
-  const match = raw.match(/\{[\s\S]*"scores"[\s\S]*\}/);
+  const match = text.match(/\{[\s\S]*"scores"[\s\S]*\}/);
   if (!match) return null;
   try {
     const obj = JSON.parse(match[0]);
@@ -83,22 +96,21 @@ async function runScorer(cliName, prompt) {
   if (!result) return null;
 
   const raw = (result.stdout || '') + (result.stderr || '');
-  let parsed = parseScoreResponse(raw);
+  let parsed = parseScoreResponse(raw, cliName);
 
   // Retry once on parse failure
   if (!parsed && raw.length > 0) {
     console.warn(`    scorer ${cliName}: parse failed, retrying...`);
-    // Try again with a slightly different approach
     try {
       let retryResult;
       if (cliName === 'claude') {
         retryResult = spawnSync('claude', ['-p', promptEscaped, '--no-session-persistence'], {
-          encoding: 'utf8', timeout: 120_000, maxBuffer: 5 * 1024 * 1024
+          encoding: 'utf8', maxBuffer: 5 * 1024 * 1024
         });
       }
       if (retryResult) {
         const retryRaw = (retryResult.stdout || '') + (retryResult.stderr || '');
-        parsed = parseScoreResponse(retryRaw);
+        parsed = parseScoreResponse(retryRaw, cliName);
       }
     } catch {}
   }
