@@ -1,0 +1,452 @@
+[
+  {
+    "roleId": "react-developer",
+    "roleName": "React Developer",
+    "projects": [
+      {
+        "nameWithOwner": "shadcn-ui/ui",
+        "stars": 109732,
+        "language": "TypeScript",
+        "description": "A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code.",
+        "defaultBranch": "main",
+        "url": "https://github.com/shadcn-ui/ui"
+      },
+      {
+        "nameWithOwner": "mui/material-ui",
+        "stars": 98047,
+        "language": "TypeScript",
+        "description": "Material UI: Comprehensive React component library that implements Google's Material Design. Free forever.",
+        "defaultBranch": "master",
+        "url": "https://github.com/mui/material-ui"
+      },
+      {
+        "nameWithOwner": "ant-design/ant-design",
+        "stars": 97737,
+        "language": "TypeScript",
+        "description": "An enterprise-class UI design language and React UI library",
+        "defaultBranch": "master",
+        "url": "https://github.com/ant-design/ant-design"
+      }
+    ]
+  },
+  {
+    "roleId": "ios-developer",
+    "roleName": "iOS Developer",
+    "projects": [
+      {
+        "nameWithOwner": "Alamofire/Alamofire",
+        "stars": 42363,
+        "language": "Swift",
+        "description": "Elegant HTTP Networking in Swift",
+        "defaultBranch": "master",
+        "url": "https://github.com/Alamofire/Alamofire"
+      },
+      {
+        "nameWithOwner": "realm/realm-swift",
+        "stars": 16603,
+        "language": "Swift",
+        "description": "Realm is a mobile database: a replacement for Core Data & SQLite",
+        "defaultBranch": "community",
+        "url": "https://github.com/realm/realm-swift"
+      },
+      {
+        "nameWithOwner": "pointfreeco/swift-composable-architecture",
+        "stars": 14435,
+        "language": "Swift",
+        "description": "A library for building applications in a consistent and understandable way, with composition, testing, and ergonomics in mind.",
+        "defaultBranch": "main",
+        "url": "https://github.com/pointfreeco/swift-composable-architecture"
+      }
+    ]
+  },
+  {
+    "roleId": "android-developer",
+    "roleName": "Android Developer",
+    "projects": [
+      {
+        "nameWithOwner": "airbnb/lottie-android",
+        "stars": 35604,
+        "language": "Kotlin",
+        "description": "Render After Effects animations natively on Android and iOS, Web, and React Native",
+        "defaultBranch": "master",
+        "url": "https://github.com/airbnb/lottie-android"
+      },
+      {
+        "nameWithOwner": "android/nowinandroid",
+        "stars": 20808,
+        "language": "Kotlin",
+        "description": "A fully functional Android app built entirely with Kotlin and Jetpack Compose",
+        "defaultBranch": "main",
+        "url": "https://github.com/android/nowinandroid"
+      },
+      {
+        "nameWithOwner": "google/iosched",
+        "stars": 21725,
+        "language": "Kotlin",
+        "description": "The Google I/O Android App",
+        "defaultBranch": "main",
+        "url": "https://github.com/google/iosched"
+      }
+    ]
+  },
+  {
+    "roleId": "node-backend-developer",
+    "roleName": "Node.js Backend Developer",
+    "projects": [
+      {
+        "nameWithOwner": "nestjs/nest",
+        "stars": 74947,
+        "language": "TypeScript",
+        "description": "A progressive Node.js framework for building efficient, scalable, and enterprise-grade server-side applications with TypeScript/JavaScript",
+        "defaultBranch": "master",
+        "url": "https://github.com/nestjs/nest"
+      },
+      {
+        "nameWithOwner": "expressjs/express",
+        "stars": 68906,
+        "language": "JavaScript",
+        "description": "Fast, unopinionated, minimalist web framework for node.",
+        "defaultBranch": "master",
+        "url": "https://github.com/expressjs/express"
+      },
+      {
+        "nameWithOwner": "immich-app/immich",
+        "stars": 75000,
+        "language": "TypeScript",
+        "description": "High performance self-hosted photo and video management solution.",
+        "defaultBranch": "main",
+        "url": "https://github.com/immich-app/immich"
+      }
+    ]
+  },
+  {
+    "roleId": "python-backend-developer",
+    "roleName": "Python Backend Developer",
+    "projects": [
+      {
+        "nameWithOwner": "fastapi/fastapi",
+        "stars": 96273,
+        "language": "Python",
+        "description": "FastAPI framework, high performance, easy to learn, fast to code, ready for production",
+        "defaultBranch": "master",
+        "url": "https://github.com/fastapi/fastapi"
+      },
+      {
+        "nameWithOwner": "django/django",
+        "stars": 87079,
+        "language": "Python",
+        "description": "The Web framework for perfectionists with deadlines.",
+        "defaultBranch": "main",
+        "url": "https://github.com/django/django"
+      },
+      {
+        "nameWithOwner": "getsentry/sentry",
+        "stars": 43373,
+        "language": "Python",
+        "description": "Developer-first error tracking and performance monitoring",
+        "defaultBranch": "master",
+        "url": "https://github.com/getsentry/sentry"
+      }
+    ]
+  },
+  {
+    "roleId": "fullstack-developer",
+    "roleName": "Full-Stack Developer",
+    "projects": [
+      {
+        "nameWithOwner": "supabase/supabase",
+        "stars": 99102,
+        "language": "TypeScript",
+        "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
+        "defaultBranch": "master",
+        "url": "https://github.com/supabase/supabase"
+      },
+      {
+        "nameWithOwner": "t3-oss/create-t3-app",
+        "stars": 28655,
+        "language": "TypeScript",
+        "description": "The best way to start a full-stack, typesafe Next.js app",
+        "defaultBranch": "main",
+        "url": "https://github.com/t3-oss/create-t3-app"
+      },
+      {
+        "nameWithOwner": "makeplane/plane",
+        "stars": 46643,
+        "language": "TypeScript",
+        "description": "Open-source Jira, Linear, Monday, and ClickUp alternative. A modern project management platform to manage tasks, sprints, docs, and triage.",
+        "defaultBranch": "preview",
+        "url": "https://github.com/makeplane/plane"
+      }
+    ]
+  },
+  {
+    "roleId": "devops-engineer",
+    "roleName": "DevOps Engineer",
+    "projects": [
+      {
+        "nameWithOwner": "kubernetes/kubernetes",
+        "stars": 121197,
+        "language": "Go",
+        "description": "Production-Grade Container Scheduling and Management",
+        "defaultBranch": "master",
+        "url": "https://github.com/kubernetes/kubernetes"
+      },
+      {
+        "nameWithOwner": "ansible/ansible",
+        "stars": 68314,
+        "language": "Python",
+        "description": "Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy and maintain.",
+        "defaultBranch": "devel",
+        "url": "https://github.com/ansible/ansible"
+      },
+      {
+        "nameWithOwner": "prometheus-community/helm-charts",
+        "stars": 6033,
+        "language": "Mustache",
+        "description": "Prometheus community Helm charts",
+        "defaultBranch": "main",
+        "url": "https://github.com/prometheus-community/helm-charts"
+      }
+    ]
+  },
+  {
+    "roleId": "cloud-architect",
+    "roleName": "Cloud Architect",
+    "projects": [
+      {
+        "nameWithOwner": "terraform-aws-modules/terraform-aws-eks",
+        "stars": 4906,
+        "language": "HCL",
+        "description": "Terraform module to create Amazon Elastic Kubernetes (EKS) resources",
+        "defaultBranch": "master",
+        "url": "https://github.com/terraform-aws-modules/terraform-aws-eks"
+      },
+      {
+        "nameWithOwner": "terraform-aws-modules/terraform-aws-vpc",
+        "stars": 3209,
+        "language": "HCL",
+        "description": "Terraform module to create AWS VPC resources",
+        "defaultBranch": "master",
+        "url": "https://github.com/terraform-aws-modules/terraform-aws-vpc"
+      },
+      {
+        "nameWithOwner": "fluxcd/flagger",
+        "stars": 5281,
+        "language": "Go",
+        "description": "Progressive delivery Kubernetes operator (Canary, A/B Testing and Blue/Green deployments)",
+        "defaultBranch": "main",
+        "url": "https://github.com/fluxcd/flagger"
+      }
+    ]
+  },
+  {
+    "roleId": "ml-engineer",
+    "roleName": "ML Engineer",
+    "projects": [
+      {
+        "nameWithOwner": "huggingface/transformers",
+        "stars": 157928,
+        "language": "Python",
+        "description": "Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
+        "defaultBranch": "main",
+        "url": "https://github.com/huggingface/transformers"
+      },
+      {
+        "nameWithOwner": "pytorch/pytorch",
+        "stars": 98323,
+        "language": "Python",
+        "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+        "defaultBranch": "main",
+        "url": "https://github.com/pytorch/pytorch"
+      },
+      {
+        "nameWithOwner": "scikit-learn/scikit-learn",
+        "stars": 65430,
+        "language": "Python",
+        "description": "scikit-learn: machine learning in Python",
+        "defaultBranch": "main",
+        "url": "https://github.com/scikit-learn/scikit-learn"
+      }
+    ]
+  },
+  {
+    "roleId": "data-engineer",
+    "roleName": "Data Engineer",
+    "projects": [
+      {
+        "nameWithOwner": "apache/airflow",
+        "stars": 44666,
+        "language": "Python",
+        "description": "Apache Airflow - A platform to programmatically author, schedule, and monitor workflows",
+        "defaultBranch": "main",
+        "url": "https://github.com/apache/airflow"
+      },
+      {
+        "nameWithOwner": "great-expectations/great_expectations",
+        "stars": 11263,
+        "language": "Python",
+        "description": "Always know what to expect from your data.",
+        "defaultBranch": "develop",
+        "url": "https://github.com/great-expectations/great_expectations"
+      },
+      {
+        "nameWithOwner": "delta-io/delta-rs",
+        "stars": 3168,
+        "language": "Rust",
+        "description": "A native Rust library for Delta Lake, with bindings into Python",
+        "defaultBranch": "main",
+        "url": "https://github.com/delta-io/delta-rs"
+      }
+    ]
+  },
+  {
+    "roleId": "qa-engineer",
+    "roleName": "QA Engineer",
+    "projects": [
+      {
+        "nameWithOwner": "microsoft/playwright",
+        "stars": 84367,
+        "language": "TypeScript",
+        "description": "Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API.",
+        "defaultBranch": "main",
+        "url": "https://github.com/microsoft/playwright"
+      },
+      {
+        "nameWithOwner": "pytest-dev/pytest",
+        "stars": 13724,
+        "language": "Python",
+        "description": "The pytest framework makes it easy to write small tests, yet scales to support complex functional testing",
+        "defaultBranch": "main",
+        "url": "https://github.com/pytest-dev/pytest"
+      },
+      {
+        "nameWithOwner": "seleniumbase/SeleniumBase",
+        "stars": 12491,
+        "language": "Python",
+        "description": "All-in-one browser automation, testing, scraping, and stealth. Works with Playwright. Lots of examples.",
+        "defaultBranch": "master",
+        "url": "https://github.com/seleniumbase/SeleniumBase"
+      }
+    ]
+  },
+  {
+    "roleId": "security-engineer",
+    "roleName": "Security Engineer",
+    "projects": [
+      {
+        "nameWithOwner": "trufflesecurity/trufflehog",
+        "stars": 25046,
+        "language": "Go",
+        "description": "Find, verify, and analyze leaked credentials",
+        "defaultBranch": "main",
+        "url": "https://github.com/trufflesecurity/trufflehog"
+      },
+      {
+        "nameWithOwner": "SigmaHQ/sigma",
+        "stars": 10203,
+        "language": "YAML",
+        "description": "Main Sigma Rule Repository",
+        "defaultBranch": "master",
+        "url": "https://github.com/SigmaHQ/sigma"
+      },
+      {
+        "nameWithOwner": "schemathesis/schemathesis",
+        "stars": 3111,
+        "language": "Python",
+        "description": "Catch API bugs before your users do",
+        "defaultBranch": "master",
+        "url": "https://github.com/schemathesis/schemathesis"
+      }
+    ]
+  },
+  {
+    "roleId": "penetration-tester",
+    "roleName": "Penetration Tester",
+    "projects": [
+      {
+        "nameWithOwner": "redcanaryco/atomic-red-team",
+        "stars": 11689,
+        "language": "Ruby",
+        "description": "Small and highly portable detection tests based on MITRE's ATT&CK.",
+        "defaultBranch": "master",
+        "url": "https://github.com/redcanaryco/atomic-red-team"
+      },
+      {
+        "nameWithOwner": "trufflesecurity/trufflehog",
+        "stars": 25046,
+        "language": "Go",
+        "description": "Find, verify, and analyze leaked credentials",
+        "defaultBranch": "main",
+        "url": "https://github.com/trufflesecurity/trufflehog"
+      },
+      {
+        "nameWithOwner": "elastic/detection-rules",
+        "stars": 2524,
+        "language": "Python",
+        "description": "Rules for Elastic Security's detection engine",
+        "defaultBranch": "main",
+        "url": "https://github.com/elastic/detection-rules"
+      }
+    ]
+  },
+  {
+    "roleId": "soc-analyst",
+    "roleName": "SOC Analyst",
+    "projects": [
+      {
+        "nameWithOwner": "SigmaHQ/sigma",
+        "stars": 10203,
+        "language": "YAML",
+        "description": "Main Sigma Rule Repository",
+        "defaultBranch": "master",
+        "url": "https://github.com/SigmaHQ/sigma"
+      },
+      {
+        "nameWithOwner": "matanolabs/matano",
+        "stars": 1659,
+        "language": "Rust",
+        "description": "Open source security data lake for threat hunting, detection & response, and cybersecurity analytics at petabyte scale on AWS",
+        "defaultBranch": "main",
+        "url": "https://github.com/matanolabs/matano"
+      },
+      {
+        "nameWithOwner": "elastic/detection-rules",
+        "stars": 2524,
+        "language": "Python",
+        "description": "Rules for Elastic Security's detection engine",
+        "defaultBranch": "main",
+        "url": "https://github.com/elastic/detection-rules"
+      }
+    ]
+  },
+  {
+    "roleId": "ai-agent-engineer",
+    "roleName": "AI Agent Engineer",
+    "projects": [
+      {
+        "nameWithOwner": "langchain-ai/langchain",
+        "stars": 129761,
+        "language": "Python",
+        "description": "The agent engineering platform",
+        "defaultBranch": "master",
+        "url": "https://github.com/langchain-ai/langchain"
+      },
+      {
+        "nameWithOwner": "crewAIInc/crewAI",
+        "stars": 46240,
+        "language": "Python",
+        "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
+        "defaultBranch": "main",
+        "url": "https://github.com/crewAIInc/crewAI"
+      },
+      {
+        "nameWithOwner": "langchain-ai/langgraph",
+        "stars": 26552,
+        "language": "Python",
+        "description": "Build resilient language agents as graphs.",
+        "defaultBranch": "main",
+        "url": "https://github.com/langchain-ai/langgraph"
+      }
+    ]
+  }
+]

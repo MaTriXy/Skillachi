@@ -1,0 +1,1058 @@
+[
+  {
+    "roleId": "react-developer",
+    "roleName": "React Developer",
+    "domain": "Software Engineering",
+    "category": "Frontend Development",
+    "candidateSkills": [
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-development-react-best-practices",
+        "skillName": "vercel-react-best-practices",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/development/react-best-practices/SKILL.md",
+        "rankScore": 92,
+        "rankRationale": "Directly targets React and Next.js performance optimization patterns from Vercel Engineering; covers React components, hooks, data fetching, and bundle optimization"
+      },
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-development-react-dev",
+        "skillName": "react-dev",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/development/react-dev/SKILL.md",
+        "rankScore": 88,
+        "rankRationale": "Covers type-safe React patterns with TypeScript including React 18-19, generic components, event typing, and TanStack Router integration"
+      },
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-development-nextjs-best-practices",
+        "skillName": "nextjs-best-practices",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/development/nextjs-best-practices/SKILL.md",
+        "rankScore": 84,
+        "rankRationale": "Covers Next.js App Router principles including Server Components, data fetching, and routing patterns"
+      }
+    ]
+  },
+  {
+    "roleId": "frontend-engineer",
+    "roleName": "Frontend Engineer",
+    "domain": "Software Engineering",
+    "category": "Frontend Development",
+    "candidateSkills": [
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-development-performance",
+        "skillName": "performance",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/development/performance/SKILL.md",
+        "rankScore": 87,
+        "rankRationale": "Optimizes web performance for faster loading and better UX; targets CSS and JavaScript performance patterns"
+      },
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-development-nextjs-best-practices",
+        "skillName": "nextjs-best-practices",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/development/nextjs-best-practices/SKILL.md",
+        "rankScore": 82,
+        "rankRationale": "Core Next.js App Router skill covering server/client component split and TypeScript integration"
+      },
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-development-nextjs-supabase-auth",
+        "skillName": "nextjs-supabase-auth",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/development/nextjs-supabase-auth/SKILL.md",
+        "rankScore": 78,
+        "rankRationale": "Integrates auth patterns into Next.js App Router; covers protected routes and middleware, common frontend engineer concern"
+      }
+    ]
+  },
+  {
+    "roleId": "node-backend-developer",
+    "roleName": "Node.js Backend Developer",
+    "domain": "Software Engineering",
+    "category": "Backend Development",
+    "candidateSkills": [
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-sdk-platform-development-skills-typescript-sdk-specialist",
+        "skillName": "typescript-sdk-specialist",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/sdk-platform-development/skills/typescript-sdk-specialist/SKILL.md",
+        "rankScore": 86,
+        "rankRationale": "TypeScript SDK development with Node.js and browser support; type-safe API clients, ESM/CJS modules, bundling"
+      },
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-sdk-platform-development-skills-python-sdk-specialist",
+        "skillName": "nodejs-backend",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/sdk-platform-development/skills/python-sdk-specialist/SKILL.md",
+        "rankScore": 78,
+        "rankRationale": "Backend service development with async support and type hints; applicable to Node.js async patterns"
+      },
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-sdk-platform-development-skills-smithy-sdk-generator",
+        "skillName": "smithy-sdk-generator",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/sdk-platform-development/skills/smithy-sdk-generator/SKILL.md",
+        "rankScore": 74,
+        "rankRationale": "AWS Smithy-based SDK generation for enterprise-grade REST APIs; aligns with Node.js backend API design signals"
+      }
+    ]
+  },
+  {
+    "roleId": "python-backend-developer",
+    "roleName": "Python Backend Developer",
+    "domain": "Software Engineering",
+    "category": "Backend Development",
+    "candidateSkills": [
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-sdk-platform-development-skills-python-sdk-specialist",
+        "skillName": "python-sdk-specialist",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/sdk-platform-development/skills/python-sdk-specialist/SKILL.md",
+        "rankScore": 88,
+        "rankRationale": "Python SDK development with async support and type hints; directly maps to Python backend development patterns"
+      },
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-backend-api-skills-django-patterns",
+        "skillName": "django-patterns",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/backend-api/skills/django-patterns/SKILL.md",
+        "rankScore": 85,
+        "rankRationale": "Django framework patterns directly targeting Python web development signals"
+      },
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-sdk-platform-development-skills-typespec-sdk-generator",
+        "skillName": "typespec-sdk-generator",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/sdk-platform-development/skills/typespec-sdk-generator/SKILL.md",
+        "rankScore": 72,
+        "rankRationale": "API and SDK generation tooling; supports Python backend API contract-first design"
+      }
+    ]
+  },
+  {
+    "roleId": "fullstack-developer",
+    "roleName": "Full-Stack Developer",
+    "domain": "Software Engineering",
+    "category": "Backend Development",
+    "candidateSkills": [
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-development-nextjs-supabase-auth",
+        "skillName": "nextjs-supabase-auth",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/development/nextjs-supabase-auth/SKILL.md",
+        "rankScore": 90,
+        "rankRationale": "Full-stack Supabase + Next.js auth integration covers frontend and backend concerns end-to-end"
+      },
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-development-nextjs-best-practices",
+        "skillName": "nextjs-best-practices",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/development/nextjs-best-practices/SKILL.md",
+        "rankScore": 85,
+        "rankRationale": "Next.js App Router is the canonical full-stack framework; covers data fetching patterns bridging frontend and backend"
+      },
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-development-react-best-practices",
+        "skillName": "vercel-react-best-practices",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/development/react-best-practices/SKILL.md",
+        "rankScore": 80,
+        "rankRationale": "React/Next.js optimization guidelines are critical for full-stack developers building frontend within a monorepo"
+      }
+    ]
+  },
+  {
+    "roleId": "ios-developer",
+    "roleName": "iOS Developer",
+    "domain": "Software Engineering",
+    "category": "Mobile Development",
+    "candidateSkills": [
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-mobile-swift-development",
+        "skillName": "swift-development",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/mobile/swift-development/SKILL.md",
+        "rankScore": 92,
+        "rankRationale": "Directly targets Swift iOS/macOS development patterns"
+      },
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-mobile-swiftui-ui-patterns",
+        "skillName": "swiftui-ui-patterns",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/mobile/swiftui-ui-patterns/SKILL.md",
+        "rankScore": 88,
+        "rankRationale": "SwiftUI UI patterns skill directly matches iOS developer keySignals for swiftui and uikit"
+      },
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-mobile-swiftdata-pro",
+        "skillName": "swiftdata-pro",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/mobile/swiftdata-pro/SKILL.md",
+        "rankScore": 82,
+        "rankRationale": "SwiftData is the modern replacement for Core Data, a key iOS developer technology signal"
+      }
+    ]
+  },
+  {
+    "roleId": "android-developer",
+    "roleName": "Android Developer",
+    "domain": "Software Engineering",
+    "category": "Mobile Development",
+    "candidateSkills": [
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-mobile-kotlin-jetpack-compose",
+        "skillName": "Kotlin/Jetpack Compose Development",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/mobile/kotlin-jetpack-compose/SKILL.md",
+        "rankScore": 92,
+        "rankRationale": "Directly matches Android developer keySignals: kotlin, jetpack, compose"
+      },
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-mobile-android-kotlin",
+        "skillName": "android-kotlin",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/mobile/android-kotlin/SKILL.md",
+        "rankScore": 88,
+        "rankRationale": "Android Kotlin development skill directly targeting Android SDK and Kotlin patterns"
+      },
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-mobile-jetpack-compose",
+        "skillName": "jetpack-compose",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/mobile/jetpack-compose/SKILL.md",
+        "rankScore": 84,
+        "rankRationale": "Jetpack Compose is the primary modern Android UI toolkit; directly matches role keySignals"
+      }
+    ]
+  },
+  {
+    "roleId": "ai-agent-engineer",
+    "roleName": "AI Agent Engineer",
+    "domain": "Data & AI",
+    "category": "AI Agent Engineering",
+    "candidateSkills": [
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-ai-research-autonomous-agent-patterns",
+        "skillName": "autonomous-agent-patterns",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/ai-research/autonomous-agent-patterns/SKILL.md",
+        "rankScore": 95,
+        "rankRationale": "Design patterns for autonomous coding agents covering tool integration, permission systems, browser automation, and human-in-the-loop workflows"
+      },
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-ai-research-crewai",
+        "skillName": "crewai",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/ai-research/crewai/SKILL.md",
+        "rankScore": 90,
+        "rankRationale": "Expert in CrewAI multi-agent framework; covers agent roles, crew orchestration, sequential/hierarchical/parallel processes, and memory systems"
+      },
+      {
+        "skillId": "claude-code-beads-orchestration-skills-create-beads-orchestration",
+        "skillName": "create-beads-orchestration",
+        "sourceRepo": "Claude-Code-Beads-Orchestration",
+        "skillFilePath": "skills/Claude-Code-Beads-Orchestration/skills/create-beads-orchestration/SKILL.md",
+        "rankScore": 85,
+        "rankRationale": "Bootstrap lean multi-agent orchestration with task tracking; directly addresses agent delegation and MCP overhead signals"
+      }
+    ]
+  },
+  {
+    "roleId": "llm-prompt-engineer",
+    "roleName": "LLM & Prompt Engineer",
+    "domain": "Data & AI",
+    "category": "AI Agent Engineering",
+    "candidateSkills": [
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-ai-agents-conversational-skills-prompt-compression",
+        "skillName": "prompt-compression",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/ai-agents-conversational/skills/prompt-compression/SKILL.md",
+        "rankScore": 90,
+        "rankRationale": "Token-efficient prompt compression techniques for cost optimization; directly targets LLM prompt engineering signals"
+      },
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-ai-agents-conversational-skills-prompt-template-design",
+        "skillName": "prompt-template-design",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/ai-agents-conversational/skills/prompt-template-design/SKILL.md",
+        "rankScore": 87,
+        "rankRationale": "Structured prompt template creation with variables, formatting, and version control; core LLM prompt engineering skill"
+      },
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-ai-research-context-window-management",
+        "skillName": "context-window-management",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/ai-research/context-window-management/SKILL.md",
+        "rankScore": 83,
+        "rankRationale": "Strategies for managing LLM context windows including summarization, trimming, routing; directly targets inference and context signals"
+      }
+    ]
+  },
+  {
+    "roleId": "rag-knowledge-engineer",
+    "roleName": "RAG & Knowledge Engineer",
+    "domain": "Data & AI",
+    "category": "AI Agent Engineering",
+    "candidateSkills": [
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-ai-agents-conversational-skills-rag-chunking-strategy",
+        "skillName": "rag-chunking-strategy",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/ai-agents-conversational/skills/rag-chunking-strategy/SKILL.md",
+        "rankScore": 93,
+        "rankRationale": "Document chunking with semantic, recursive, and fixed-size strategies; directly matches RAG knowledge engineer keySignals"
+      },
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-ai-agents-conversational-skills-pinecone-integration",
+        "skillName": "pinecone-integration",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/ai-agents-conversational/skills/pinecone-integration/SKILL.md",
+        "rankScore": 89,
+        "rankRationale": "Pinecone vector database setup and operations for RAG applications; directly targets vector and pinecone keySignals"
+      },
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-ai-agents-conversational-skills-rag-embedding-generation",
+        "skillName": "rag-embedding-generation",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/ai-agents-conversational/skills/rag-embedding-generation/SKILL.md",
+        "rankScore": 86,
+        "rankRationale": "Batch embedding generation with caching, rate limiting, and multiple provider support; targets embedding and retrieval signals"
+      }
+    ]
+  },
+  {
+    "roleId": "ml-engineer",
+    "roleName": "Machine Learning Engineer",
+    "domain": "Data & AI",
+    "category": "ML & Data Science",
+    "candidateSkills": [
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-ai-research-distributed-training-accelerate",
+        "skillName": "huggingface-accelerate",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/ai-research/distributed-training-accelerate/SKILL.md",
+        "rankScore": 91,
+        "rankRationale": "HuggingFace Accelerate for distributed PyTorch training with unified DeepSpeed/FSDP/DDP API; matches pytorch and huggingface keySignals"
+      },
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-ai-research-distributed-training-megatron-core",
+        "skillName": "training-llms-megatron",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/ai-research/distributed-training-megatron-core/SKILL.md",
+        "rankScore": 85,
+        "rankRationale": "Large language model training at scale with NVIDIA Megatron-Core; targets neural network and training signals"
+      },
+      {
+        "skillId": "claude-flow-agents-skills-agentdb-learning",
+        "skillName": "AgentDB Learning Plugins",
+        "sourceRepo": "claude-flow",
+        "skillFilePath": "skills/claude-flow/.agents/skills/agentdb-learning/SKILL.md",
+        "rankScore": 80,
+        "rankRationale": "Reinforcement learning algorithms including Decision Transformer, Q-Learning, Actor-Critic; matches ML model training signals"
+      }
+    ]
+  },
+  {
+    "roleId": "data-scientist",
+    "roleName": "Data Scientist",
+    "domain": "Data & AI",
+    "category": "ML & Data Science",
+    "candidateSkills": [
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-ai-research-distributed-training-pytorch-fsdp",
+        "skillName": "pytorch-fsdp",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/ai-research/distributed-training-pytorch-fsdp/SKILL.md",
+        "rankScore": 82,
+        "rankRationale": "PyTorch FSDP for scalable model training; matches data scientist pandas/numpy/pytorch workflow signals"
+      },
+      {
+        "skillId": "claude-flow-agents-skills-agentdb-vector-search",
+        "skillName": "AgentDB Vector Search",
+        "sourceRepo": "claude-flow",
+        "skillFilePath": "skills/claude-flow/.agents/skills/agentdb-vector-search/SKILL.md",
+        "rankScore": 78,
+        "rankRationale": "Semantic vector search and similarity matching; aligns with data science analytics and visualization signals"
+      },
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-ai-research-conversation-memory",
+        "skillName": "conversation-memory",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/ai-research/conversation-memory/SKILL.md",
+        "rankScore": 72,
+        "rankRationale": "Persistent memory systems for LLM conversations; useful for data scientist experimentation tracking and Jupyter workflows"
+      }
+    ]
+  },
+  {
+    "roleId": "data-engineer",
+    "roleName": "Data Engineer",
+    "domain": "Data & AI",
+    "category": "Data Engineering",
+    "candidateSkills": [
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-data-engineering-skills-etl-pipeline-builder",
+        "skillName": "etl-pipeline-builder",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/data-engineering/skills/etl-pipeline-builder/SKILL.md",
+        "rankScore": 93,
+        "rankRationale": "ETL pipeline builder directly matches data engineer keySignals for etl and pipeline"
+      },
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-data-engineering-skills-dbt-project-analyzer",
+        "skillName": "dbt-project-analyzer",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/data-engineering/skills/dbt-project-analyzer/SKILL.md",
+        "rankScore": 90,
+        "rankRationale": "dbt project analysis skill directly targets dbt keySignal for data engineers"
+      },
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-data-engineering-skills-airflow-dag-analyzer",
+        "skillName": "airflow-dag-analyzer",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/data-engineering/skills/airflow-dag-analyzer/SKILL.md",
+        "rankScore": 87,
+        "rankRationale": "Airflow DAG analysis directly matches airflow keySignal; essential for data pipeline orchestration"
+      }
+    ]
+  },
+  {
+    "roleId": "database-engineer",
+    "roleName": "Database Engineer",
+    "domain": "Data & AI",
+    "category": "Data Engineering",
+    "candidateSkills": [
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-data-engineering-skills-postgresql",
+        "skillName": "postgresql",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/data-engineering/skills/postgresql/SKILL.md",
+        "rankScore": 92,
+        "rankRationale": "PostgreSQL skill directly targets database engineer keySignals for postgres and schema design"
+      },
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-data-engineering-skills-database-design",
+        "skillName": "database-design",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/data-engineering/skills/database-design/SKILL.md",
+        "rankScore": 89,
+        "rankRationale": "Database design skill covers schema, migration, and query optimization signals central to database engineer role"
+      },
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-data-engineering-skills-prisma-expert",
+        "skillName": "prisma-expert",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/data-engineering/skills/prisma-expert/SKILL.md",
+        "rankScore": 84,
+        "rankRationale": "Prisma ORM expertise covers schema design, migrations, and TypeScript-safe database access"
+      }
+    ]
+  },
+  {
+    "roleId": "cloud-architect",
+    "roleName": "Cloud Architect",
+    "domain": "DevOps & Infrastructure",
+    "category": "Cloud & Infrastructure",
+    "candidateSkills": [
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-devops-sre-platform-skills-aws-cloud",
+        "skillName": "aws-cloud",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/devops-sre-platform/skills/aws-cloud/SKILL.md",
+        "rankScore": 93,
+        "rankRationale": "AWS-specific infrastructure and services expertise directly matches cloud architect keySignals for aws, infrastructure, deployment"
+      },
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-devops-sre-platform-skills-terraform-iac",
+        "skillName": "terraform-iac",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/devops-sre-platform/skills/terraform-iac/SKILL.md",
+        "rankScore": 90,
+        "rankRationale": "Terraform infrastructure-as-code directly targets cloud architect keySignals for terraform and cloudformation"
+      },
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-devops-sre-platform-skills-gcp-cloud",
+        "skillName": "gcp-cloud",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/devops-sre-platform/skills/gcp-cloud/SKILL.md",
+        "rankScore": 85,
+        "rankRationale": "GCP-specific infrastructure expertise covering multi-cloud architect signals for gcp and cloud-native"
+      }
+    ]
+  },
+  {
+    "roleId": "devops-engineer",
+    "roleName": "DevOps Engineer",
+    "domain": "DevOps & Infrastructure",
+    "category": "DevOps & CI/CD",
+    "candidateSkills": [
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-devops-sre-platform-skills-cicd-pipelines",
+        "skillName": "cicd-pipelines",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/devops-sre-platform/skills/cicd-pipelines/SKILL.md",
+        "rankScore": 95,
+        "rankRationale": "Multi-platform CI/CD pipeline expertise covering GitHub Actions, GitLab CI, Jenkins, and Azure Pipelines; directly targets devops keySignals"
+      },
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-devops-sre-platform-skills-container-images",
+        "skillName": "container-images",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/devops-sre-platform/skills/container-images/SKILL.md",
+        "rankScore": 88,
+        "rankRationale": "Docker and OCI container image expertise for building, optimizing, and securing containers; matches deployment and docker signals"
+      },
+      {
+        "skillId": "claude-flow-agents-skills-github-automation",
+        "skillName": "github-automation",
+        "sourceRepo": "claude-flow",
+        "skillFilePath": "skills/claude-flow/.agents/skills/github-automation/SKILL.md",
+        "rankScore": 82,
+        "rankRationale": "GitHub CI/CD automation aligns with devops engineer pipeline automation and shell scripting signals"
+      }
+    ]
+  },
+  {
+    "roleId": "platform-engineer",
+    "roleName": "Platform Engineer",
+    "domain": "DevOps & Infrastructure",
+    "category": "DevOps & CI/CD",
+    "candidateSkills": [
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-devops-sre-platform-skills-kubernetes-ops",
+        "skillName": "kubernetes-ops",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/devops-sre-platform/skills/kubernetes-ops/SKILL.md",
+        "rankScore": 94,
+        "rankRationale": "Kubernetes operations directly targets platform engineer keySignals for k8s, container, and orchestration"
+      },
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-devops-sre-platform-skills-helm-charts",
+        "skillName": "helm-charts",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/devops-sre-platform/skills/helm-charts/SKILL.md",
+        "rankScore": 89,
+        "rankRationale": "Helm chart management is core to Kubernetes platform engineering and developer platform golden paths"
+      },
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-devops-sre-platform-skills-cicd-pipelines",
+        "skillName": "cicd-pipelines",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/devops-sre-platform/skills/cicd-pipelines/SKILL.md",
+        "rankScore": 83,
+        "rankRationale": "CI/CD pipeline automation is a foundational platform engineering competency for self-service infrastructure"
+      }
+    ]
+  },
+  {
+    "roleId": "site-reliability-engineer",
+    "roleName": "Site Reliability Engineer",
+    "domain": "DevOps & Infrastructure",
+    "category": "DevOps & CI/CD",
+    "candidateSkills": [
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-ai-research-datadog-cli",
+        "skillName": "datadog-cli",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/ai-research/datadog-cli/SKILL.md",
+        "rankScore": 91,
+        "rankRationale": "Datadog CLI for searching logs, querying metrics, tracing requests, and managing dashboards; directly targets SRE observability and monitoring signals"
+      },
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-ai-agents-conversational-skills-opentelemetry-llm",
+        "skillName": "opentelemetry-llm",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/ai-agents-conversational/skills/opentelemetry-llm/SKILL.md",
+        "rankScore": 85,
+        "rankRationale": "OpenTelemetry instrumentation with distributed tracing; matches SRE tracing, metrics, and observability signals"
+      },
+      {
+        "skillId": "claude-flow-agents-skills-agentdb-optimization",
+        "skillName": "AgentDB Performance Optimization",
+        "sourceRepo": "claude-flow",
+        "skillFilePath": "skills/claude-flow/.agents/skills/agentdb-optimization/SKILL.md",
+        "rankScore": 78,
+        "rankRationale": "Performance optimization covering memory reduction, indexing, caching, and batch operations; aligns with SRE reliability and SLO engineering"
+      }
+    ]
+  },
+  {
+    "roleId": "security-engineer",
+    "roleName": "Security Engineer",
+    "domain": "Security & Compliance",
+    "category": "Security Engineering",
+    "candidateSkills": [
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-security-compliance-skills-dast-scanner",
+        "skillName": "dast-scanner",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/security-compliance/skills/dast-scanner/SKILL.md",
+        "rankScore": 92,
+        "rankRationale": "DAST execution with OWASP ZAP and Nuclei; directly targets security engineer signals for dast, owasp, vulnerability"
+      },
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-development-security-best-practices",
+        "skillName": "security-best-practices",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/development/security-best-practices/SKILL.md",
+        "rankScore": 88,
+        "rankRationale": "Security best practices covering appsec, hardening, and secure coding patterns"
+      },
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-development-oauth",
+        "skillName": "oauth",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/development/oauth/SKILL.md",
+        "rankScore": 83,
+        "rankRationale": "OAuth2 flow implementation matches security engineer keySignals for oauth, auth, and JWT"
+      }
+    ]
+  },
+  {
+    "roleId": "penetration-tester",
+    "roleName": "Penetration Tester",
+    "domain": "Security & Compliance",
+    "category": "Security Engineering",
+    "candidateSkills": [
+      {
+        "skillId": "anthropic-cybersecurity-skills-skills-testing-api-security-with-owasp-top-10",
+        "skillName": "testing-api-security-with-owasp-top-10",
+        "sourceRepo": "Anthropic-Cybersecurity-Skills",
+        "skillFilePath": "skills/Anthropic-Cybersecurity-Skills/skills/testing-api-security-with-owasp-top-10/SKILL.md",
+        "rankScore": 93,
+        "rankRationale": "API security testing using OWASP Top 10; directly matches pentest and owasp keySignals"
+      },
+      {
+        "skillId": "anthropic-cybersecurity-skills-skills-testing-api-for-broken-object-level-authorization",
+        "skillName": "testing-api-for-broken-object-level-authorization",
+        "sourceRepo": "Anthropic-Cybersecurity-Skills",
+        "skillFilePath": "skills/Anthropic-Cybersecurity-Skills/skills/testing-api-for-broken-object-level-authorization/SKILL.md",
+        "rankScore": 88,
+        "rankRationale": "BOLA vulnerability testing is a top penetration testing technique for broken access control"
+      },
+      {
+        "skillId": "anthropic-cybersecurity-skills-skills-testing-for-xss-vulnerabilities",
+        "skillName": "testing-for-xss-vulnerabilities",
+        "sourceRepo": "Anthropic-Cybersecurity-Skills",
+        "skillFilePath": "skills/Anthropic-Cybersecurity-Skills/skills/testing-for-xss-vulnerabilities/SKILL.md",
+        "rankScore": 84,
+        "rankRationale": "XSS vulnerability testing is a core penetration testing skill matching exploit and vulnerability keySignals"
+      }
+    ]
+  },
+  {
+    "roleId": "soc-analyst",
+    "roleName": "SOC / Blue Team Analyst",
+    "domain": "Security & Compliance",
+    "category": "Security Engineering",
+    "candidateSkills": [
+      {
+        "skillId": "anthropic-cybersecurity-skills-skills-performing-log-source-onboarding-in-siem",
+        "skillName": "performing-log-source-onboarding-in-siem",
+        "sourceRepo": "Anthropic-Cybersecurity-Skills",
+        "skillFilePath": "skills/Anthropic-Cybersecurity-Skills/skills/performing-log-source-onboarding-in-siem/SKILL.md",
+        "rankScore": 95,
+        "rankRationale": "Structured SIEM log source onboarding with collector, parser, normalization, and validation; directly targets siem and log-onboarding keySignals"
+      },
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-ai-agents-conversational-skills-prompt-injection-detector",
+        "skillName": "prompt-injection-detector",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/ai-agents-conversational/skills/prompt-injection-detector/SKILL.md",
+        "rankScore": 80,
+        "rankRationale": "Prompt injection detection and prevention aligns with SOC threat detection and malware analysis signals"
+      },
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-ai-agents-conversational-skills-pii-redaction",
+        "skillName": "pii-redaction",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/ai-agents-conversational/skills/pii-redaction/SKILL.md",
+        "rankScore": 75,
+        "rankRationale": "PII detection and redaction for privacy-compliant AI; maps to SOC data handling and compliance signals"
+      }
+    ]
+  },
+  {
+    "roleId": "compliance-auditor",
+    "roleName": "Compliance & Security Auditor",
+    "domain": "Security & Compliance",
+    "category": "Compliance & Governance",
+    "candidateSkills": [
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-development-security-review",
+        "skillName": "security-review",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/development/security-review/SKILL.md",
+        "rankScore": 88,
+        "rankRationale": "Security review covers audit and compliance assessment signals for iso27001, soc2, and governance"
+      },
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-security-compliance-skills-dast-scanner",
+        "skillName": "dast-scanner",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/security-compliance/skills/dast-scanner/SKILL.md",
+        "rankScore": 82,
+        "rankRationale": "DAST scanning with compliance reporting supports auditor functions for risk assessment and regulatory compliance"
+      },
+      {
+        "skillId": "anthropic-cybersecurity-skills-skills-testing-api-security-with-owasp-top-10",
+        "skillName": "testing-api-security-with-owasp-top-10",
+        "sourceRepo": "Anthropic-Cybersecurity-Skills",
+        "skillFilePath": "skills/Anthropic-Cybersecurity-Skills/skills/testing-api-security-with-owasp-top-10/SKILL.md",
+        "rankScore": 78,
+        "rankRationale": "OWASP-based security testing supports audit and compliance programs for PCI-DSS and CIS benchmarks"
+      }
+    ]
+  },
+  {
+    "roleId": "cryptography-engineer",
+    "roleName": "Cryptography Engineer",
+    "domain": "Security & Compliance",
+    "category": "Security Engineering",
+    "candidateSkills": [
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-development-security-best-practices",
+        "skillName": "security-best-practices",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/development/security-best-practices/SKILL.md",
+        "rankScore": 84,
+        "rankRationale": "Security best practices include TLS configuration, encryption, and key management patterns"
+      },
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-development-oauth",
+        "skillName": "oauth",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/development/oauth/SKILL.md",
+        "rankScore": 78,
+        "rankRationale": "OAuth2 and JWT token implementation aligns with PKI and certificate management signals"
+      },
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-ai-agents-conversational-skills-pii-redaction",
+        "skillName": "pii-redaction",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/ai-agents-conversational/skills/pii-redaction/SKILL.md",
+        "rankScore": 72,
+        "rankRationale": "PII detection and redaction involves cryptographic data masking and privacy-preserving techniques"
+      }
+    ]
+  },
+  {
+    "roleId": "ux-designer",
+    "roleName": "UX / UI Designer",
+    "domain": "Design & Product",
+    "category": "UX & Design",
+    "candidateSkills": [
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-design-skills-figma",
+        "skillName": "figma",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/design/skills/figma/SKILL.md",
+        "rankScore": 93,
+        "rankRationale": "Figma directly targets UX designer keySignals for figma, wireframe, prototype, and design system"
+      },
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-design-skills-design-system-validator",
+        "skillName": "design-system-validator",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/design/skills/design-system-validator/SKILL.md",
+        "rankScore": 88,
+        "rankRationale": "Design system validation targets design system and component library signals for UX designers"
+      },
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-design-skills-accessibility-report",
+        "skillName": "accessibility-report",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/design/skills/accessibility-report/SKILL.md",
+        "rankScore": 84,
+        "rankRationale": "Accessibility reporting directly matches UX designer a11y and accessibility keySignals"
+      }
+    ]
+  },
+  {
+    "roleId": "product-manager",
+    "roleName": "Product Manager",
+    "domain": "Design & Product",
+    "category": "Product Management",
+    "candidateSkills": [
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-enterprise-communication-internal-comms",
+        "skillName": "internal-comms",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/enterprise-communication/internal-comms/SKILL.md",
+        "rankScore": 86,
+        "rankRationale": "Internal communications covers product manager signals for status reports, leadership updates, OKR reporting, and project updates"
+      },
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-document-processing-pptx",
+        "skillName": "pptx",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/document-processing/pptx/SKILL.md",
+        "rankScore": 80,
+        "rankRationale": "Presentation creation and editing aligns with product manager roadmap and stakeholder communication signals"
+      },
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-document-processing-xlsx",
+        "skillName": "xlsx",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/document-processing/xlsx/SKILL.md",
+        "rankScore": 75,
+        "rankRationale": "Spreadsheet analysis supports product manager KPI tracking and backlog management"
+      }
+    ]
+  },
+  {
+    "roleId": "growth-marketer",
+    "roleName": "Growth & Marketing Specialist",
+    "domain": "Design & Product",
+    "category": "Product Management",
+    "candidateSkills": [
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-development-zapier-workflows",
+        "skillName": "zapier-workflows",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/development/zapier-workflows/SKILL.md",
+        "rankScore": 85,
+        "rankRationale": "Zapier workflow automation directly targets growth marketer signals for campaigns, lead tracking, and acquisition automation"
+      },
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-enterprise-communication-internal-comms",
+        "skillName": "internal-comms",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/enterprise-communication/internal-comms/SKILL.md",
+        "rankScore": 78,
+        "rankRationale": "Internal communications and reporting skills support growth marketer funnel analysis and campaign reporting"
+      },
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-document-processing-xlsx",
+        "skillName": "xlsx",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/document-processing/xlsx/SKILL.md",
+        "rankScore": 72,
+        "rankRationale": "Spreadsheet analysis for conversion metrics and funnel data aligns with growth marketer analytics signals"
+      }
+    ]
+  },
+  {
+    "roleId": "technical-writer",
+    "roleName": "Technical Writer",
+    "domain": "Design & Product",
+    "category": "Content & Documentation",
+    "candidateSkills": [
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-docs-writing-skills-openapi-spec-generator",
+        "skillName": "openapi-spec-generator",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/docs-writing/skills/openapi-spec-generator/SKILL.md",
+        "rankScore": 91,
+        "rankRationale": "OpenAPI spec generation directly targets technical writer keySignals for api-docs, openapi, and documentation"
+      },
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-docs-writing-skills-changelog-generator",
+        "skillName": "changelog-generator",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/docs-writing/skills/changelog-generator/SKILL.md",
+        "rankScore": 87,
+        "rankRationale": "Changelog generation directly matches technical writer changelog and release notes keySignals"
+      },
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-docs-writing-skills-documentation-generator",
+        "skillName": "documentation-generator",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/docs-writing/skills/documentation-generator/SKILL.md",
+        "rankScore": 84,
+        "rankRationale": "Documentation generation covers docs-as-code workflows, technical documentation, and developer guides"
+      }
+    ]
+  },
+  {
+    "roleId": "qa-engineer",
+    "roleName": "QA Automation Engineer",
+    "domain": "Quality & Testing",
+    "category": "QA & Test Automation",
+    "candidateSkills": [
+      {
+        "skillId": "claude-bootstrap-skills-playwright-testing",
+        "skillName": "playwright-testing",
+        "sourceRepo": "claude-bootstrap",
+        "skillFilePath": "skills/claude-bootstrap/skills/playwright-testing/SKILL.md",
+        "rankScore": 93,
+        "rankRationale": "E2E testing with Playwright covering Page Objects, cross-browser, and CI/CD; directly targets QA engineer testing and playwright keySignals"
+      },
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-development-webapp-testing",
+        "skillName": "webapp-testing",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/development/webapp-testing/SKILL.md",
+        "rankScore": 88,
+        "rankRationale": "Web application testing toolkit using Playwright; covers frontend functionality verification, UI debugging, and browser logs"
+      },
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-security-compliance-skills-dast-scanner",
+        "skillName": "dast-scanner",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/security-compliance/skills/dast-scanner/SKILL.md",
+        "rankScore": 80,
+        "rankRationale": "DAST scanning is part of QA engineers' security test suite; covers OWASP-based automated testing"
+      }
+    ]
+  },
+  {
+    "roleId": "e2e-automation-engineer",
+    "roleName": "E2E & Browser Automation Engineer",
+    "domain": "Quality & Testing",
+    "category": "QA & Test Automation",
+    "candidateSkills": [
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-development-playwright",
+        "skillName": "playwright",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/development/playwright/SKILL.md",
+        "rankScore": 95,
+        "rankRationale": "Browser automation via playwright-cli covering navigation, form filling, screenshots, and data extraction; directly targets playwright and e2e keySignals"
+      },
+      {
+        "skillId": "claude-bootstrap-skills-playwright-testing",
+        "skillName": "playwright-testing",
+        "sourceRepo": "claude-bootstrap",
+        "skillFilePath": "skills/claude-bootstrap/skills/playwright-testing/SKILL.md",
+        "rankScore": 90,
+        "rankRationale": "Playwright E2E testing with Page Objects and cross-browser support; directly targets selenium, playwright, and browser keySignals"
+      },
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-development-webapp-testing",
+        "skillName": "webapp-testing",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/development/webapp-testing/SKILL.md",
+        "rankScore": 85,
+        "rankRationale": "Web app testing with screenshots, browser logs, and UI interaction verification matches browser automation and visual regression signals"
+      }
+    ]
+  },
+  {
+    "roleId": "performance-engineer",
+    "roleName": "Performance Engineer",
+    "domain": "Quality & Testing",
+    "category": "Performance & Reliability",
+    "candidateSkills": [
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-development-performance",
+        "skillName": "performance",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/development/performance/SKILL.md",
+        "rankScore": 92,
+        "rankRationale": "Web performance optimization covering load time reduction and performance audits; directly targets performance and lighthouse keySignals"
+      },
+      {
+        "skillId": "claude-flow-agents-skills-agentdb-optimization",
+        "skillName": "AgentDB Performance Optimization",
+        "sourceRepo": "claude-flow",
+        "skillFilePath": "skills/claude-flow/.agents/skills/agentdb-optimization/SKILL.md",
+        "rankScore": 84,
+        "rankRationale": "Performance optimization with quantization, HNSW indexing, caching, and batch operations; matches benchmark and throughput signals"
+      },
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-ai-research-datadog-cli",
+        "skillName": "datadog-cli",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/ai-research/datadog-cli/SKILL.md",
+        "rankScore": 80,
+        "rankRationale": "Datadog metrics querying and dashboard management aligns with performance profiling and latency monitoring signals"
+      }
+    ]
+  },
+  {
+    "roleId": "embedded-engineer",
+    "roleName": "Embedded Systems Engineer",
+    "domain": "Hardware & Science",
+    "category": "Embedded & Robotics",
+    "candidateSkills": [
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-hardware-science-fpga-debugging",
+        "skillName": "fpga-debugging",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/hardware-science/fpga-debugging/SKILL.md",
+        "rankScore": 91,
+        "rankRationale": "FPGA debugging directly targets embedded engineer keySignals for fpga, hardware, and firmware"
+      },
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-hardware-science-embedded-docs",
+        "skillName": "embedded-docs",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/hardware-science/embedded-docs/SKILL.md",
+        "rankScore": 83,
+        "rankRationale": "Embedded systems documentation matches embedded engineer domain signals for microcontroller and RTOS"
+      },
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-hardware-science-embedded-crypto",
+        "skillName": "embedded-crypto",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/hardware-science/embedded-crypto/SKILL.md",
+        "rankScore": 78,
+        "rankRationale": "Cryptography on embedded systems covers hardware security and electronic signals"
+      }
+    ]
+  },
+  {
+    "roleId": "mcp-integration-engineer",
+    "roleName": "MCP & Integration Engineer",
+    "domain": "Data & AI",
+    "category": "AI Agent Engineering",
+    "candidateSkills": [
+      {
+        "skillId": "claude-code-beads-orchestration-skills-create-beads-orchestration",
+        "skillName": "create-beads-orchestration",
+        "sourceRepo": "Claude-Code-Beads-Orchestration",
+        "skillFilePath": "skills/Claude-Code-Beads-Orchestration/skills/create-beads-orchestration/SKILL.md",
+        "rankScore": 92,
+        "rankRationale": "MCP-based orchestration without heavy overhead; directly targets mcp, tool calling, and orchestration keySignals"
+      },
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-development-zapier-workflows",
+        "skillName": "zapier-workflows",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/development/zapier-workflows/SKILL.md",
+        "rankScore": 85,
+        "rankRationale": "MCP tool orchestration and Zapier workflow triggers cover integration and connector keySignals"
+      },
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-ai-research-autonomous-agent-patterns",
+        "skillName": "autonomous-agent-patterns",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/ai-research/autonomous-agent-patterns/SKILL.md",
+        "rankScore": 80,
+        "rankRationale": "Autonomous agent patterns with tool integration and permission systems covers MCP server and tool-calling signals"
+      }
+    ]
+  },
+  {
+    "roleId": "developer-tooling-engineer",
+    "roleName": "Developer Tooling Engineer",
+    "domain": "Software Engineering",
+    "category": "Backend Development",
+    "candidateSkills": [
+      {
+        "skillId": "claude-flow-agents-skills-github-code-review",
+        "skillName": "github-code-review",
+        "sourceRepo": "claude-flow",
+        "skillFilePath": "skills/claude-flow/.agents/skills/github-code-review/SKILL.md",
+        "rankScore": 88,
+        "rankRationale": "AI-powered GitHub code review with swarm coordination; directly targets developer tooling signals for cli, workflow, and automation"
+      },
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-development-zapier-workflows",
+        "skillName": "zapier-workflows",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/development/zapier-workflows/SKILL.md",
+        "rankScore": 82,
+        "rankRationale": "Workflow automation and tooling orchestration matches developer tooling engineer dx and scripts signals"
+      },
+      {
+        "skillId": "claude-flow-agents-skills-github-automation",
+        "skillName": "github-automation",
+        "sourceRepo": "claude-flow",
+        "skillFilePath": "skills/claude-flow/.agents/skills/github-automation/SKILL.md",
+        "rankScore": 78,
+        "rankRationale": "GitHub automation covers CI/CD integration and workflow tooling for developer experience improvement"
+      }
+    ]
+  }
+]

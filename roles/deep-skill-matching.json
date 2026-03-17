@@ -1,0 +1,1682 @@
+[
+  {
+    "roleId": "react-developer",
+    "roleName": "React Developer",
+    "domain": "software-engineering",
+    "category": "frontend-development",
+    "matchedSkillCount": 39,
+    "topSkills": [
+      {
+        "skillId": "claude-code-beads-orchestration-templates-skills-react-best-practices",
+        "skillName": "react-best-practices",
+        "sourceRepo": "Claude-Code-Beads-Orchestration",
+        "skillFilePath": "skills/Claude-Code-Beads-Orchestration/templates/skills/react-best-practices/SKILL.md",
+        "rankScore": 80
+      },
+      {
+        "skillId": "agent-coworker-tui-agents-skills-vercel-react-best-practices",
+        "skillName": "vercel-react-best-practices",
+        "sourceRepo": "agent-coworker-tui",
+        "skillFilePath": "skills/agent-coworker-tui/.agents/skills/vercel-react-best-practices/SKILL.md",
+        "rankScore": 80
+      },
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-web-development-skills-nextjs",
+        "skillName": "nextjs",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/web-development/skills/nextjs/SKILL.md",
+        "rankScore": 80
+      },
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-development-react-best-practices",
+        "skillName": "vercel-react-best-practices",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/development/react-best-practices/SKILL.md",
+        "rankScore": 80
+      },
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-web-development-react-best-practices",
+        "skillName": "react-best-practices",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/web-development/react-best-practices/SKILL.md",
+        "rankScore": 80
+      }
+    ]
+  },
+  {
+    "roleId": "frontend-engineer",
+    "roleName": "Frontend Engineer",
+    "domain": "software-engineering",
+    "category": "frontend-development",
+    "matchedSkillCount": 84,
+    "topSkills": [
+      {
+        "skillId": "agent-coworker-tui-agents-skills-ui-ux-pro-max",
+        "skillName": "ui-ux-pro-max",
+        "sourceRepo": "agent-coworker-tui",
+        "skillFilePath": "skills/agent-coworker-tui/.agents/skills/ui-ux-pro-max/SKILL.md",
+        "rankScore": 100
+      },
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-creative-design-claude-d3js-skill",
+        "skillName": "d3-viz",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/creative-design/claude-d3js-skill/SKILL.md",
+        "rankScore": 100
+      },
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-creative-design-ui-ux-pro-max",
+        "skillName": "ui-ux-pro-max",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/creative-design/ui-ux-pro-max/SKILL.md",
+        "rankScore": 100
+      },
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-development-artifacts-builder",
+        "skillName": "artifacts-builder",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/development/artifacts-builder/SKILL.md",
+        "rankScore": 100
+      },
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-development-senior-frontend",
+        "skillName": "senior-frontend",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/development/senior-frontend/SKILL.md",
+        "rankScore": 100
+      }
+    ]
+  },
+  {
+    "roleId": "node-backend-developer",
+    "roleName": "Node.js Backend Developer",
+    "domain": "software-engineering",
+    "category": "backend-development",
+    "matchedSkillCount": 397,
+    "topSkills": [
+      {
+        "skillId": "anthropic-cybersecurity-skills-skills-conducting-api-security-testing",
+        "skillName": "conducting-api-security-testing",
+        "sourceRepo": "Anthropic-Cybersecurity-Skills",
+        "skillFilePath": "skills/Anthropic-Cybersecurity-Skills/skills/conducting-api-security-testing/SKILL.md",
+        "rankScore": 100
+      },
+      {
+        "skillId": "anthropic-cybersecurity-skills-skills-testing-api-security-with-owasp-top-10",
+        "skillName": "testing-api-security-with-owasp-top-10",
+        "sourceRepo": "Anthropic-Cybersecurity-Skills",
+        "skillFilePath": "skills/Anthropic-Cybersecurity-Skills/skills/testing-api-security-with-owasp-top-10/SKILL.md",
+        "rankScore": 100
+      },
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-qa-testing-automation-skills-api-testing",
+        "skillName": "API Testing",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/qa-testing-automation/skills/api-testing/SKILL.md",
+        "rankScore": 100
+      },
+      {
+        "skillId": "claude-bootstrap-skills-nodejs-backend",
+        "skillName": "nodejs-backend",
+        "sourceRepo": "claude-bootstrap",
+        "skillFilePath": "skills/claude-bootstrap/skills/nodejs-backend/SKILL.md",
+        "rankScore": 100
+      },
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-development-api-integration-specialist",
+        "skillName": "API Integration Specialist",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/development/api-integration-specialist/SKILL.md",
+        "rankScore": 100
+      }
+    ]
+  },
+  {
+    "roleId": "python-backend-developer",
+    "roleName": "Python Backend Developer",
+    "domain": "software-engineering",
+    "category": "backend-development",
+    "matchedSkillCount": 7,
+    "topSkills": [
+      {
+        "skillId": "claude-bootstrap-skills-supabase-python",
+        "skillName": "supabase-python",
+        "sourceRepo": "claude-bootstrap",
+        "skillFilePath": "skills/claude-bootstrap/skills/supabase-python/SKILL.md",
+        "rankScore": 90
+      },
+      {
+        "skillId": "claude-bootstrap-skills-python",
+        "skillName": "python",
+        "sourceRepo": "claude-bootstrap",
+        "skillFilePath": "skills/claude-bootstrap/skills/python/SKILL.md",
+        "rankScore": 60
+      },
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-development-python-patterns",
+        "skillName": "python-patterns",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/development/python-patterns/SKILL.md",
+        "rankScore": 30
+      },
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-scientific-astropy",
+        "skillName": "astropy",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/scientific/astropy/SKILL.md",
+        "rankScore": 30
+      },
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-scientific-datamol",
+        "skillName": "datamol",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/scientific/datamol/SKILL.md",
+        "rankScore": 30
+      }
+    ]
+  },
+  {
+    "roleId": "fullstack-developer",
+    "roleName": "Full-Stack Developer",
+    "domain": "software-engineering",
+    "category": "backend-development",
+    "matchedSkillCount": 0,
+    "topSkills": []
+  },
+  {
+    "roleId": "ios-developer",
+    "roleName": "iOS Developer",
+    "domain": "software-engineering",
+    "category": "mobile-development",
+    "matchedSkillCount": 127,
+    "topSkills": [
+      {
+        "skillId": "agent-coworker-tui-agents-skills-asc-notarization",
+        "skillName": "asc-notarization",
+        "sourceRepo": "agent-coworker-tui",
+        "skillFilePath": "skills/agent-coworker-tui/.agents/skills/asc-notarization/SKILL.md",
+        "rankScore": 100
+      },
+      {
+        "skillId": "app-store-connect-cli-skills-skills-asc-notarization",
+        "skillName": "asc-notarization",
+        "sourceRepo": "app-store-connect-cli-skills",
+        "skillFilePath": "skills/app-store-connect-cli-skills/skills/asc-notarization/SKILL.md",
+        "rankScore": 100
+      },
+      {
+        "skillId": "app-store-connect-cli-skills-skills-asc-xcode-build",
+        "skillName": "asc-xcode-build",
+        "sourceRepo": "app-store-connect-cli-skills",
+        "skillFilePath": "skills/app-store-connect-cli-skills/skills/asc-xcode-build/SKILL.md",
+        "rankScore": 100
+      },
+      {
+        "skillId": "claude-xcodepreviews-codex-skills-xcode-preview-capture",
+        "skillName": "xcode-preview-capture",
+        "sourceRepo": "Claude-XcodePreviews",
+        "skillFilePath": "skills/Claude-XcodePreviews/.codex/skills/xcode-preview-capture/SKILL.md",
+        "rankScore": 100
+      },
+      {
+        "skillId": "claude-xcodepreviews-cursor-skills-preview",
+        "skillName": "preview-build",
+        "sourceRepo": "Claude-XcodePreviews",
+        "skillFilePath": "skills/Claude-XcodePreviews/.cursor/skills/preview/SKILL.md",
+        "rankScore": 100
+      }
+    ]
+  },
+  {
+    "roleId": "android-developer",
+    "roleName": "Android Developer",
+    "domain": "software-engineering",
+    "category": "mobile-development",
+    "matchedSkillCount": 21,
+    "topSkills": [
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-mobile-development-skills-kotlin-compose",
+        "skillName": "Kotlin/Jetpack Compose Development",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/mobile-development/skills/kotlin-compose/SKILL.md",
+        "rankScore": 100
+      },
+      {
+        "skillId": "claude-bootstrap-skills-android-kotlin",
+        "skillName": "android-kotlin",
+        "sourceRepo": "claude-bootstrap",
+        "skillFilePath": "skills/claude-bootstrap/skills/android-kotlin/SKILL.md",
+        "rankScore": 100
+      },
+      {
+        "skillId": "platform-design-skills-skills-android",
+        "skillName": "android-design-guidelines",
+        "sourceRepo": "platform-design-skills",
+        "skillFilePath": "skills/platform-design-skills/skills/android/SKILL.md",
+        "rankScore": 100
+      },
+      {
+        "skillId": "compose-skill-jetpack-compose-expert-skill",
+        "skillName": "jetpack-compose",
+        "sourceRepo": "compose-skill",
+        "skillFilePath": "skills/compose-skill/jetpack-compose-expert-skill/SKILL.md",
+        "rankScore": 90
+      },
+      {
+        "skillId": "app-store-connect-cli-skills-skills-gpd-cli",
+        "skillName": "gpd-cli",
+        "sourceRepo": "app-store-connect-cli-skills",
+        "skillFilePath": "skills/app-store-connect-cli-skills/skills/gpd-cli/SKILL.md",
+        "rankScore": 70
+      }
+    ]
+  },
+  {
+    "roleId": "ai-agent-engineer",
+    "roleName": "AI Agent Engineer",
+    "domain": "data-ai",
+    "category": "agent-ai-engineering",
+    "matchedSkillCount": 1003,
+    "topSkills": [
+      {
+        "skillId": "claude-code-beads-orchestration",
+        "skillName": "create-beads-orchestration",
+        "sourceRepo": "Claude-Code-Beads-Orchestration",
+        "skillFilePath": "skills/Claude-Code-Beads-Orchestration/SKILL.md",
+        "rankScore": 100
+      },
+      {
+        "skillId": "claude-code-beads-orchestration-claude-skills-create-beads-orchestration",
+        "skillName": "create-beads-orchestration",
+        "sourceRepo": "Claude-Code-Beads-Orchestration",
+        "skillFilePath": "skills/Claude-Code-Beads-Orchestration/.claude/skills/create-beads-orchestration/SKILL.md",
+        "rankScore": 100
+      },
+      {
+        "skillId": "claude-code-beads-orchestration-skills-create-beads-orchestration",
+        "skillName": "create-beads-orchestration",
+        "sourceRepo": "Claude-Code-Beads-Orchestration",
+        "skillFilePath": "skills/Claude-Code-Beads-Orchestration/skills/create-beads-orchestration/SKILL.md",
+        "rankScore": 100
+      },
+      {
+        "skillId": "agent-skills-jdrhyne-skills-task-orchestrator",
+        "skillName": "task-orchestrator",
+        "sourceRepo": "agent-skills-jdrhyne",
+        "skillFilePath": "skills/agent-skills-jdrhyne/skills/task-orchestrator/SKILL.md",
+        "rankScore": 100
+      },
+      {
+        "skillId": "claude-bootstrap-skills-ai-models",
+        "skillName": "ai-models",
+        "sourceRepo": "claude-bootstrap",
+        "skillFilePath": "skills/claude-bootstrap/skills/ai-models/SKILL.md",
+        "rankScore": 100
+      }
+    ]
+  },
+  {
+    "roleId": "llm-prompt-engineer",
+    "roleName": "LLM & Prompt Engineer",
+    "domain": "data-ai",
+    "category": "agent-ai-engineering",
+    "matchedSkillCount": 87,
+    "topSkills": [
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-ai-research-multimodal-clip",
+        "skillName": "clip",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/ai-research/multimodal-clip/SKILL.md",
+        "rankScore": 100
+      },
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-ai-research-rag-engineer",
+        "skillName": "rag-engineer",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/ai-research/rag-engineer/SKILL.md",
+        "rankScore": 100
+      },
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-ai-research-rag-sentence-transformers",
+        "skillName": "sentence-transformers",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/ai-research/rag-sentence-transformers/SKILL.md",
+        "rankScore": 100
+      },
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-ai-research-optimization-gptq",
+        "skillName": "gptq",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/ai-research/optimization-gptq/SKILL.md",
+        "rankScore": 90
+      },
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-ai-agents-conversational-skills-huggingface-classifier",
+        "skillName": "huggingface-classifier",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/ai-agents-conversational/skills/huggingface-classifier/SKILL.md",
+        "rankScore": 80
+      }
+    ]
+  },
+  {
+    "roleId": "rag-knowledge-engineer",
+    "roleName": "RAG & Knowledge Engineer",
+    "domain": "data-ai",
+    "category": "agent-ai-engineering",
+    "matchedSkillCount": 15,
+    "topSkills": [
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-ai-research-rag-chroma",
+        "skillName": "chroma",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/ai-research/rag-chroma/SKILL.md",
+        "rankScore": 100
+      },
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-ai-research-rag-implementation",
+        "skillName": "rag-implementation",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/ai-research/rag-implementation/SKILL.md",
+        "rankScore": 100
+      },
+      {
+        "skillId": "claude-flow-agents-skills-agentdb-vector-search",
+        "skillName": "AgentDB Vector Search",
+        "sourceRepo": "claude-flow",
+        "skillFilePath": "skills/claude-flow/.agents/skills/agentdb-vector-search/SKILL.md",
+        "rankScore": 100
+      },
+      {
+        "skillId": "claude-flow-claude-skills-agentdb-vector-search",
+        "skillName": "AgentDB Vector Search",
+        "sourceRepo": "claude-flow",
+        "skillFilePath": "skills/claude-flow/.claude/skills/agentdb-vector-search/SKILL.md",
+        "rankScore": 100
+      },
+      {
+        "skillId": "claude-flow-v2-claude-skills-agentdb-vector-search",
+        "skillName": "AgentDB Vector Search",
+        "sourceRepo": "claude-flow",
+        "skillFilePath": "skills/claude-flow/v2/.claude/skills/agentdb-vector-search/SKILL.md",
+        "rankScore": 100
+      }
+    ]
+  },
+  {
+    "roleId": "ml-engineer",
+    "roleName": "Machine Learning Engineer",
+    "domain": "data-ai",
+    "category": "ml-data-science",
+    "matchedSkillCount": 82,
+    "topSkills": [
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-ai-research-mlops-mlflow",
+        "skillName": "mlflow",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/ai-research/mlops-mlflow/SKILL.md",
+        "rankScore": 100
+      },
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-ai-research-mlops-weights-and-biases",
+        "skillName": "weights-and-biases",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/ai-research/mlops-weights-and-biases/SKILL.md",
+        "rankScore": 100
+      },
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-development-senior-ml-engineer",
+        "skillName": "senior-ml-engineer",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/development/senior-ml-engineer/SKILL.md",
+        "rankScore": 100
+      },
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-scientific-shap",
+        "skillName": "shap",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/scientific/shap/SKILL.md",
+        "rankScore": 100
+      },
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-ai-research-distributed-training-ray-train",
+        "skillName": "ray-train",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/ai-research/distributed-training-ray-train/SKILL.md",
+        "rankScore": 100
+      }
+    ]
+  },
+  {
+    "roleId": "data-scientist",
+    "roleName": "Data Scientist",
+    "domain": "data-ai",
+    "category": "ml-data-science",
+    "matchedSkillCount": 170,
+    "topSkills": [
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-development-senior-data-scientist",
+        "skillName": "senior-data-scientist",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/development/senior-data-scientist/SKILL.md",
+        "rankScore": 100
+      },
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-scientific-vaex",
+        "skillName": "vaex",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/scientific/vaex/SKILL.md",
+        "rankScore": 70
+      },
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-scientific-dask",
+        "skillName": "dask",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/scientific/dask/SKILL.md",
+        "rankScore": 70
+      },
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-scientific-labarchive-integration",
+        "skillName": "labarchive-integration",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/scientific/labarchive-integration/SKILL.md",
+        "rankScore": 60
+      },
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-data-science-ml-skills-jupyter-notebook-executor",
+        "skillName": "jupyter-notebook-executor",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/data-science-ml/skills/jupyter-notebook-executor/SKILL.md",
+        "rankScore": 60
+      }
+    ]
+  },
+  {
+    "roleId": "data-engineer",
+    "roleName": "Data Engineer",
+    "domain": "data-ai",
+    "category": "data-engineering",
+    "matchedSkillCount": 7,
+    "topSkills": [
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-data-engineering-analytics-skills-data-lineage-mapper",
+        "skillName": "data-lineage-mapper",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/data-engineering-analytics/skills/data-lineage-mapper/SKILL.md",
+        "rankScore": 100
+      },
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-development-senior-data-engineer",
+        "skillName": "senior-data-engineer",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/development/senior-data-engineer/SKILL.md",
+        "rankScore": 100
+      },
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-data-engineering-analytics-skills-sql-query-optimizer",
+        "skillName": "sql-query-optimizer",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/data-engineering-analytics/skills/sql-query-optimizer/SKILL.md",
+        "rankScore": 70
+      },
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-code-migration-modernization-skills-etl-pipeline-builder",
+        "skillName": "etl-pipeline-builder",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/code-migration-modernization/skills/etl-pipeline-builder/SKILL.md",
+        "rankScore": 40
+      },
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-game-development-skills-maya-integration",
+        "skillName": "maya-integration",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/game-development/skills/maya-integration/SKILL.md",
+        "rankScore": 20
+      }
+    ]
+  },
+  {
+    "roleId": "database-engineer",
+    "roleName": "Database Engineer",
+    "domain": "data-ai",
+    "category": "data-engineering",
+    "matchedSkillCount": 44,
+    "topSkills": [
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-railway-database",
+        "skillName": "railway-database",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/railway/database/SKILL.md",
+        "rankScore": 100
+      },
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-railway-templates",
+        "skillName": "railway-templates",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/railway/templates/SKILL.md",
+        "rankScore": 100
+      },
+      {
+        "skillId": "everything-claude-code-docs-ja-jp-skills-postgres-patterns",
+        "skillName": "postgres-patterns",
+        "sourceRepo": "everything-claude-code",
+        "skillFilePath": "skills/everything-claude-code/docs/ja-JP/skills/postgres-patterns/SKILL.md",
+        "rankScore": 100
+      },
+      {
+        "skillId": "everything-claude-code-docs-zh-cn-skills-database-migrations",
+        "skillName": "database-migrations",
+        "sourceRepo": "everything-claude-code",
+        "skillFilePath": "skills/everything-claude-code/docs/zh-CN/skills/database-migrations/SKILL.md",
+        "rankScore": 100
+      },
+      {
+        "skillId": "everything-claude-code-docs-zh-tw-skills-postgres-patterns",
+        "skillName": "postgres-patterns",
+        "sourceRepo": "everything-claude-code",
+        "skillFilePath": "skills/everything-claude-code/docs/zh-TW/skills/postgres-patterns/SKILL.md",
+        "rankScore": 100
+      }
+    ]
+  },
+  {
+    "roleId": "cloud-architect",
+    "roleName": "Cloud Architect",
+    "domain": "devops-infrastructure",
+    "category": "cloud-infrastructure",
+    "matchedSkillCount": 105,
+    "topSkills": [
+      {
+        "skillId": "anthropic-cybersecurity-skills-skills-conducting-cloud-infrastructure-penetration-test",
+        "skillName": "conducting-cloud-infrastructure-penetration-test",
+        "sourceRepo": "Anthropic-Cybersecurity-Skills",
+        "skillFilePath": "skills/Anthropic-Cybersecurity-Skills/skills/conducting-cloud-infrastructure-penetration-test/SKILL.md",
+        "rankScore": 100
+      },
+      {
+        "skillId": "anthropic-cybersecurity-skills-skills-performing-cloud-asset-inventory-with-cartography",
+        "skillName": "performing-cloud-asset-inventory-with-cartography",
+        "sourceRepo": "Anthropic-Cybersecurity-Skills",
+        "skillFilePath": "skills/Anthropic-Cybersecurity-Skills/skills/performing-cloud-asset-inventory-with-cartography/SKILL.md",
+        "rankScore": 100
+      },
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-code-migration-modernization-skills-iac-generator",
+        "skillName": "iac-generator",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/code-migration-modernization/skills/iac-generator/SKILL.md",
+        "rankScore": 100
+      },
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-devops-sre-platform-skills-secrets-management",
+        "skillName": "secrets-management",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/devops-sre-platform/skills/secrets-management/SKILL.md",
+        "rankScore": 100
+      },
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-devops-sre-platform-skills-terraform-iac",
+        "skillName": "terraform-iac",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/devops-sre-platform/skills/terraform-iac/SKILL.md",
+        "rankScore": 100
+      }
+    ]
+  },
+  {
+    "roleId": "devops-engineer",
+    "roleName": "DevOps Engineer",
+    "domain": "devops-infrastructure",
+    "category": "devops-cicd",
+    "matchedSkillCount": 72,
+    "topSkills": [
+      {
+        "skillId": "claude-flow-agents-skills-github-workflow-automation",
+        "skillName": "github-workflow-automation",
+        "sourceRepo": "claude-flow",
+        "skillFilePath": "skills/claude-flow/.agents/skills/github-workflow-automation/SKILL.md",
+        "rankScore": 100
+      },
+      {
+        "skillId": "claude-flow-v3-claude-flow-mcp-claude-skills-github-workflow-automation",
+        "skillName": "github-workflow-automation",
+        "sourceRepo": "claude-flow",
+        "skillFilePath": "skills/claude-flow/v3/@claude-flow/mcp/.claude/skills/github-workflow-automation/SKILL.md",
+        "rankScore": 100
+      },
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-devops-sre-platform-skills-cicd-pipelines",
+        "skillName": "cicd-pipelines",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/devops-sre-platform/skills/cicd-pipelines/SKILL.md",
+        "rankScore": 100
+      },
+      {
+        "skillId": "claude-flow-claude-skills-github-workflow-automation",
+        "skillName": "github-workflow-automation",
+        "sourceRepo": "claude-flow",
+        "skillFilePath": "skills/claude-flow/.claude/skills/github-workflow-automation/SKILL.md",
+        "rankScore": 100
+      },
+      {
+        "skillId": "claude-flow-v2-claude-skills-github-workflow-automation",
+        "skillName": "github-workflow-automation",
+        "sourceRepo": "claude-flow",
+        "skillFilePath": "skills/claude-flow/v2/.claude/skills/github-workflow-automation/SKILL.md",
+        "rankScore": 100
+      }
+    ]
+  },
+  {
+    "roleId": "platform-engineer",
+    "roleName": "Platform Engineer",
+    "domain": "devops-infrastructure",
+    "category": "devops-cicd",
+    "matchedSkillCount": 48,
+    "topSkills": [
+      {
+        "skillId": "anthropic-cybersecurity-skills-skills-detecting-container-escape-attempts",
+        "skillName": "detecting-container-escape-attempts",
+        "sourceRepo": "Anthropic-Cybersecurity-Skills",
+        "skillFilePath": "skills/Anthropic-Cybersecurity-Skills/skills/detecting-container-escape-attempts/SKILL.md",
+        "rankScore": 80
+      },
+      {
+        "skillId": "anthropic-cybersecurity-skills-skills-implementing-container-image-minimal-base-with-distroless",
+        "skillName": "implementing-container-image-minimal-base-with-distroless",
+        "sourceRepo": "Anthropic-Cybersecurity-Skills",
+        "skillFilePath": "skills/Anthropic-Cybersecurity-Skills/skills/implementing-container-image-minimal-base-with-distroless/SKILL.md",
+        "rankScore": 80
+      },
+      {
+        "skillId": "anthropic-cybersecurity-skills-skills-performing-container-security-scanning-with-trivy",
+        "skillName": "performing-container-security-scanning-with-trivy",
+        "sourceRepo": "Anthropic-Cybersecurity-Skills",
+        "skillFilePath": "skills/Anthropic-Cybersecurity-Skills/skills/performing-container-security-scanning-with-trivy/SKILL.md",
+        "rankScore": 80
+      },
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-development-devops-iac-engineer",
+        "skillName": "devops-iac-engineer",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/development/devops-iac-engineer/SKILL.md",
+        "rankScore": 80
+      },
+      {
+        "skillId": "anthropic-cybersecurity-skills-skills-securing-container-registry-with-harbor",
+        "skillName": "securing-container-registry-with-harbor",
+        "sourceRepo": "Anthropic-Cybersecurity-Skills",
+        "skillFilePath": "skills/Anthropic-Cybersecurity-Skills/skills/securing-container-registry-with-harbor/SKILL.md",
+        "rankScore": 80
+      }
+    ]
+  },
+  {
+    "roleId": "site-reliability-engineer",
+    "roleName": "Site Reliability Engineer",
+    "domain": "devops-infrastructure",
+    "category": "devops-cicd",
+    "matchedSkillCount": 46,
+    "topSkills": [
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-development-it-operations",
+        "skillName": "it-operations",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/development/it-operations/SKILL.md",
+        "rankScore": 80
+      },
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-ai-research-datadog-cli",
+        "skillName": "datadog-cli",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/ai-research/datadog-cli/SKILL.md",
+        "rankScore": 70
+      },
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-ai-research-observability-phoenix",
+        "skillName": "phoenix-observability",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/ai-research/observability-phoenix/SKILL.md",
+        "rankScore": 70
+      },
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-ai-research-agent-evaluation",
+        "skillName": "agent-evaluation",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/ai-research/agent-evaluation/SKILL.md",
+        "rankScore": 60
+      },
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-ai-research-observability-langsmith",
+        "skillName": "langsmith-observability",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/ai-research/observability-langsmith/SKILL.md",
+        "rankScore": 60
+      }
+    ]
+  },
+  {
+    "roleId": "security-engineer",
+    "roleName": "Security Engineer",
+    "domain": "security-compliance",
+    "category": "security-engineering",
+    "matchedSkillCount": 234,
+    "topSkills": [
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-security-compliance-skills-dast-scanner",
+        "skillName": "dast-scanner",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/security-compliance/skills/dast-scanner/SKILL.md",
+        "rankScore": 100
+      },
+      {
+        "skillId": "anthropic-cybersecurity-skills-skills-implementing-api-threat-protection-with-apigee",
+        "skillName": "implementing-api-threat-protection-with-apigee",
+        "sourceRepo": "Anthropic-Cybersecurity-Skills",
+        "skillFilePath": "skills/Anthropic-Cybersecurity-Skills/skills/implementing-api-threat-protection-with-apigee/SKILL.md",
+        "rankScore": 100
+      },
+      {
+        "skillId": "anthropic-cybersecurity-skills-skills-performing-jwt-none-algorithm-attack",
+        "skillName": "performing-jwt-none-algorithm-attack",
+        "sourceRepo": "Anthropic-Cybersecurity-Skills",
+        "skillFilePath": "skills/Anthropic-Cybersecurity-Skills/skills/performing-jwt-none-algorithm-attack/SKILL.md",
+        "rankScore": 100
+      },
+      {
+        "skillId": "anthropic-cybersecurity-skills-skills-performing-web-application-vulnerability-triage",
+        "skillName": "performing-web-application-vulnerability-triage",
+        "sourceRepo": "Anthropic-Cybersecurity-Skills",
+        "skillFilePath": "skills/Anthropic-Cybersecurity-Skills/skills/performing-web-application-vulnerability-triage/SKILL.md",
+        "rankScore": 100
+      },
+      {
+        "skillId": "anthropic-cybersecurity-skills-skills-testing-api-authentication-weaknesses",
+        "skillName": "testing-api-authentication-weaknesses",
+        "sourceRepo": "Anthropic-Cybersecurity-Skills",
+        "skillFilePath": "skills/Anthropic-Cybersecurity-Skills/skills/testing-api-authentication-weaknesses/SKILL.md",
+        "rankScore": 100
+      }
+    ]
+  },
+  {
+    "roleId": "penetration-tester",
+    "roleName": "Penetration Tester",
+    "domain": "security-compliance",
+    "category": "security-engineering",
+    "matchedSkillCount": 42,
+    "topSkills": [
+      {
+        "skillId": "anthropic-cybersecurity-skills-skills-conducting-network-penetration-test",
+        "skillName": "conducting-network-penetration-test",
+        "sourceRepo": "Anthropic-Cybersecurity-Skills",
+        "skillFilePath": "skills/Anthropic-Cybersecurity-Skills/skills/conducting-network-penetration-test/SKILL.md",
+        "rankScore": 100
+      },
+      {
+        "skillId": "anthropic-cybersecurity-skills-skills-exploiting-active-directory-with-bloodhound",
+        "skillName": "exploiting-active-directory-with-bloodhound",
+        "sourceRepo": "Anthropic-Cybersecurity-Skills",
+        "skillFilePath": "skills/Anthropic-Cybersecurity-Skills/skills/exploiting-active-directory-with-bloodhound/SKILL.md",
+        "rankScore": 100
+      },
+      {
+        "skillId": "anthropic-cybersecurity-skills-skills-performing-active-directory-penetration-test",
+        "skillName": "performing-active-directory-penetration-test",
+        "sourceRepo": "Anthropic-Cybersecurity-Skills",
+        "skillFilePath": "skills/Anthropic-Cybersecurity-Skills/skills/performing-active-directory-penetration-test/SKILL.md",
+        "rankScore": 100
+      },
+      {
+        "skillId": "anthropic-cybersecurity-skills-skills-performing-external-network-penetration-test",
+        "skillName": "performing-external-network-penetration-test",
+        "sourceRepo": "Anthropic-Cybersecurity-Skills",
+        "skillFilePath": "skills/Anthropic-Cybersecurity-Skills/skills/performing-external-network-penetration-test/SKILL.md",
+        "rankScore": 100
+      },
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-security-active-directory-attacks",
+        "skillName": "Active Directory Attacks",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/security/active-directory-attacks/SKILL.md",
+        "rankScore": 100
+      }
+    ]
+  },
+  {
+    "roleId": "soc-analyst",
+    "roleName": "SOC / Blue Team Analyst",
+    "domain": "security-compliance",
+    "category": "security-engineering",
+    "matchedSkillCount": 138,
+    "topSkills": [
+      {
+        "skillId": "anthropic-cybersecurity-skills-skills-building-detection-rule-with-splunk-spl",
+        "skillName": "building-detection-rule-with-splunk-spl",
+        "sourceRepo": "Anthropic-Cybersecurity-Skills",
+        "skillFilePath": "skills/Anthropic-Cybersecurity-Skills/skills/building-detection-rule-with-splunk-spl/SKILL.md",
+        "rankScore": 90
+      },
+      {
+        "skillId": "anthropic-cybersecurity-skills-skills-performing-malware-hash-enrichment-with-virustotal",
+        "skillName": "performing-malware-hash-enrichment-with-virustotal",
+        "sourceRepo": "Anthropic-Cybersecurity-Skills",
+        "skillFilePath": "skills/Anthropic-Cybersecurity-Skills/skills/performing-malware-hash-enrichment-with-virustotal/SKILL.md",
+        "rankScore": 90
+      },
+      {
+        "skillId": "anthropic-cybersecurity-skills-skills-building-detection-rules-with-sigma",
+        "skillName": "building-detection-rules-with-sigma",
+        "sourceRepo": "Anthropic-Cybersecurity-Skills",
+        "skillFilePath": "skills/Anthropic-Cybersecurity-Skills/skills/building-detection-rules-with-sigma/SKILL.md",
+        "rankScore": 80
+      },
+      {
+        "skillId": "anthropic-cybersecurity-skills-skills-detecting-aws-guardduty-findings-automation",
+        "skillName": "detecting-aws-guardduty-findings-automation",
+        "sourceRepo": "Anthropic-Cybersecurity-Skills",
+        "skillFilePath": "skills/Anthropic-Cybersecurity-Skills/skills/detecting-aws-guardduty-findings-automation/SKILL.md",
+        "rankScore": 80
+      },
+      {
+        "skillId": "anthropic-cybersecurity-skills-skills-performing-false-positive-reduction-in-siem",
+        "skillName": "performing-false-positive-reduction-in-siem",
+        "sourceRepo": "Anthropic-Cybersecurity-Skills",
+        "skillFilePath": "skills/Anthropic-Cybersecurity-Skills/skills/performing-false-positive-reduction-in-siem/SKILL.md",
+        "rankScore": 80
+      }
+    ]
+  },
+  {
+    "roleId": "compliance-auditor",
+    "roleName": "Compliance & Security Auditor",
+    "domain": "security-compliance",
+    "category": "compliance-governance",
+    "matchedSkillCount": 45,
+    "topSkills": [
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-software-architecture-skills-compliance-checker",
+        "skillName": "compliance-checker",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/software-architecture/skills/compliance-checker/SKILL.md",
+        "rankScore": 100
+      },
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-development-security-compliance",
+        "skillName": "security-compliance",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/development/security-compliance/SKILL.md",
+        "rankScore": 100
+      },
+      {
+        "skillId": "anthropic-cybersecurity-skills-skills-performing-access-recertification-with-saviynt",
+        "skillName": "performing-access-recertification-with-saviynt",
+        "sourceRepo": "Anthropic-Cybersecurity-Skills",
+        "skillFilePath": "skills/Anthropic-Cybersecurity-Skills/skills/performing-access-recertification-with-saviynt/SKILL.md",
+        "rankScore": 90
+      },
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-domains-social-sciences-humanities-healthcare-skills-regulatory-compliance-assessment",
+        "skillName": "regulatory-compliance-assessment",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/domains/social-sciences-humanities/healthcare/skills/regulatory-compliance-assessment/SKILL.md",
+        "rankScore": 90
+      },
+      {
+        "skillId": "anthropic-cybersecurity-skills-skills-implementing-gdpr-data-protection-controls",
+        "skillName": "implementing-gdpr-data-protection-controls",
+        "sourceRepo": "Anthropic-Cybersecurity-Skills",
+        "skillFilePath": "skills/Anthropic-Cybersecurity-Skills/skills/implementing-gdpr-data-protection-controls/SKILL.md",
+        "rankScore": 90
+      }
+    ]
+  },
+  {
+    "roleId": "cryptography-engineer",
+    "roleName": "Cryptography Engineer",
+    "domain": "security-compliance",
+    "category": "security-engineering",
+    "matchedSkillCount": 21,
+    "topSkills": [
+      {
+        "skillId": "anthropic-cybersecurity-skills-skills-implementing-rsa-key-pair-management",
+        "skillName": "implementing-rsa-key-pair-management",
+        "sourceRepo": "Anthropic-Cybersecurity-Skills",
+        "skillFilePath": "skills/Anthropic-Cybersecurity-Skills/skills/implementing-rsa-key-pair-management/SKILL.md",
+        "rankScore": 100
+      },
+      {
+        "skillId": "anthropic-cybersecurity-skills-skills-performing-ssl-certificate-lifecycle-management",
+        "skillName": "performing-ssl-certificate-lifecycle-management",
+        "sourceRepo": "Anthropic-Cybersecurity-Skills",
+        "skillFilePath": "skills/Anthropic-Cybersecurity-Skills/skills/performing-ssl-certificate-lifecycle-management/SKILL.md",
+        "rankScore": 90
+      },
+      {
+        "skillId": "anthropic-cybersecurity-skills-skills-configuring-certificate-authority-with-openssl",
+        "skillName": "configuring-certificate-authority-with-openssl",
+        "sourceRepo": "Anthropic-Cybersecurity-Skills",
+        "skillFilePath": "skills/Anthropic-Cybersecurity-Skills/skills/configuring-certificate-authority-with-openssl/SKILL.md",
+        "rankScore": 80
+      },
+      {
+        "skillId": "anthropic-cybersecurity-skills-skills-implementing-aes-encryption-for-data-at-rest",
+        "skillName": "implementing-aes-encryption-for-data-at-rest",
+        "sourceRepo": "Anthropic-Cybersecurity-Skills",
+        "skillFilePath": "skills/Anthropic-Cybersecurity-Skills/skills/implementing-aes-encryption-for-data-at-rest/SKILL.md",
+        "rankScore": 70
+      },
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-network-programming-skills-tls-security",
+        "skillName": "tls-security",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/network-programming/skills/tls-security/SKILL.md",
+        "rankScore": 70
+      }
+    ]
+  },
+  {
+    "roleId": "ux-designer",
+    "roleName": "UX / UI Designer",
+    "domain": "design-product",
+    "category": "ux-design",
+    "matchedSkillCount": 143,
+    "topSkills": [
+      {
+        "skillId": "stitch-skills-skills-enhance-prompt",
+        "skillName": "enhance-prompt",
+        "sourceRepo": "stitch-skills",
+        "skillFilePath": "skills/stitch-skills/skills/enhance-prompt/SKILL.md",
+        "rankScore": 80
+      },
+      {
+        "skillId": "agent-coworker-tui-agents-skills-web-design-guidelines",
+        "skillName": "web-design-guidelines",
+        "sourceRepo": "agent-coworker-tui",
+        "skillFilePath": "skills/agent-coworker-tui/.agents/skills/web-design-guidelines/SKILL.md",
+        "rankScore": 60
+      },
+      {
+        "skillId": "agent-skills-jdrhyne-prompts-web-design-guidelines",
+        "skillName": "web-design-guidelines",
+        "sourceRepo": "agent-skills-jdrhyne",
+        "skillFilePath": "skills/agent-skills-jdrhyne/prompts/web-design-guidelines/SKILL.md",
+        "rankScore": 60
+      },
+      {
+        "skillId": "agent-skills-jdrhyne-skills-web-design-guidelines",
+        "skillName": "web-design-guidelines",
+        "sourceRepo": "agent-skills-jdrhyne",
+        "skillFilePath": "skills/agent-skills-jdrhyne/skills/web-design-guidelines/SKILL.md",
+        "rankScore": 60
+      },
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-creative-design-web-design-guidelines",
+        "skillName": "web-design-guidelines",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/creative-design/web-design-guidelines/SKILL.md",
+        "rankScore": 60
+      }
+    ]
+  },
+  {
+    "roleId": "product-manager",
+    "roleName": "Product Manager",
+    "domain": "design-product",
+    "category": "product-management",
+    "matchedSkillCount": 40,
+    "topSkills": [
+      {
+        "skillId": "claude-code-custom-plugins-plugins-product-management-skills-product-management",
+        "skillName": "product-management",
+        "sourceRepo": "Claude-Code-Custom-Plugins",
+        "skillFilePath": "skills/Claude-Code-Custom-Plugins/plugins/product-management/skills/product-management/SKILL.md",
+        "rankScore": 100
+      },
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-business-marketing-product-manager-toolkit",
+        "skillName": "product-manager-toolkit",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/business-marketing/product-manager-toolkit/SKILL.md",
+        "rankScore": 60
+      },
+      {
+        "skillId": "pm-skills-pm-product-discovery-skills-brainstorm-ideas-existing",
+        "skillName": "brainstorm-ideas-existing",
+        "sourceRepo": "pm-skills",
+        "skillFilePath": "skills/pm-skills/pm-product-discovery/skills/brainstorm-ideas-existing/SKILL.md",
+        "rankScore": 40
+      },
+      {
+        "skillId": "skills-shpigford-build",
+        "skillName": "build",
+        "sourceRepo": "skills-shpigford",
+        "skillFilePath": "skills/skills-shpigford/build/SKILL.md",
+        "rankScore": 40
+      },
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-programming-languages-skills-repl-development",
+        "skillName": "REPL Development",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/programming-languages/skills/repl-development/SKILL.md",
+        "rankScore": 40
+      }
+    ]
+  },
+  {
+    "roleId": "growth-marketer",
+    "roleName": "Growth & Marketing Specialist",
+    "domain": "design-product",
+    "category": "product-management",
+    "matchedSkillCount": 107,
+    "topSkills": [
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-business-marketing-marketing-demand-acquisition",
+        "skillName": "marketing-demand-acquisition",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/business-marketing/marketing-demand-acquisition/SKILL.md",
+        "rankScore": 100
+      },
+      {
+        "skillId": "marketingskills-skills-analytics-tracking",
+        "skillName": "analytics-tracking",
+        "sourceRepo": "marketingskills",
+        "skillFilePath": "skills/marketingskills/skills/analytics-tracking/SKILL.md",
+        "rankScore": 80
+      },
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-product-management-skills-product-analytics",
+        "skillName": "product-analytics",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/product-management/skills/product-analytics/SKILL.md",
+        "rankScore": 80
+      },
+      {
+        "skillId": "marketingskills-skills-revops",
+        "skillName": "revops",
+        "sourceRepo": "marketingskills",
+        "skillFilePath": "skills/marketingskills/skills/revops/SKILL.md",
+        "rankScore": 80
+      },
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-domains-business-sales-skills-hubspot-connector",
+        "skillName": "hubspot-connector",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/domains/business/sales/skills/hubspot-connector/SKILL.md",
+        "rankScore": 70
+      }
+    ]
+  },
+  {
+    "roleId": "technical-writer",
+    "roleName": "Technical Writer",
+    "domain": "design-product",
+    "category": "content-documentation",
+    "matchedSkillCount": 339,
+    "topSkills": [
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-technical-documentation-skills-readme-platform",
+        "skillName": "readme-platform",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/technical-documentation/skills/readme-platform/SKILL.md",
+        "rankScore": 90
+      },
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-code-migration-modernization-skills-documentation-generator",
+        "skillName": "documentation-generator",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/code-migration-modernization/skills/documentation-generator/SKILL.md",
+        "rankScore": 80
+      },
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-desktop-development-skills-qt-translation-workflow",
+        "skillName": "qt-translation-workflow",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/desktop-development/skills/qt-translation-workflow/SKILL.md",
+        "rankScore": 80
+      },
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-technical-documentation-skills-confluence-docs",
+        "skillName": "confluence-docs",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/technical-documentation/skills/confluence-docs/SKILL.md",
+        "rankScore": 80
+      },
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-technical-documentation-skills-tech-writing-lint",
+        "skillName": "tech-writing-lint",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/technical-documentation/skills/tech-writing-lint/SKILL.md",
+        "rankScore": 80
+      }
+    ]
+  },
+  {
+    "roleId": "creative-media-producer",
+    "roleName": "Creative Media Producer",
+    "domain": "design-product",
+    "category": "content-documentation",
+    "matchedSkillCount": 50,
+    "topSkills": [
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-domains-social-sciences-humanities-education-skills-multimedia-learning-design",
+        "skillName": "multimedia-learning-design",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/domains/social-sciences-humanities/education/skills/multimedia-learning-design/SKILL.md",
+        "rankScore": 100
+      },
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-video-remotion",
+        "skillName": "remotion",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/video/remotion/SKILL.md",
+        "rankScore": 100
+      },
+      {
+        "skillId": "claude-code-video-toolkit-claude-skills-ffmpeg",
+        "skillName": "ffmpeg",
+        "sourceRepo": "claude-code-video-toolkit",
+        "skillFilePath": "skills/claude-code-video-toolkit/.claude/skills/ffmpeg/SKILL.md",
+        "rankScore": 100
+      },
+      {
+        "skillId": "claude-code-video-toolkit-claude-skills-elevenlabs",
+        "skillName": "elevenlabs",
+        "sourceRepo": "claude-code-video-toolkit",
+        "skillFilePath": "skills/claude-code-video-toolkit/.claude/skills/elevenlabs/SKILL.md",
+        "rankScore": 90
+      },
+      {
+        "skillId": "agent-scripts-skills-video-transcript-downloader",
+        "skillName": "video-transcript-downloader",
+        "sourceRepo": "agent-scripts",
+        "skillFilePath": "skills/agent-scripts/skills/video-transcript-downloader/SKILL.md",
+        "rankScore": 90
+      }
+    ]
+  },
+  {
+    "roleId": "qa-engineer",
+    "roleName": "QA Automation Engineer",
+    "domain": "quality-testing",
+    "category": "qa-automation",
+    "matchedSkillCount": 469,
+    "topSkills": [
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-desktop-development-skills-electron-mock-factory",
+        "skillName": "electron-mock-factory",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/desktop-development/skills/electron-mock-factory/SKILL.md",
+        "rankScore": 90
+      },
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-qa-testing-automation-skills-cucumber-bdd",
+        "skillName": "Cucumber BDD Testing",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/qa-testing-automation/skills/cucumber-bdd/SKILL.md",
+        "rankScore": 90
+      },
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-development-testing-patterns",
+        "skillName": "testing-patterns",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/development/testing-patterns/SKILL.md",
+        "rankScore": 90
+      },
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-qa-testing-automation-skills-axe-accessibility",
+        "skillName": "axe-accessibility",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/qa-testing-automation/skills/axe-accessibility/SKILL.md",
+        "rankScore": 80
+      },
+      {
+        "skillId": "everything-claude-code-docs-ja-jp-skills-python-testing",
+        "skillName": "python-testing",
+        "sourceRepo": "everything-claude-code",
+        "skillFilePath": "skills/everything-claude-code/docs/ja-JP/skills/python-testing/SKILL.md",
+        "rankScore": 70
+      }
+    ]
+  },
+  {
+    "roleId": "e2e-automation-engineer",
+    "roleName": "E2E & Browser Automation Engineer",
+    "domain": "quality-testing",
+    "category": "qa-automation",
+    "matchedSkillCount": 13,
+    "topSkills": [
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-utilities-browser-automation",
+        "skillName": "browser-automation",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/utilities/browser-automation/SKILL.md",
+        "rankScore": 100
+      },
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-desktop-development-skills-playwright-electron-config",
+        "skillName": "playwright-electron-config",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/desktop-development/skills/playwright-electron-config/SKILL.md",
+        "rankScore": 90
+      },
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-web-development-skills-playwright",
+        "skillName": "playwright",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/web-development/skills/playwright/SKILL.md",
+        "rankScore": 90
+      },
+      {
+        "skillId": "claude-bootstrap-skills-playwright-testing",
+        "skillName": "playwright-testing",
+        "sourceRepo": "claude-bootstrap",
+        "skillFilePath": "skills/claude-bootstrap/skills/playwright-testing/SKILL.md",
+        "rankScore": 70
+      },
+      {
+        "skillId": "everything-claude-code-docs-zh-cn-skills-e2e-testing",
+        "skillName": "e2e-testing",
+        "sourceRepo": "everything-claude-code",
+        "skillFilePath": "skills/everything-claude-code/docs/zh-CN/skills/e2e-testing/SKILL.md",
+        "rankScore": 70
+      }
+    ]
+  },
+  {
+    "roleId": "performance-engineer",
+    "roleName": "Performance Engineer",
+    "domain": "quality-testing",
+    "category": "performance-reliability",
+    "matchedSkillCount": 29,
+    "topSkills": [
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-qa-testing-automation-skills-k6-performance",
+        "skillName": "k6 Performance Testing",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/qa-testing-automation/skills/k6-performance/SKILL.md",
+        "rankScore": 80
+      },
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-qa-testing-automation-skills-jmeter-performance",
+        "skillName": "JMeter Performance Testing",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/qa-testing-automation/skills/jmeter-performance/SKILL.md",
+        "rankScore": 60
+      },
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-software-architecture-skills-load-test-generator",
+        "skillName": "load-test-generator",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/software-architecture/skills/load-test-generator/SKILL.md",
+        "rankScore": 60
+      },
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-ux-ui-design-skills-lighthouse",
+        "skillName": "lighthouse",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/ux-ui-design/skills/lighthouse/SKILL.md",
+        "rankScore": 60
+      },
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-web-development-skills-web-performance",
+        "skillName": "web-performance",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/web-development/skills/web-performance/SKILL.md",
+        "rankScore": 60
+      }
+    ]
+  },
+  {
+    "roleId": "embedded-engineer",
+    "roleName": "Embedded Systems Engineer",
+    "domain": "hardware-science",
+    "category": "embedded-robotics",
+    "matchedSkillCount": 253,
+    "topSkills": [
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-security-research-skills-hardware-security",
+        "skillName": "hardware-security",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/security-research/skills/hardware-security/SKILL.md",
+        "rankScore": 80
+      },
+      {
+        "skillId": "anthropic-cybersecurity-skills-skills-performing-iot-security-assessment",
+        "skillName": "performing-iot-security-assessment",
+        "sourceRepo": "Anthropic-Cybersecurity-Skills",
+        "skillFilePath": "skills/Anthropic-Cybersecurity-Skills/skills/performing-iot-security-assessment/SKILL.md",
+        "rankScore": 80
+      },
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-embedded-systems-skills-ota-firmware-update",
+        "skillName": "ota-firmware-update",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/embedded-systems/skills/ota-firmware-update/SKILL.md",
+        "rankScore": 70
+      },
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-embedded-systems-skills-embedded-docs",
+        "skillName": "embedded-docs",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/embedded-systems/skills/embedded-docs/SKILL.md",
+        "rankScore": 70
+      },
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-embedded-systems-skills-freertos-integration",
+        "skillName": "freertos-integration",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/embedded-systems/skills/freertos-integration/SKILL.md",
+        "rankScore": 70
+      }
+    ]
+  },
+  {
+    "roleId": "robotics-engineer",
+    "roleName": "Robotics Engineer",
+    "domain": "hardware-science",
+    "category": "embedded-robotics",
+    "matchedSkillCount": 59,
+    "topSkills": [
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-robotics-simulation-skills-nav2-navigation",
+        "skillName": "Nav2 Navigation Skill",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/robotics-simulation/skills/nav2-navigation/SKILL.md",
+        "rankScore": 90
+      },
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-robotics-simulation-skills-ros2-control",
+        "skillName": "ros2_control Skill",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/robotics-simulation/skills/ros2-control/SKILL.md",
+        "rankScore": 80
+      },
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-robotics-simulation-skills-ros-integration",
+        "skillName": "ros-integration",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/robotics-simulation/skills/ros-integration/SKILL.md",
+        "rankScore": 80
+      },
+      {
+        "skillId": "anthropic-cybersecurity-skills-skills-implementing-continuous-security-validation-with-bas",
+        "skillName": "implementing-continuous-security-validation-with-bas",
+        "sourceRepo": "Anthropic-Cybersecurity-Skills",
+        "skillFilePath": "skills/Anthropic-Cybersecurity-Skills/skills/implementing-continuous-security-validation-with-bas/SKILL.md",
+        "rankScore": 70
+      },
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-robotics-simulation-skills-rl-robotics",
+        "skillName": "Reinforcement Learning Skill",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/robotics-simulation/skills/rl-robotics/SKILL.md",
+        "rankScore": 60
+      }
+    ]
+  },
+  {
+    "roleId": "scientific-computing-engineer",
+    "roleName": "Scientific Computing Engineer",
+    "domain": "hardware-science",
+    "category": "scientific-computing",
+    "matchedSkillCount": 78,
+    "topSkills": [
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-domains-science-physics-skills-scipy-optimization-toolkit",
+        "skillName": "scipy-optimization-toolkit",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/domains/science/physics/skills/scipy-optimization-toolkit/SKILL.md",
+        "rankScore": 90
+      },
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-scientific-qutip",
+        "skillName": "qutip",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/scientific/qutip/SKILL.md",
+        "rankScore": 70
+      },
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-scientific-sympy",
+        "skillName": "sympy",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/scientific/sympy/SKILL.md",
+        "rankScore": 70
+      },
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-scientific-biomni",
+        "skillName": "biomni",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/scientific/biomni/SKILL.md",
+        "rankScore": 60
+      },
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-domains-science-physics-skills-comsol-multiphysics-modeler",
+        "skillName": "comsol-multiphysics-modeler",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/domains/science/physics/skills/comsol-multiphysics-modeler/SKILL.md",
+        "rankScore": 60
+      }
+    ]
+  },
+  {
+    "roleId": "app-store-specialist",
+    "roleName": "App Store & Publishing Specialist",
+    "domain": "design-product",
+    "category": "product-management",
+    "matchedSkillCount": 43,
+    "topSkills": [
+      {
+        "skillId": "app-store-connect-cli-skills-skills-asc-localize-metadata",
+        "skillName": "asc-localize-metadata",
+        "sourceRepo": "app-store-connect-cli-skills",
+        "skillFilePath": "skills/app-store-connect-cli-skills/skills/asc-localize-metadata/SKILL.md",
+        "rankScore": 100
+      },
+      {
+        "skillId": "app-store-connect-cli-skills-skills-gpd-metadata-sync",
+        "skillName": "gpd-metadata-sync",
+        "sourceRepo": "app-store-connect-cli-skills",
+        "skillFilePath": "skills/app-store-connect-cli-skills/skills/gpd-metadata-sync/SKILL.md",
+        "rankScore": 100
+      },
+      {
+        "skillId": "app-store-connect-cli-skills-skills-asc-release-flow",
+        "skillName": "asc-release-flow",
+        "sourceRepo": "app-store-connect-cli-skills",
+        "skillFilePath": "skills/app-store-connect-cli-skills/skills/asc-release-flow/SKILL.md",
+        "rankScore": 90
+      },
+      {
+        "skillId": "app-store-connect-cli-skills-skills-asc-metadata-sync",
+        "skillName": "asc-metadata-sync",
+        "sourceRepo": "app-store-connect-cli-skills",
+        "skillFilePath": "skills/app-store-connect-cli-skills/skills/asc-metadata-sync/SKILL.md",
+        "rankScore": 80
+      },
+      {
+        "skillId": "agent-coworker-tui-agents-skills-asc-app-create-ui",
+        "skillName": "asc-app-create-ui",
+        "sourceRepo": "agent-coworker-tui",
+        "skillFilePath": "skills/agent-coworker-tui/.agents/skills/asc-app-create-ui/SKILL.md",
+        "rankScore": 70
+      }
+    ]
+  },
+  {
+    "roleId": "developer-tooling-engineer",
+    "roleName": "Developer Tooling Engineer",
+    "domain": "software-engineering",
+    "category": "backend-development",
+    "matchedSkillCount": 215,
+    "topSkills": [
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-workflow-automation-workflow-automation",
+        "skillName": "workflow-automation",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/workflow-automation/workflow-automation/SKILL.md",
+        "rankScore": 90
+      },
+      {
+        "skillId": "agent-browser-skill-skills-agent-browser",
+        "skillName": "agent-browser",
+        "sourceRepo": "agent-browser-skill",
+        "skillFilePath": "skills/agent-browser-skill/skills/agent-browser/SKILL.md",
+        "rankScore": 80
+      },
+      {
+        "skillId": "claude-flow-agents-skills-v3-cli-modernization",
+        "skillName": "V3 CLI Modernization",
+        "sourceRepo": "claude-flow",
+        "skillFilePath": "skills/claude-flow/.agents/skills/v3-cli-modernization/SKILL.md",
+        "rankScore": 80
+      },
+      {
+        "skillId": "claude-flow-v3-claude-flow-mcp-claude-skills-v3-cli-modernization",
+        "skillName": "V3 CLI Modernization",
+        "sourceRepo": "claude-flow",
+        "skillFilePath": "skills/claude-flow/v3/@claude-flow/mcp/.claude/skills/v3-cli-modernization/SKILL.md",
+        "rankScore": 80
+      },
+      {
+        "skillId": "claude-flow-claude-skills-v3-cli-modernization",
+        "skillName": "V3 CLI Modernization",
+        "sourceRepo": "claude-flow",
+        "skillFilePath": "skills/claude-flow/.claude/skills/v3-cli-modernization/SKILL.md",
+        "rankScore": 80
+      }
+    ]
+  },
+  {
+    "roleId": "mcp-integration-engineer",
+    "roleName": "MCP & Integration Engineer",
+    "domain": "data-ai",
+    "category": "agent-ai-engineering",
+    "matchedSkillCount": 7,
+    "topSkills": [
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-development-mcp-builder",
+        "skillName": "mcp-builder",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/development/mcp-builder/SKILL.md",
+        "rankScore": 90
+      },
+      {
+        "skillId": "claude-skills-skills-mcp-builder",
+        "skillName": "mcp-builder",
+        "sourceRepo": "claude-skills",
+        "skillFilePath": "skills/claude-skills/skills/mcp-builder/SKILL.md",
+        "rankScore": 90
+      },
+      {
+        "skillId": "mcp-scan-tests-skills-mcp-builder",
+        "skillName": "mcp-builder",
+        "sourceRepo": "mcp-scan",
+        "skillFilePath": "skills/mcp-scan/tests/skills/mcp-builder/SKILL.md",
+        "rankScore": 90
+      },
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-cli-mcp-development-skills-mcp-inspector-integration",
+        "skillName": "mcp-inspector-integration",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/cli-mcp-development/skills/mcp-inspector-integration/SKILL.md",
+        "rankScore": 60
+      },
+      {
+        "skillId": "skills-huggingface-hf-dataset-creator",
+        "skillName": "hugging-face-dataset-creator",
+        "sourceRepo": "skills-huggingface",
+        "skillFilePath": "skills/skills-huggingface/hf_dataset_creator/SKILL.md",
+        "rankScore": 40
+      }
+    ]
+  },
+  {
+    "roleId": "web3-blockchain-developer",
+    "roleName": "Web3 & Blockchain Developer",
+    "domain": "software-engineering",
+    "category": "backend-development",
+    "matchedSkillCount": 7,
+    "topSkills": [
+      {
+        "skillId": "anthropic-cybersecurity-skills-skills-analyzing-ethereum-smart-contract-vulnerabilities",
+        "skillName": "analyzing-ethereum-smart-contract-vulnerabilities",
+        "sourceRepo": "Anthropic-Cybersecurity-Skills",
+        "skillFilePath": "skills/Anthropic-Cybersecurity-Skills/skills/analyzing-ethereum-smart-contract-vulnerabilities/SKILL.md",
+        "rankScore": 100
+      },
+      {
+        "skillId": "openclaw-banker-skills-bankr",
+        "skillName": "bankr",
+        "sourceRepo": "openclaw-banker-skills",
+        "skillFilePath": "skills/openclaw-banker-skills/bankr/SKILL.md",
+        "rankScore": 60
+      },
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-security-research-skills-smart-contract-analysis",
+        "skillName": "Smart Contract Analysis Skill",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/security-research/skills/smart-contract-analysis/SKILL.md",
+        "rankScore": 60
+      },
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-cryptography-blockchain-skills-foundry-framework",
+        "skillName": "foundry-framework",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/cryptography-blockchain/skills/foundry-framework/SKILL.md",
+        "rankScore": 50
+      },
+      {
+        "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-cryptography-blockchain-skills-hardhat-framework",
+        "skillName": "hardhat-framework",
+        "sourceRepo": "babysitter-codex",
+        "skillFilePath": "skills/babysitter-codex/upstream/babysitter/skills/babysit/process/specializations/cryptography-blockchain/skills/hardhat-framework/SKILL.md",
+        "rankScore": 50
+      }
+    ]
+  },
+  {
+    "roleId": "3d-graphics-engineer",
+    "roleName": "3D & Graphics Engineer",
+    "domain": "design-product",
+    "category": "ux-design",
+    "matchedSkillCount": 14,
+    "topSkills": [
+      {
+        "skillId": "threejs-skills-skills-threejs-shaders",
+        "skillName": "threejs-shaders",
+        "sourceRepo": "threejs-skills",
+        "skillFilePath": "skills/threejs-skills/skills/threejs-shaders/SKILL.md",
+        "rankScore": 100
+      },
+      {
+        "skillId": "claude-code-templates-cli-tool-components-skills-creative-design-3d-web-experience",
+        "skillName": "3d-web-experience",
+        "sourceRepo": "claude-code-templates",
+        "skillFilePath": "skills/claude-code-templates/cli-tool/components/skills/creative-design/3d-web-experience/SKILL.md",
+        "rankScore": 90
+      },
+      {
+        "skillId": "threejs-skills-skills-threejs-animation",
+        "skillName": "threejs-animation",
+        "sourceRepo": "threejs-skills",
+        "skillFilePath": "skills/threejs-skills/skills/threejs-animation/SKILL.md",
+        "rankScore": 70
+      },
+      {
+        "skillId": "threejs-skills-skills-threejs-fundamentals",
+        "skillName": "threejs-fundamentals",
+        "sourceRepo": "threejs-skills",
+        "skillFilePath": "skills/threejs-skills/skills/threejs-fundamentals/SKILL.md",
+        "rankScore": 70
+      },
+      {
+        "skillId": "threejs-skills-skills-threejs-geometry",
+        "skillName": "threejs-geometry",
+        "sourceRepo": "threejs-skills",
+        "skillFilePath": "skills/threejs-skills/skills/threejs-geometry/SKILL.md",
+        "rankScore": 70
+      }
+    ]
+  }
+]

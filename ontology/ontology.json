@@ -1,0 +1,535 @@
+{
+  "domains": [
+    {
+      "id": "software-engineering",
+      "name": "Software Engineering",
+      "description": "Core software development disciplines spanning frontend, backend, mobile, and general-purpose engineering."
+    },
+    {
+      "id": "data-ai",
+      "name": "Data & AI",
+      "description": "Data engineering, machine learning, analytics pipelines, and AI/LLM application development."
+    },
+    {
+      "id": "devops-infrastructure",
+      "name": "DevOps & Infrastructure",
+      "description": "Cloud platforms, CI/CD, containerization, infrastructure-as-code, and platform engineering."
+    },
+    {
+      "id": "security-compliance",
+      "name": "Security & Compliance",
+      "description": "Cybersecurity engineering, penetration testing, compliance frameworks, and threat intelligence."
+    },
+    {
+      "id": "design-product",
+      "name": "Design & Product",
+      "description": "UI/UX design, product management, growth, content creation, and creative media."
+    },
+    {
+      "id": "quality-testing",
+      "name": "Quality & Testing",
+      "description": "Software quality assurance, automated testing, performance benchmarking, and debugging workflows."
+    },
+    {
+      "id": "hardware-science",
+      "name": "Hardware & Science",
+      "description": "Embedded systems, robotics, scientific computing, FPGA, and domain-specific engineering."
+    }
+  ],
+  "categories": [
+    {
+      "id": "frontend-development",
+      "name": "Frontend Development",
+      "domain": "software-engineering",
+      "description": "Web UI, browser-facing applications, component libraries, and client-side frameworks."
+    },
+    {
+      "id": "backend-development",
+      "name": "Backend Development",
+      "domain": "software-engineering",
+      "description": "Server-side applications, REST/GraphQL APIs, microservices, and distributed systems."
+    },
+    {
+      "id": "mobile-development",
+      "name": "Mobile Development",
+      "domain": "software-engineering",
+      "description": "iOS, Android, and cross-platform mobile application development."
+    },
+    {
+      "id": "agent-ai-engineering",
+      "name": "AI Agent Engineering",
+      "domain": "data-ai",
+      "description": "LLM-powered agents, multi-agent orchestration, RAG systems, and AI workflow automation."
+    },
+    {
+      "id": "ml-data-science",
+      "name": "ML & Data Science",
+      "domain": "data-ai",
+      "description": "Machine learning models, statistical analysis, data pipelines, and scientific computing."
+    },
+    {
+      "id": "data-engineering",
+      "name": "Data Engineering",
+      "domain": "data-ai",
+      "description": "ETL pipelines, data warehousing, databases, and analytics infrastructure."
+    },
+    {
+      "id": "cloud-infrastructure",
+      "name": "Cloud & Infrastructure",
+      "domain": "devops-infrastructure",
+      "description": "Cloud platforms (AWS, GCP, Azure), infrastructure-as-code, and platform services."
+    },
+    {
+      "id": "devops-cicd",
+      "name": "DevOps & CI/CD",
+      "domain": "devops-infrastructure",
+      "description": "CI/CD pipelines, containerization, orchestration, and deployment automation."
+    },
+    {
+      "id": "security-engineering",
+      "name": "Security Engineering",
+      "domain": "security-compliance",
+      "description": "Application security, vulnerability research, red/blue teaming, and security tooling."
+    },
+    {
+      "id": "compliance-governance",
+      "name": "Compliance & Governance",
+      "domain": "security-compliance",
+      "description": "Regulatory compliance, security auditing, risk management, and governance frameworks."
+    },
+    {
+      "id": "ux-design",
+      "name": "UX & Design",
+      "domain": "design-product",
+      "description": "User experience design, visual design, design systems, and prototyping."
+    },
+    {
+      "id": "product-management",
+      "name": "Product Management",
+      "domain": "design-product",
+      "description": "Product strategy, roadmapping, growth, and cross-functional coordination."
+    },
+    {
+      "id": "content-documentation",
+      "name": "Content & Documentation",
+      "domain": "design-product",
+      "description": "Technical writing, documentation, SEO, localization, and content production."
+    },
+    {
+      "id": "qa-automation",
+      "name": "QA & Test Automation",
+      "domain": "quality-testing",
+      "description": "Test frameworks, end-to-end automation, contract testing, and regression detection."
+    },
+    {
+      "id": "performance-reliability",
+      "name": "Performance & Reliability",
+      "domain": "quality-testing",
+      "description": "Load testing, performance profiling, SLO management, and reliability engineering."
+    },
+    {
+      "id": "embedded-robotics",
+      "name": "Embedded & Robotics",
+      "domain": "hardware-science",
+      "description": "Embedded systems, FPGA, robotics, real-time control, and hardware interfacing."
+    },
+    {
+      "id": "scientific-computing",
+      "name": "Scientific Computing",
+      "domain": "hardware-science",
+      "description": "Scientific workflows, simulations, physics/chemistry modeling, and research automation."
+    }
+  ],
+  "roles": [
+    {
+      "id": "react-developer",
+      "name": "React Developer",
+      "domain": "software-engineering",
+      "category": "frontend-development",
+      "description": "Builds interactive web applications using React and its ecosystem. Specializes in component architecture, state management, and React performance patterns.",
+      "associatedTech": ["React", "Next.js", "TypeScript", "TanStack Query", "Zustand", "Redux", "Tailwind CSS", "Vite"],
+      "keySignals": ["react", "next.js", "nextjs", "react-query", "react-development", "hooks", "jsx", "react-best-practices"],
+      "skillCount": 95
+    },
+    {
+      "id": "frontend-engineer",
+      "name": "Frontend Engineer",
+      "domain": "software-engineering",
+      "category": "frontend-development",
+      "description": "Develops web UIs with strong command of HTML, CSS, JavaScript/TypeScript, and modern build tooling. Covers accessibility, responsive design, and cross-browser compatibility.",
+      "associatedTech": ["JavaScript", "TypeScript", "HTML", "CSS", "Tailwind CSS", "Vue", "Angular", "Svelte", "Vite", "ESLint"],
+      "keySignals": ["frontend", "javascript", "typescript", "css", "html", "tailwind", "eslint", "web-development", "angular", "vue", "svelte"],
+      "skillCount": 120
+    },
+    {
+      "id": "node-backend-developer",
+      "name": "Node.js Backend Developer",
+      "domain": "software-engineering",
+      "category": "backend-development",
+      "description": "Builds server-side applications and APIs using Node.js and associated frameworks. Focuses on REST/GraphQL API design, middleware, and server performance.",
+      "associatedTech": ["Node.js", "Express", "Fastify", "NestJS", "GraphQL", "REST", "TypeScript", "WebSockets"],
+      "keySignals": ["node.js", "nodejs", "express", "fastapi", "backend", "api", "rest", "graphql", "websocket", "server"],
+      "skillCount": 80
+    },
+    {
+      "id": "python-backend-developer",
+      "name": "Python Backend Developer",
+      "domain": "software-engineering",
+      "category": "backend-development",
+      "description": "Develops backend services and APIs using Python frameworks. Works with Django, FastAPI, or Flask for web services and integrates databases and async patterns.",
+      "associatedTech": ["Python", "FastAPI", "Django", "Flask", "SQLAlchemy", "Celery", "pytest"],
+      "keySignals": ["django", "flask", "fastapi", "python", "pytest", "celery", "sqlalchemy"],
+      "skillCount": 55
+    },
+    {
+      "id": "fullstack-developer",
+      "name": "Full-Stack Developer",
+      "domain": "software-engineering",
+      "category": "backend-development",
+      "description": "Works across the entire web stack from UI to database. Familiar with both frontend frameworks and backend APIs, with strong skills in integration and deployment.",
+      "associatedTech": ["React", "Next.js", "Node.js", "PostgreSQL", "Prisma", "TypeScript", "REST", "GraphQL"],
+      "keySignals": ["fullstack", "full-stack", "nextjs", "prisma", "trpc", "supabase", "full stack"],
+      "skillCount": 60
+    },
+    {
+      "id": "ios-developer",
+      "name": "iOS Developer",
+      "domain": "software-engineering",
+      "category": "mobile-development",
+      "description": "Develops native iOS and macOS applications using Swift and SwiftUI. Manages App Store publishing, device APIs, and Apple platform integrations.",
+      "associatedTech": ["Swift", "SwiftUI", "UIKit", "AppKit", "Xcode", "Core Data", "SwiftData", "CocoaPods", "TestFlight"],
+      "keySignals": ["swift", "swiftui", "ios", "macos", "xcode", "uikit", "appkit", "visionos", "swiftdata", "testflight"],
+      "skillCount": 90
+    },
+    {
+      "id": "android-developer",
+      "name": "Android Developer",
+      "domain": "software-engineering",
+      "category": "mobile-development",
+      "description": "Builds Android applications using Kotlin and Jetpack Compose. Handles Google Play publishing, Android SDK, and Kotlin-idiomatic patterns.",
+      "associatedTech": ["Kotlin", "Jetpack Compose", "Android SDK", "Gradle", "Android Studio", "Room", "Retrofit"],
+      "keySignals": ["android", "kotlin", "jetpack", "compose", "gradle", "adb", "android studio", "google play"],
+      "skillCount": 25
+    },
+    {
+      "id": "ai-agent-engineer",
+      "name": "AI Agent Engineer",
+      "domain": "data-ai",
+      "category": "agent-ai-engineering",
+      "description": "Designs and implements autonomous AI agents and multi-agent orchestration systems. Specializes in LLM tool-calling, subagents, MCP integration, and agent memory/state management.",
+      "associatedTech": ["Claude", "OpenAI", "LangChain", "LangGraph", "MCP", "AutoGen", "CrewAI", "Anthropic SDK"],
+      "keySignals": ["agent", "agents", "subagent", "multi-agent", "orchestration", "mcp", "tool calling", "claude", "anthropic", "codex", "gemini"],
+      "skillCount": 250
+    },
+    {
+      "id": "llm-prompt-engineer",
+      "name": "LLM & Prompt Engineer",
+      "domain": "data-ai",
+      "category": "agent-ai-engineering",
+      "description": "Crafts and optimizes prompts, evaluations, and inference pipelines for large language models. Works on prompt chaining, system prompts, and fine-tuning workflows.",
+      "associatedTech": ["Claude", "GPT-4", "Gemini", "Ollama", "Braintrust", "Langfuse", "RLHF", "LoRA"],
+      "keySignals": ["prompt", "llm", "fine-tun", "inference", "embedding", "rag", "retrieval", "openai", "model", "braintrust"],
+      "skillCount": 180
+    },
+    {
+      "id": "rag-knowledge-engineer",
+      "name": "RAG & Knowledge Engineer",
+      "domain": "data-ai",
+      "category": "agent-ai-engineering",
+      "description": "Builds retrieval-augmented generation pipelines and knowledge bases. Specializes in vector databases, embedding models, chunking strategies, and semantic search.",
+      "associatedTech": ["Pinecone", "Weaviate", "Chroma", "pgvector", "OpenAI Embeddings", "LlamaIndex", "LangChain"],
+      "keySignals": ["rag", "embedding", "vector", "retrieval", "knowledge base", "semantic search", "chroma", "pinecone", "llamaindex"],
+      "skillCount": 100
+    },
+    {
+      "id": "ml-engineer",
+      "name": "Machine Learning Engineer",
+      "domain": "data-ai",
+      "category": "ml-data-science",
+      "description": "Builds and deploys machine learning models from experimentation to production. Covers model training, evaluation, feature engineering, and ML infrastructure.",
+      "associatedTech": ["Python", "PyTorch", "TensorFlow", "scikit-learn", "HuggingFace", "MLflow", "Weights & Biases"],
+      "keySignals": ["machine learning", "ml", "model", "pytorch", "tensorflow", "scikit", "huggingface", "training", "neural network"],
+      "skillCount": 70
+    },
+    {
+      "id": "data-scientist",
+      "name": "Data Scientist",
+      "domain": "data-ai",
+      "category": "ml-data-science",
+      "description": "Analyzes data to derive insights and builds predictive models. Uses statistical methods, visualization, and experimentation to drive data-informed decisions.",
+      "associatedTech": ["Python", "Jupyter", "pandas", "NumPy", "Matplotlib", "Seaborn", "R", "SciPy", "statsmodels"],
+      "keySignals": ["analytics", "data science", "jupyter", "pandas", "numpy", "statistics", "visualization", "experiment"],
+      "skillCount": 60
+    },
+    {
+      "id": "data-engineer",
+      "name": "Data Engineer",
+      "domain": "data-ai",
+      "category": "data-engineering",
+      "description": "Designs and maintains data pipelines, warehouses, and ETL processes. Works with distributed data systems and ensures reliable data availability for analytics.",
+      "associatedTech": ["dbt", "Airflow", "Spark", "Kafka", "ClickHouse", "BigQuery", "Snowflake", "SQL", "Postgres"],
+      "keySignals": ["etl", "pipeline", "dbt", "airflow", "spark", "clickhouse", "bigquery", "warehouse", "data-ingestion", "kafka"],
+      "skillCount": 80
+    },
+    {
+      "id": "database-engineer",
+      "name": "Database Engineer",
+      "domain": "data-ai",
+      "category": "data-engineering",
+      "description": "Designs, optimizes, and manages relational and NoSQL databases. Covers schema design, query optimization, migrations, and database reliability.",
+      "associatedTech": ["PostgreSQL", "MySQL", "SQLite", "MongoDB", "Redis", "DynamoDB", "Prisma", "SQLAlchemy"],
+      "keySignals": ["database", "sql", "postgres", "mysql", "mongodb", "redis", "schema", "migration", "query optimization"],
+      "skillCount": 55
+    },
+    {
+      "id": "cloud-architect",
+      "name": "Cloud Architect",
+      "domain": "devops-infrastructure",
+      "category": "cloud-infrastructure",
+      "description": "Designs and governs cloud infrastructure across AWS, GCP, and Azure. Focuses on scalability, cost optimization, multi-region resilience, and cloud-native services.",
+      "associatedTech": ["AWS", "GCP", "Azure", "Terraform", "Pulumi", "CloudFormation", "CDK", "Cloudflare"],
+      "keySignals": ["aws", "gcp", "azure", "cloud", "infrastructure", "terraform", "cloudformation", "cdk", "cloudflare"],
+      "skillCount": 75
+    },
+    {
+      "id": "devops-engineer",
+      "name": "DevOps Engineer",
+      "domain": "devops-infrastructure",
+      "category": "devops-cicd",
+      "description": "Builds and maintains CI/CD pipelines and automated deployment workflows. Bridges development and operations to accelerate software delivery.",
+      "associatedTech": ["GitHub Actions", "Jenkins", "CircleCI", "ArgoCD", "Terraform", "Ansible", "Linux", "Bash"],
+      "keySignals": ["devops", "ci/cd", "github actions", "jenkins", "deployment", "pipeline", "automation", "shell", "linux"],
+      "skillCount": 85
+    },
+    {
+      "id": "platform-engineer",
+      "name": "Platform Engineer",
+      "domain": "devops-infrastructure",
+      "category": "devops-cicd",
+      "description": "Builds internal developer platforms and golden paths for engineering teams. Works on tooling, self-service infrastructure, and developer experience.",
+      "associatedTech": ["Kubernetes", "Helm", "Docker", "Backstage", "ArgoCD", "Terraform", "Prometheus", "Grafana"],
+      "keySignals": ["platform", "kubernetes", "helm", "docker", "k8s", "container", "service mesh", "istio", "observability"],
+      "skillCount": 55
+    },
+    {
+      "id": "site-reliability-engineer",
+      "name": "Site Reliability Engineer",
+      "domain": "devops-infrastructure",
+      "category": "devops-cicd",
+      "description": "Ensures system reliability, availability, and performance through observability, incident response, and SLO/SLI engineering.",
+      "associatedTech": ["Prometheus", "Grafana", "Datadog", "PagerDuty", "OpenTelemetry", "Jaeger", "ELK Stack"],
+      "keySignals": ["sre", "reliability", "observability", "monitoring", "alerting", "incident", "slo", "sli", "tracing", "metrics"],
+      "skillCount": 40
+    },
+    {
+      "id": "security-engineer",
+      "name": "Security Engineer",
+      "domain": "security-compliance",
+      "category": "security-engineering",
+      "description": "Designs and implements security controls for applications and infrastructure. Focuses on secure coding, SAST/DAST tooling, authentication, and hardening.",
+      "associatedTech": ["OWASP", "Burp Suite", "Semgrep", "Snyk", "OAuth2", "JWT", "TLS", "Vault"],
+      "keySignals": ["security", "appsec", "oauth", "auth", "jwt", "tls", "vulnerability", "hardening", "sast", "dast", "owasp"],
+      "skillCount": 120
+    },
+    {
+      "id": "penetration-tester",
+      "name": "Penetration Tester",
+      "domain": "security-compliance",
+      "category": "security-engineering",
+      "description": "Conducts offensive security assessments including network, web, and Active Directory penetration testing. Uses red-team tactics to identify exploitable vulnerabilities.",
+      "associatedTech": ["Metasploit", "BloodHound", "Burp Suite", "Nmap", "Cobalt Strike", "Impacket", "PowerSploit"],
+      "keySignals": ["pentest", "penetration", "red team", "red-team", "exploit", "metasploit", "bloodhound", "active directory", "kerberoast"],
+      "skillCount": 200
+    },
+    {
+      "id": "soc-analyst",
+      "name": "SOC / Blue Team Analyst",
+      "domain": "security-compliance",
+      "category": "security-engineering",
+      "description": "Monitors, detects, and responds to security incidents using SIEM platforms and threat intelligence. Performs log analysis, forensics, and incident response.",
+      "associatedTech": ["Splunk", "Elastic SIEM", "QRadar", "CrowdStrike", "Wireshark", "YARA", "Sigma"],
+      "keySignals": ["siem", "blue team", "soc", "log-onboarding", "forensics", "incident", "malware", "threat", "intrusion", "detection"],
+      "skillCount": 180
+    },
+    {
+      "id": "compliance-auditor",
+      "name": "Compliance & Security Auditor",
+      "domain": "security-compliance",
+      "category": "compliance-governance",
+      "description": "Assesses organizational compliance with security standards such as ISO 27001, SOC 2, HIPAA, and GDPR. Manages audit programs and risk registers.",
+      "associatedTech": ["ISO 27001", "SOC 2", "HIPAA", "GDPR", "NIST", "PCI-DSS", "CIS Benchmarks"],
+      "keySignals": ["iso27001", "soc2", "hipaa", "gdpr", "compliance", "audit", "isms", "risk assessment", "governance", "fda", "regulation"],
+      "skillCount": 60
+    },
+    {
+      "id": "cryptography-engineer",
+      "name": "Cryptography Engineer",
+      "domain": "security-compliance",
+      "category": "security-engineering",
+      "description": "Implements and analyzes cryptographic protocols, key management, and secure communication systems. Works on encryption, PKI, and protocol security.",
+      "associatedTech": ["OpenSSL", "GnuPG", "libsodium", "TLS/SSL", "PKI", "HSM", "AES", "RSA", "ECC"],
+      "keySignals": ["cryptography", "encryption", "pki", "tls", "certificate", "key management", "cipher", "hash", "rsa", "ecc"],
+      "skillCount": 80
+    },
+    {
+      "id": "ux-designer",
+      "name": "UX / UI Designer",
+      "domain": "design-product",
+      "category": "ux-design",
+      "description": "Creates user-centered designs, wireframes, and prototypes. Works with design systems, accessibility standards, and user research to deliver polished interfaces.",
+      "associatedTech": ["Figma", "Sketch", "Adobe XD", "Framer", "Storybook", "Radix UI", "shadcn/ui"],
+      "keySignals": ["ux", "ui/ux", "figma", "design", "wireframe", "prototype", "accessibility", "a11y", "design system"],
+      "skillCount": 65
+    },
+    {
+      "id": "product-manager",
+      "name": "Product Manager",
+      "domain": "design-product",
+      "category": "product-management",
+      "description": "Defines product vision, roadmaps, and success metrics. Coordinates engineering, design, and business stakeholders to deliver customer value.",
+      "associatedTech": ["Jira", "Linear", "Notion", "Amplitude", "Mixpanel", "Figma", "Productboard"],
+      "keySignals": ["product management", "product manager", "roadmap", "pm", "feature", "user story", "backlog", "okr", "kpi"],
+      "skillCount": 80
+    },
+    {
+      "id": "growth-marketer",
+      "name": "Growth & Marketing Specialist",
+      "domain": "design-product",
+      "category": "product-management",
+      "description": "Drives user acquisition, retention, and revenue through data-driven marketing, SEO, and growth experiments.",
+      "associatedTech": ["Google Analytics", "Segment", "HubSpot", "Mailchimp", "Ahrefs", "Webflow"],
+      "keySignals": ["growth", "marketing", "seo", "acquisition", "retention", "conversion", "funnel", "campaign", "sales"],
+      "skillCount": 55
+    },
+    {
+      "id": "technical-writer",
+      "name": "Technical Writer",
+      "domain": "design-product",
+      "category": "content-documentation",
+      "description": "Produces clear technical documentation, API references, changelogs, and developer guides. Covers localization, content strategy, and docs-as-code workflows.",
+      "associatedTech": ["Markdown", "Docusaurus", "Mintlify", "Notion", "Confluence", "OpenAPI", "Writerside"],
+      "keySignals": ["documentation", "docs", "writing", "technical writing", "changelog", "localization", "translation", "blog", "api docs"],
+      "skillCount": 90
+    },
+    {
+      "id": "creative-media-producer",
+      "name": "Creative Media Producer",
+      "domain": "design-product",
+      "category": "content-documentation",
+      "description": "Creates video, audio, and animated media content. Works with video editing tools, motion graphics, and programmatic media pipelines.",
+      "associatedTech": ["Remotion", "FFmpeg", "Adobe Premiere", "After Effects", "Stable Diffusion", "ElevenLabs"],
+      "keySignals": ["video", "audio", "remotion", "animation", "media", "graphic", "ffmpeg", "image generation", "elevenlabs"],
+      "skillCount": 55
+    },
+    {
+      "id": "qa-engineer",
+      "name": "QA Automation Engineer",
+      "domain": "quality-testing",
+      "category": "qa-automation",
+      "description": "Designs and implements automated test suites spanning unit, integration, and end-to-end layers. Manages test coverage, flakiness, and CI integration.",
+      "associatedTech": ["Jest", "Vitest", "pytest", "Mocha", "Playwright", "Cypress", "Selenium", "Cucumber"],
+      "keySignals": ["testing", "test", "qa", "jest", "vitest", "pytest", "mocha", "cypress", "cucumber", "bdd", "unit test"],
+      "skillCount": 150
+    },
+    {
+      "id": "e2e-automation-engineer",
+      "name": "E2E & Browser Automation Engineer",
+      "domain": "quality-testing",
+      "category": "qa-automation",
+      "description": "Builds end-to-end and browser automation workflows using Playwright, Selenium, or CDP. Covers web scraping, visual regression, and test orchestration.",
+      "associatedTech": ["Playwright", "Selenium", "Puppeteer", "CDP", "Cypress", "Percy", "WebdriverIO"],
+      "keySignals": ["playwright", "selenium", "puppeteer", "browser", "e2e", "scraping", "crawler", "cdp", "visual regression", "percy"],
+      "skillCount": 60
+    },
+    {
+      "id": "performance-engineer",
+      "name": "Performance Engineer",
+      "domain": "quality-testing",
+      "category": "performance-reliability",
+      "description": "Analyzes and optimizes system performance under load. Uses profiling, benchmarking, and load testing tools to identify and resolve bottlenecks.",
+      "associatedTech": ["k6", "JMeter", "Locust", "Lighthouse", "WebPageTest", "Flamegraph", "perf"],
+      "keySignals": ["performance", "load test", "benchmark", "k6", "jmeter", "profiling", "latency", "throughput", "lighthouse"],
+      "skillCount": 45
+    },
+    {
+      "id": "embedded-engineer",
+      "name": "Embedded Systems Engineer",
+      "domain": "hardware-science",
+      "category": "embedded-robotics",
+      "description": "Develops firmware and software for embedded systems including microcontrollers, FPGAs, and real-time operating systems.",
+      "associatedTech": ["C", "C++", "Rust", "FPGA", "RTOS", "Arduino", "Raspberry Pi", "JTAG", "FreeRTOS"],
+      "keySignals": ["embedded", "fpga", "firmware", "microcontroller", "rtos", "hardware", "electronic", "arduino", "real-time"],
+      "skillCount": 80
+    },
+    {
+      "id": "robotics-engineer",
+      "name": "Robotics Engineer",
+      "domain": "hardware-science",
+      "category": "embedded-robotics",
+      "description": "Builds robotic systems including control algorithms, simulation environments, and sensor integration. Works with ROS and behavior trees.",
+      "associatedTech": ["ROS", "ROS2", "Gazebo", "behavior trees", "Python", "C++", "OpenCV", "SLAM"],
+      "keySignals": ["robot", "robotics", "ros", "ros2", "behavior tree", "simulation", "gazebo", "slam", "control"],
+      "skillCount": 50
+    },
+    {
+      "id": "scientific-computing-engineer",
+      "name": "Scientific Computing Engineer",
+      "domain": "hardware-science",
+      "category": "scientific-computing",
+      "description": "Automates scientific workflows across physics, chemistry, biology, and aerospace domains. Uses numerical computing libraries and domain-specific tools.",
+      "associatedTech": ["Python", "NumPy", "SciPy", "MATLAB", "Julia", "Fortran", "OpenFOAM", "ANSYS"],
+      "keySignals": ["science", "scientific", "aerospace", "physics", "chemistry", "biology", "simulation", "numerical", "medical", "cfds"],
+      "skillCount": 60
+    },
+    {
+      "id": "app-store-specialist",
+      "name": "App Store & Publishing Specialist",
+      "domain": "design-product",
+      "category": "product-management",
+      "description": "Manages App Store Connect and Google Play publishing workflows including screenshots, metadata, TestFlight, and release automation.",
+      "associatedTech": ["App Store Connect", "Fastlane", "TestFlight", "Google Play", "ASO tools", "notarization"],
+      "keySignals": ["app store", "app-store", "testflight", "google play", "store listing", "metadata", "screenshots", "notarization", "asc"],
+      "skillCount": 74
+    },
+    {
+      "id": "developer-tooling-engineer",
+      "name": "Developer Tooling Engineer",
+      "domain": "software-engineering",
+      "category": "backend-development",
+      "description": "Builds CLI tools, developer workflows, plugins, and internal tooling to improve engineering productivity. Works on code generation, linting, and automation scripts.",
+      "associatedTech": ["Node.js", "Go", "Rust", "Python", "Bash", "Make", "Nx", "Turborepo", "GitHub CLI"],
+      "keySignals": ["cli", "tooling", "workflow", "plugin", "developer experience", "dx", "automation", "scripts", "code generation"],
+      "skillCount": 100
+    },
+    {
+      "id": "mcp-integration-engineer",
+      "name": "MCP & Integration Engineer",
+      "domain": "data-ai",
+      "category": "agent-ai-engineering",
+      "description": "Builds and integrates Model Context Protocol (MCP) servers and tools to extend AI agent capabilities with external systems and APIs.",
+      "associatedTech": ["MCP SDK", "Claude", "TypeScript", "Python", "REST APIs", "OAuth", "Webhooks"],
+      "keySignals": ["mcp", "model context protocol", "tool calling", "integration", "connector", "mcp server", "mcp tools"],
+      "skillCount": 80
+    },
+    {
+      "id": "web3-blockchain-developer",
+      "name": "Web3 & Blockchain Developer",
+      "domain": "software-engineering",
+      "category": "backend-development",
+      "description": "Develops smart contracts, DeFi protocols, and blockchain integrations. Works with Solidity, Web3 libraries, and decentralized infrastructure.",
+      "associatedTech": ["Solidity", "Hardhat", "Foundry", "Ethers.js", "Web3.js", "IPFS", "Chainlink"],
+      "keySignals": ["blockchain", "smart contract", "solidity", "defi", "web3", "ethereum", "nft", "hardhat", "foundry"],
+      "skillCount": 25
+    },
+    {
+      "id": "3d-graphics-engineer",
+      "name": "3D & Graphics Engineer",
+      "domain": "design-product",
+      "category": "ux-design",
+      "description": "Creates real-time 3D graphics, WebGL experiences, and interactive visualizations. Works with Three.js, shaders, and game engine paradigms.",
+      "associatedTech": ["Three.js", "WebGL", "GLSL", "Babylon.js", "Unity WebGL", "R3F", "Spline"],
+      "keySignals": ["three.js", "threejs", "webgl", "3d", "shader", "glsl", "r3f", "babylon", "canvas", "animation"],
+      "skillCount": 20
+    }
+  ]
+}

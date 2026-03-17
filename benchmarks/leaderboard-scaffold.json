@@ -1,0 +1,2730 @@
+[
+  {
+    "benchmarkId": "3d-graphics-engineer-pmndrs-react-three-fiber-pr-3594",
+    "roleId": "3d-graphics-engineer",
+    "skillId": "threejs-skills-skills-threejs-shaders",
+    "skillName": "threejs-shaders",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "3d-graphics-engineer-pmndrs-react-three-fiber-pr-3594",
+    "roleId": "3d-graphics-engineer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-creative-design-3d-web-experience",
+    "skillName": "3d-web-experience",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "3d-graphics-engineer-pmndrs-react-three-fiber-pr-3594",
+    "roleId": "3d-graphics-engineer",
+    "skillId": "threejs-skills-skills-threejs-animation",
+    "skillName": "threejs-animation",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "3d-graphics-engineer-mrdoob-three.js-pr-33187",
+    "roleId": "3d-graphics-engineer",
+    "skillId": "threejs-skills-skills-threejs-shaders",
+    "skillName": "threejs-shaders",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "3d-graphics-engineer-mrdoob-three.js-pr-33187",
+    "roleId": "3d-graphics-engineer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-creative-design-3d-web-experience",
+    "skillName": "3d-web-experience",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "3d-graphics-engineer-mrdoob-three.js-pr-33187",
+    "roleId": "3d-graphics-engineer",
+    "skillId": "threejs-skills-skills-threejs-animation",
+    "skillName": "threejs-animation",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "3d-graphics-engineer-mrdoob-three.js-pr-33174",
+    "roleId": "3d-graphics-engineer",
+    "skillId": "threejs-skills-skills-threejs-shaders",
+    "skillName": "threejs-shaders",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "3d-graphics-engineer-mrdoob-three.js-pr-33174",
+    "roleId": "3d-graphics-engineer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-creative-design-3d-web-experience",
+    "skillName": "3d-web-experience",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "3d-graphics-engineer-mrdoob-three.js-pr-33174",
+    "roleId": "3d-graphics-engineer",
+    "skillId": "threejs-skills-skills-threejs-animation",
+    "skillName": "threejs-animation",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "ai-agent-engineer-crewaiinc-crewai-pr-4775",
+    "roleId": "ai-agent-engineer",
+    "skillId": "claude-code-beads-orchestration",
+    "skillName": "create-beads-orchestration",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "ai-agent-engineer-crewaiinc-crewai-pr-4775",
+    "roleId": "ai-agent-engineer",
+    "skillId": "agent-skills-jdrhyne-skills-task-orchestrator",
+    "skillName": "task-orchestrator",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "ai-agent-engineer-crewaiinc-crewai-pr-4775",
+    "roleId": "ai-agent-engineer",
+    "skillId": "claude-bootstrap-skills-ai-models",
+    "skillName": "ai-models",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "ai-agent-engineer-langchain-ai-langgraph-pr-6874",
+    "roleId": "ai-agent-engineer",
+    "skillId": "claude-code-beads-orchestration",
+    "skillName": "create-beads-orchestration",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "ai-agent-engineer-langchain-ai-langgraph-pr-6874",
+    "roleId": "ai-agent-engineer",
+    "skillId": "agent-skills-jdrhyne-skills-task-orchestrator",
+    "skillName": "task-orchestrator",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "ai-agent-engineer-langchain-ai-langgraph-pr-6874",
+    "roleId": "ai-agent-engineer",
+    "skillId": "claude-bootstrap-skills-ai-models",
+    "skillName": "ai-models",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "ai-agent-engineer-langchain-ai-langchain-pr-35779",
+    "roleId": "ai-agent-engineer",
+    "skillId": "claude-code-beads-orchestration",
+    "skillName": "create-beads-orchestration",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "ai-agent-engineer-langchain-ai-langchain-pr-35779",
+    "roleId": "ai-agent-engineer",
+    "skillId": "agent-skills-jdrhyne-skills-task-orchestrator",
+    "skillName": "task-orchestrator",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "ai-agent-engineer-langchain-ai-langchain-pr-35779",
+    "roleId": "ai-agent-engineer",
+    "skillId": "claude-bootstrap-skills-ai-models",
+    "skillName": "ai-models",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "android-developer-airbnb-lottie-android-pr-2635",
+    "roleId": "android-developer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-mobile-development-skills-kotlin-compose",
+    "skillName": "Kotlin/Jetpack Compose Development",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "android-developer-airbnb-lottie-android-pr-2635",
+    "roleId": "android-developer",
+    "skillId": "claude-bootstrap-skills-android-kotlin",
+    "skillName": "android-kotlin",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "android-developer-airbnb-lottie-android-pr-2635",
+    "roleId": "android-developer",
+    "skillId": "platform-design-skills-skills-android",
+    "skillName": "android-design-guidelines",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "android-developer-airbnb-lottie-android-pr-2597",
+    "roleId": "android-developer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-mobile-development-skills-kotlin-compose",
+    "skillName": "Kotlin/Jetpack Compose Development",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "android-developer-airbnb-lottie-android-pr-2597",
+    "roleId": "android-developer",
+    "skillId": "claude-bootstrap-skills-android-kotlin",
+    "skillName": "android-kotlin",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "android-developer-airbnb-lottie-android-pr-2597",
+    "roleId": "android-developer",
+    "skillId": "platform-design-skills-skills-android",
+    "skillName": "android-design-guidelines",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "android-developer-android-nowinandroid-pr-2089",
+    "roleId": "android-developer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-mobile-development-skills-kotlin-compose",
+    "skillName": "Kotlin/Jetpack Compose Development",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "android-developer-android-nowinandroid-pr-2089",
+    "roleId": "android-developer",
+    "skillId": "claude-bootstrap-skills-android-kotlin",
+    "skillName": "android-kotlin",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "android-developer-android-nowinandroid-pr-2089",
+    "roleId": "android-developer",
+    "skillId": "platform-design-skills-skills-android",
+    "skillName": "android-design-guidelines",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "app-store-specialist-fastlane-fastlane-pr-29925",
+    "roleId": "app-store-specialist",
+    "skillId": "app-store-connect-cli-skills-skills-asc-localize-metadata",
+    "skillName": "asc-localize-metadata",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "app-store-specialist-fastlane-fastlane-pr-29925",
+    "roleId": "app-store-specialist",
+    "skillId": "app-store-connect-cli-skills-skills-gpd-metadata-sync",
+    "skillName": "gpd-metadata-sync",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "app-store-specialist-fastlane-fastlane-pr-29925",
+    "roleId": "app-store-specialist",
+    "skillId": "app-store-connect-cli-skills-skills-asc-release-flow",
+    "skillName": "asc-release-flow",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "app-store-specialist-fastlane-fastlane-pr-29910",
+    "roleId": "app-store-specialist",
+    "skillId": "app-store-connect-cli-skills-skills-asc-localize-metadata",
+    "skillName": "asc-localize-metadata",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "app-store-specialist-fastlane-fastlane-pr-29910",
+    "roleId": "app-store-specialist",
+    "skillId": "app-store-connect-cli-skills-skills-gpd-metadata-sync",
+    "skillName": "gpd-metadata-sync",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "app-store-specialist-fastlane-fastlane-pr-29910",
+    "roleId": "app-store-specialist",
+    "skillId": "app-store-connect-cli-skills-skills-asc-release-flow",
+    "skillName": "asc-release-flow",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "app-store-specialist-fastlane-fastlane-pr-29944",
+    "roleId": "app-store-specialist",
+    "skillId": "app-store-connect-cli-skills-skills-asc-localize-metadata",
+    "skillName": "asc-localize-metadata",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "app-store-specialist-fastlane-fastlane-pr-29944",
+    "roleId": "app-store-specialist",
+    "skillId": "app-store-connect-cli-skills-skills-gpd-metadata-sync",
+    "skillName": "gpd-metadata-sync",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "app-store-specialist-fastlane-fastlane-pr-29944",
+    "roleId": "app-store-specialist",
+    "skillId": "app-store-connect-cli-skills-skills-asc-release-flow",
+    "skillName": "asc-release-flow",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "cloud-architect-fluxcd-flagger-pr-1828",
+    "roleId": "cloud-architect",
+    "skillId": "anthropic-cybersecurity-skills-skills-conducting-cloud-infrastructure-penetration-test",
+    "skillName": "conducting-cloud-infrastructure-penetration-test",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "cloud-architect-fluxcd-flagger-pr-1828",
+    "roleId": "cloud-architect",
+    "skillId": "anthropic-cybersecurity-skills-skills-performing-cloud-asset-inventory-with-cartography",
+    "skillName": "performing-cloud-asset-inventory-with-cartography",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "cloud-architect-fluxcd-flagger-pr-1828",
+    "roleId": "cloud-architect",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-code-migration-modernization-skills-iac-generator",
+    "skillName": "iac-generator",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "cloud-architect-fluxcd-flagger-pr-1844",
+    "roleId": "cloud-architect",
+    "skillId": "anthropic-cybersecurity-skills-skills-conducting-cloud-infrastructure-penetration-test",
+    "skillName": "conducting-cloud-infrastructure-penetration-test",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "cloud-architect-fluxcd-flagger-pr-1844",
+    "roleId": "cloud-architect",
+    "skillId": "anthropic-cybersecurity-skills-skills-performing-cloud-asset-inventory-with-cartography",
+    "skillName": "performing-cloud-asset-inventory-with-cartography",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "cloud-architect-fluxcd-flagger-pr-1844",
+    "roleId": "cloud-architect",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-code-migration-modernization-skills-iac-generator",
+    "skillName": "iac-generator",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "cloud-architect-terraform-aws-modules-terraform-aws-eks-pr-3620",
+    "roleId": "cloud-architect",
+    "skillId": "anthropic-cybersecurity-skills-skills-conducting-cloud-infrastructure-penetration-test",
+    "skillName": "conducting-cloud-infrastructure-penetration-test",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "cloud-architect-terraform-aws-modules-terraform-aws-eks-pr-3620",
+    "roleId": "cloud-architect",
+    "skillId": "anthropic-cybersecurity-skills-skills-performing-cloud-asset-inventory-with-cartography",
+    "skillName": "performing-cloud-asset-inventory-with-cartography",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "cloud-architect-terraform-aws-modules-terraform-aws-eks-pr-3620",
+    "roleId": "cloud-architect",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-code-migration-modernization-skills-iac-generator",
+    "skillName": "iac-generator",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "cloud-architect-terraform-aws-modules-terraform-aws-vpc-pr-1225",
+    "roleId": "cloud-architect",
+    "skillId": "anthropic-cybersecurity-skills-skills-conducting-cloud-infrastructure-penetration-test",
+    "skillName": "conducting-cloud-infrastructure-penetration-test",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "cloud-architect-terraform-aws-modules-terraform-aws-vpc-pr-1225",
+    "roleId": "cloud-architect",
+    "skillId": "anthropic-cybersecurity-skills-skills-performing-cloud-asset-inventory-with-cartography",
+    "skillName": "performing-cloud-asset-inventory-with-cartography",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "cloud-architect-terraform-aws-modules-terraform-aws-vpc-pr-1225",
+    "roleId": "cloud-architect",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-code-migration-modernization-skills-iac-generator",
+    "skillName": "iac-generator",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "compliance-auditor-prowler-cloud-prowler-pr-10283",
+    "roleId": "compliance-auditor",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-software-architecture-skills-compliance-checker",
+    "skillName": "compliance-checker",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "compliance-auditor-prowler-cloud-prowler-pr-10283",
+    "roleId": "compliance-auditor",
+    "skillId": "claude-code-templates-cli-tool-components-skills-development-security-compliance",
+    "skillName": "security-compliance",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "compliance-auditor-prowler-cloud-prowler-pr-10283",
+    "roleId": "compliance-auditor",
+    "skillId": "anthropic-cybersecurity-skills-skills-performing-access-recertification-with-saviynt",
+    "skillName": "performing-access-recertification-with-saviynt",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "compliance-auditor-prowler-cloud-prowler-pr-10330",
+    "roleId": "compliance-auditor",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-software-architecture-skills-compliance-checker",
+    "skillName": "compliance-checker",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "compliance-auditor-prowler-cloud-prowler-pr-10330",
+    "roleId": "compliance-auditor",
+    "skillId": "claude-code-templates-cli-tool-components-skills-development-security-compliance",
+    "skillName": "security-compliance",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "compliance-auditor-prowler-cloud-prowler-pr-10330",
+    "roleId": "compliance-auditor",
+    "skillId": "anthropic-cybersecurity-skills-skills-performing-access-recertification-with-saviynt",
+    "skillName": "performing-access-recertification-with-saviynt",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "compliance-auditor-bridgecrewio-checkov-pr-7442",
+    "roleId": "compliance-auditor",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-software-architecture-skills-compliance-checker",
+    "skillName": "compliance-checker",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "compliance-auditor-bridgecrewio-checkov-pr-7442",
+    "roleId": "compliance-auditor",
+    "skillId": "claude-code-templates-cli-tool-components-skills-development-security-compliance",
+    "skillName": "security-compliance",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "compliance-auditor-bridgecrewio-checkov-pr-7442",
+    "roleId": "compliance-auditor",
+    "skillId": "anthropic-cybersecurity-skills-skills-performing-access-recertification-with-saviynt",
+    "skillName": "performing-access-recertification-with-saviynt",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "creative-media-producer-remotion-dev-remotion-pr-6832",
+    "roleId": "creative-media-producer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-domains-social-sciences-humanities-education-skills-multimedia-learning-design",
+    "skillName": "multimedia-learning-design",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "creative-media-producer-remotion-dev-remotion-pr-6832",
+    "roleId": "creative-media-producer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-video-remotion",
+    "skillName": "remotion",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "creative-media-producer-remotion-dev-remotion-pr-6832",
+    "roleId": "creative-media-producer",
+    "skillId": "claude-code-video-toolkit-claude-skills-ffmpeg",
+    "skillName": "ffmpeg",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "creative-media-producer-remotion-dev-remotion-pr-6843",
+    "roleId": "creative-media-producer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-domains-social-sciences-humanities-education-skills-multimedia-learning-design",
+    "skillName": "multimedia-learning-design",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "creative-media-producer-remotion-dev-remotion-pr-6843",
+    "roleId": "creative-media-producer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-video-remotion",
+    "skillName": "remotion",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "creative-media-producer-remotion-dev-remotion-pr-6843",
+    "roleId": "creative-media-producer",
+    "skillId": "claude-code-video-toolkit-claude-skills-ffmpeg",
+    "skillName": "ffmpeg",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "creative-media-producer-remotion-dev-remotion-pr-6809",
+    "roleId": "creative-media-producer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-domains-social-sciences-humanities-education-skills-multimedia-learning-design",
+    "skillName": "multimedia-learning-design",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "creative-media-producer-remotion-dev-remotion-pr-6809",
+    "roleId": "creative-media-producer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-video-remotion",
+    "skillName": "remotion",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "creative-media-producer-remotion-dev-remotion-pr-6809",
+    "roleId": "creative-media-producer",
+    "skillId": "claude-code-video-toolkit-claude-skills-ffmpeg",
+    "skillName": "ffmpeg",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "cryptography-engineer-rustcrypto-traits-pr-2341",
+    "roleId": "cryptography-engineer",
+    "skillId": "anthropic-cybersecurity-skills-skills-implementing-rsa-key-pair-management",
+    "skillName": "implementing-rsa-key-pair-management",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "cryptography-engineer-rustcrypto-traits-pr-2341",
+    "roleId": "cryptography-engineer",
+    "skillId": "anthropic-cybersecurity-skills-skills-performing-ssl-certificate-lifecycle-management",
+    "skillName": "performing-ssl-certificate-lifecycle-management",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "cryptography-engineer-rustcrypto-traits-pr-2341",
+    "roleId": "cryptography-engineer",
+    "skillId": "anthropic-cybersecurity-skills-skills-configuring-certificate-authority-with-openssl",
+    "skillName": "configuring-certificate-authority-with-openssl",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "cryptography-engineer-pyca-cryptography-pr-14437",
+    "roleId": "cryptography-engineer",
+    "skillId": "anthropic-cybersecurity-skills-skills-implementing-rsa-key-pair-management",
+    "skillName": "implementing-rsa-key-pair-management",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "cryptography-engineer-pyca-cryptography-pr-14437",
+    "roleId": "cryptography-engineer",
+    "skillId": "anthropic-cybersecurity-skills-skills-performing-ssl-certificate-lifecycle-management",
+    "skillName": "performing-ssl-certificate-lifecycle-management",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "cryptography-engineer-pyca-cryptography-pr-14437",
+    "roleId": "cryptography-engineer",
+    "skillId": "anthropic-cybersecurity-skills-skills-configuring-certificate-authority-with-openssl",
+    "skillName": "configuring-certificate-authority-with-openssl",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "cryptography-engineer-pyca-cryptography-pr-14482",
+    "roleId": "cryptography-engineer",
+    "skillId": "anthropic-cybersecurity-skills-skills-implementing-rsa-key-pair-management",
+    "skillName": "implementing-rsa-key-pair-management",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "cryptography-engineer-pyca-cryptography-pr-14482",
+    "roleId": "cryptography-engineer",
+    "skillId": "anthropic-cybersecurity-skills-skills-performing-ssl-certificate-lifecycle-management",
+    "skillName": "performing-ssl-certificate-lifecycle-management",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "cryptography-engineer-pyca-cryptography-pr-14482",
+    "roleId": "cryptography-engineer",
+    "skillId": "anthropic-cybersecurity-skills-skills-configuring-certificate-authority-with-openssl",
+    "skillName": "configuring-certificate-authority-with-openssl",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "data-engineer-delta-io-delta-rs-pr-4244",
+    "roleId": "data-engineer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-code-migration-modernization-skills-etl-pipeline-builder",
+    "skillName": "etl-pipeline-builder",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "data-engineer-delta-io-delta-rs-pr-4244",
+    "roleId": "data-engineer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-data-engineering-analytics-skills-data-lineage-mapper",
+    "skillName": "data-lineage-mapper",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "data-engineer-delta-io-delta-rs-pr-4244",
+    "roleId": "data-engineer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-development-senior-data-engineer",
+    "skillName": "senior-data-engineer",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "data-engineer-great-expectations-great-expectations-pr-11671",
+    "roleId": "data-engineer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-code-migration-modernization-skills-etl-pipeline-builder",
+    "skillName": "etl-pipeline-builder",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "data-engineer-great-expectations-great-expectations-pr-11671",
+    "roleId": "data-engineer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-data-engineering-analytics-skills-data-lineage-mapper",
+    "skillName": "data-lineage-mapper",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "data-engineer-great-expectations-great-expectations-pr-11671",
+    "roleId": "data-engineer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-development-senior-data-engineer",
+    "skillName": "senior-data-engineer",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "data-engineer-delta-io-delta-rs-pr-4274",
+    "roleId": "data-engineer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-code-migration-modernization-skills-etl-pipeline-builder",
+    "skillName": "etl-pipeline-builder",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "data-engineer-delta-io-delta-rs-pr-4274",
+    "roleId": "data-engineer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-data-engineering-analytics-skills-data-lineage-mapper",
+    "skillName": "data-lineage-mapper",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "data-engineer-delta-io-delta-rs-pr-4274",
+    "roleId": "data-engineer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-development-senior-data-engineer",
+    "skillName": "senior-data-engineer",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "data-engineer-apache-airflow-pr-63673",
+    "roleId": "data-engineer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-code-migration-modernization-skills-etl-pipeline-builder",
+    "skillName": "etl-pipeline-builder",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "data-engineer-apache-airflow-pr-63673",
+    "roleId": "data-engineer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-data-engineering-analytics-skills-data-lineage-mapper",
+    "skillName": "data-lineage-mapper",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "data-engineer-apache-airflow-pr-63673",
+    "roleId": "data-engineer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-development-senior-data-engineer",
+    "skillName": "senior-data-engineer",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "data-scientist-pandas-dev-pandas-pr-64605",
+    "roleId": "data-scientist",
+    "skillId": "claude-code-templates-cli-tool-components-skills-development-senior-data-scientist",
+    "skillName": "senior-data-scientist",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "data-scientist-pandas-dev-pandas-pr-64605",
+    "roleId": "data-scientist",
+    "skillId": "claude-code-templates-cli-tool-components-skills-scientific-vaex",
+    "skillName": "vaex",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "data-scientist-pandas-dev-pandas-pr-64605",
+    "roleId": "data-scientist",
+    "skillId": "claude-code-templates-cli-tool-components-skills-scientific-dask",
+    "skillName": "dask",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "data-scientist-plotly-plotly-py-pr-5481",
+    "roleId": "data-scientist",
+    "skillId": "claude-code-templates-cli-tool-components-skills-development-senior-data-scientist",
+    "skillName": "senior-data-scientist",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "data-scientist-plotly-plotly-py-pr-5481",
+    "roleId": "data-scientist",
+    "skillId": "claude-code-templates-cli-tool-components-skills-scientific-vaex",
+    "skillName": "vaex",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "data-scientist-plotly-plotly-py-pr-5481",
+    "roleId": "data-scientist",
+    "skillId": "claude-code-templates-cli-tool-components-skills-scientific-dask",
+    "skillName": "dask",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "data-scientist-statsmodels-statsmodels-pr-9757",
+    "roleId": "data-scientist",
+    "skillId": "claude-code-templates-cli-tool-components-skills-development-senior-data-scientist",
+    "skillName": "senior-data-scientist",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "data-scientist-statsmodels-statsmodels-pr-9757",
+    "roleId": "data-scientist",
+    "skillId": "claude-code-templates-cli-tool-components-skills-scientific-vaex",
+    "skillName": "vaex",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "data-scientist-statsmodels-statsmodels-pr-9757",
+    "roleId": "data-scientist",
+    "skillId": "claude-code-templates-cli-tool-components-skills-scientific-dask",
+    "skillName": "dask",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "database-engineer-prisma-prisma-pr-29327",
+    "roleId": "database-engineer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-railway-database",
+    "skillName": "railway-database",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "database-engineer-prisma-prisma-pr-29327",
+    "roleId": "database-engineer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-railway-templates",
+    "skillName": "railway-templates",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "database-engineer-prisma-prisma-pr-29327",
+    "roleId": "database-engineer",
+    "skillId": "everything-claude-code-docs-ja-jp-skills-postgres-patterns",
+    "skillName": "postgres-patterns",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "database-engineer-prisma-prisma-pr-29286",
+    "roleId": "database-engineer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-railway-database",
+    "skillName": "railway-database",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "database-engineer-prisma-prisma-pr-29286",
+    "roleId": "database-engineer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-railway-templates",
+    "skillName": "railway-templates",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "database-engineer-prisma-prisma-pr-29286",
+    "roleId": "database-engineer",
+    "skillId": "everything-claude-code-docs-ja-jp-skills-postgres-patterns",
+    "skillName": "postgres-patterns",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "database-engineer-prisma-prisma-pr-29268",
+    "roleId": "database-engineer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-railway-database",
+    "skillName": "railway-database",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "database-engineer-prisma-prisma-pr-29268",
+    "roleId": "database-engineer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-railway-templates",
+    "skillName": "railway-templates",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "database-engineer-prisma-prisma-pr-29268",
+    "roleId": "database-engineer",
+    "skillId": "everything-claude-code-docs-ja-jp-skills-postgres-patterns",
+    "skillName": "postgres-patterns",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "developer-tooling-engineer-astral-sh-ruff-pr-23926",
+    "roleId": "developer-tooling-engineer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-workflow-automation-workflow-automation",
+    "skillName": "workflow-automation",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "developer-tooling-engineer-astral-sh-ruff-pr-23926",
+    "roleId": "developer-tooling-engineer",
+    "skillId": "agent-browser-skill-skills-agent-browser",
+    "skillName": "agent-browser",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "developer-tooling-engineer-astral-sh-ruff-pr-23926",
+    "roleId": "developer-tooling-engineer",
+    "skillId": "claude-flow-agents-skills-v3-cli-modernization",
+    "skillName": "V3 CLI Modernization",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "developer-tooling-engineer-biomejs-biome-pr-9430",
+    "roleId": "developer-tooling-engineer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-workflow-automation-workflow-automation",
+    "skillName": "workflow-automation",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "developer-tooling-engineer-biomejs-biome-pr-9430",
+    "roleId": "developer-tooling-engineer",
+    "skillId": "agent-browser-skill-skills-agent-browser",
+    "skillName": "agent-browser",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "developer-tooling-engineer-biomejs-biome-pr-9430",
+    "roleId": "developer-tooling-engineer",
+    "skillId": "claude-flow-agents-skills-v3-cli-modernization",
+    "skillName": "V3 CLI Modernization",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "developer-tooling-engineer-cli-cli-pr-12846",
+    "roleId": "developer-tooling-engineer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-workflow-automation-workflow-automation",
+    "skillName": "workflow-automation",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "developer-tooling-engineer-cli-cli-pr-12846",
+    "roleId": "developer-tooling-engineer",
+    "skillId": "agent-browser-skill-skills-agent-browser",
+    "skillName": "agent-browser",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "developer-tooling-engineer-cli-cli-pr-12846",
+    "roleId": "developer-tooling-engineer",
+    "skillId": "claude-flow-agents-skills-v3-cli-modernization",
+    "skillName": "V3 CLI Modernization",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "devops-engineer-ansible-ansible-pr-86608",
+    "roleId": "devops-engineer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-devops-sre-platform-skills-cicd-pipelines",
+    "skillName": "cicd-pipelines",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "devops-engineer-ansible-ansible-pr-86608",
+    "roleId": "devops-engineer",
+    "skillId": "claude-flow-agents-skills-github-workflow-automation",
+    "skillName": "github-workflow-automation",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "devops-engineer-prometheus-community-helm-charts-pr-6623",
+    "roleId": "devops-engineer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-devops-sre-platform-skills-cicd-pipelines",
+    "skillName": "cicd-pipelines",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "devops-engineer-prometheus-community-helm-charts-pr-6623",
+    "roleId": "devops-engineer",
+    "skillId": "claude-flow-agents-skills-github-workflow-automation",
+    "skillName": "github-workflow-automation",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "devops-engineer-kubernetes-kubernetes-pr-137751",
+    "roleId": "devops-engineer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-devops-sre-platform-skills-cicd-pipelines",
+    "skillName": "cicd-pipelines",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "devops-engineer-kubernetes-kubernetes-pr-137751",
+    "roleId": "devops-engineer",
+    "skillId": "claude-flow-agents-skills-github-workflow-automation",
+    "skillName": "github-workflow-automation",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "e2e-automation-engineer-cypress-io-cypress-pr-33431",
+    "roleId": "e2e-automation-engineer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-utilities-browser-automation",
+    "skillName": "browser-automation",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "e2e-automation-engineer-cypress-io-cypress-pr-33431",
+    "roleId": "e2e-automation-engineer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-desktop-development-skills-playwright-electron-config",
+    "skillName": "playwright-electron-config",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "e2e-automation-engineer-cypress-io-cypress-pr-33431",
+    "roleId": "e2e-automation-engineer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-web-development-skills-playwright",
+    "skillName": "playwright",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "e2e-automation-engineer-cypress-io-cypress-pr-33469",
+    "roleId": "e2e-automation-engineer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-utilities-browser-automation",
+    "skillName": "browser-automation",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "e2e-automation-engineer-cypress-io-cypress-pr-33469",
+    "roleId": "e2e-automation-engineer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-desktop-development-skills-playwright-electron-config",
+    "skillName": "playwright-electron-config",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "e2e-automation-engineer-cypress-io-cypress-pr-33469",
+    "roleId": "e2e-automation-engineer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-web-development-skills-playwright",
+    "skillName": "playwright",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "e2e-automation-engineer-nightwatchjs-nightwatch-pr-4386",
+    "roleId": "e2e-automation-engineer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-utilities-browser-automation",
+    "skillName": "browser-automation",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "e2e-automation-engineer-nightwatchjs-nightwatch-pr-4386",
+    "roleId": "e2e-automation-engineer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-desktop-development-skills-playwright-electron-config",
+    "skillName": "playwright-electron-config",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "e2e-automation-engineer-nightwatchjs-nightwatch-pr-4386",
+    "roleId": "e2e-automation-engineer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-web-development-skills-playwright",
+    "skillName": "playwright",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "embedded-engineer-zephyrproject-rtos-zephyr-pr-105222",
+    "roleId": "embedded-engineer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-security-research-skills-hardware-security",
+    "skillName": "hardware-security",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "embedded-engineer-zephyrproject-rtos-zephyr-pr-105222",
+    "roleId": "embedded-engineer",
+    "skillId": "anthropic-cybersecurity-skills-skills-performing-iot-security-assessment",
+    "skillName": "performing-iot-security-assessment",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "embedded-engineer-zephyrproject-rtos-zephyr-pr-105222",
+    "roleId": "embedded-engineer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-embedded-systems-skills-ota-firmware-update",
+    "skillName": "ota-firmware-update",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "embedded-engineer-espressif-esp-idf-pr-15972",
+    "roleId": "embedded-engineer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-security-research-skills-hardware-security",
+    "skillName": "hardware-security",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "embedded-engineer-espressif-esp-idf-pr-15972",
+    "roleId": "embedded-engineer",
+    "skillId": "anthropic-cybersecurity-skills-skills-performing-iot-security-assessment",
+    "skillName": "performing-iot-security-assessment",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "embedded-engineer-espressif-esp-idf-pr-15972",
+    "roleId": "embedded-engineer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-embedded-systems-skills-ota-firmware-update",
+    "skillName": "ota-firmware-update",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "embedded-engineer-micropython-micropython-pr-18886",
+    "roleId": "embedded-engineer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-security-research-skills-hardware-security",
+    "skillName": "hardware-security",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "embedded-engineer-micropython-micropython-pr-18886",
+    "roleId": "embedded-engineer",
+    "skillId": "anthropic-cybersecurity-skills-skills-performing-iot-security-assessment",
+    "skillName": "performing-iot-security-assessment",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "embedded-engineer-micropython-micropython-pr-18886",
+    "roleId": "embedded-engineer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-embedded-systems-skills-ota-firmware-update",
+    "skillName": "ota-firmware-update",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "frontend-engineer-vitejs-vite-pr-21800",
+    "roleId": "frontend-engineer",
+    "skillId": "agent-coworker-tui-agents-skills-ui-ux-pro-max",
+    "skillName": "ui-ux-pro-max",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "frontend-engineer-vitejs-vite-pr-21800",
+    "roleId": "frontend-engineer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-creative-design-claude-d3js-skill",
+    "skillName": "d3-viz",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "frontend-engineer-vitejs-vite-pr-21800",
+    "roleId": "frontend-engineer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-development-artifacts-builder",
+    "skillName": "artifacts-builder",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "frontend-engineer-webpack-webpack-pr-20632",
+    "roleId": "frontend-engineer",
+    "skillId": "agent-coworker-tui-agents-skills-ui-ux-pro-max",
+    "skillName": "ui-ux-pro-max",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "frontend-engineer-webpack-webpack-pr-20632",
+    "roleId": "frontend-engineer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-creative-design-claude-d3js-skill",
+    "skillName": "d3-viz",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "frontend-engineer-webpack-webpack-pr-20632",
+    "roleId": "frontend-engineer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-development-artifacts-builder",
+    "skillName": "artifacts-builder",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "frontend-engineer-vitejs-vite-pr-21886",
+    "roleId": "frontend-engineer",
+    "skillId": "agent-coworker-tui-agents-skills-ui-ux-pro-max",
+    "skillName": "ui-ux-pro-max",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "frontend-engineer-vitejs-vite-pr-21886",
+    "roleId": "frontend-engineer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-creative-design-claude-d3js-skill",
+    "skillName": "d3-viz",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "frontend-engineer-vitejs-vite-pr-21886",
+    "roleId": "frontend-engineer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-development-artifacts-builder",
+    "skillName": "artifacts-builder",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "growth-marketer-posthog-posthog-pr-51042",
+    "roleId": "growth-marketer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-business-marketing-marketing-demand-acquisition",
+    "skillName": "marketing-demand-acquisition",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "growth-marketer-posthog-posthog-pr-51042",
+    "roleId": "growth-marketer",
+    "skillId": "marketingskills-skills-analytics-tracking",
+    "skillName": "analytics-tracking",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "growth-marketer-posthog-posthog-pr-51042",
+    "roleId": "growth-marketer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-product-management-skills-product-analytics",
+    "skillName": "product-analytics",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "growth-marketer-posthog-posthog-pr-51145",
+    "roleId": "growth-marketer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-business-marketing-marketing-demand-acquisition",
+    "skillName": "marketing-demand-acquisition",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "growth-marketer-posthog-posthog-pr-51145",
+    "roleId": "growth-marketer",
+    "skillId": "marketingskills-skills-analytics-tracking",
+    "skillName": "analytics-tracking",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "growth-marketer-posthog-posthog-pr-51145",
+    "roleId": "growth-marketer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-product-management-skills-product-analytics",
+    "skillName": "product-analytics",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "growth-marketer-posthog-posthog-pr-51222",
+    "roleId": "growth-marketer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-business-marketing-marketing-demand-acquisition",
+    "skillName": "marketing-demand-acquisition",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "growth-marketer-posthog-posthog-pr-51222",
+    "roleId": "growth-marketer",
+    "skillId": "marketingskills-skills-analytics-tracking",
+    "skillName": "analytics-tracking",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "growth-marketer-posthog-posthog-pr-51222",
+    "roleId": "growth-marketer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-product-management-skills-product-analytics",
+    "skillName": "product-analytics",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "ios-developer-alamofire-alamofire-pr-3920",
+    "roleId": "ios-developer",
+    "skillId": "claude-xcodepreviews-codex-skills-xcode-preview-capture",
+    "skillName": "xcode-preview-capture",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "ios-developer-alamofire-alamofire-pr-3920",
+    "roleId": "ios-developer",
+    "skillId": "claude-xcodepreviews-cursor-skills-preview",
+    "skillName": "preview-build",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "ios-developer-alamofire-alamofire-pr-3879",
+    "roleId": "ios-developer",
+    "skillId": "claude-xcodepreviews-codex-skills-xcode-preview-capture",
+    "skillName": "xcode-preview-capture",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "ios-developer-alamofire-alamofire-pr-3879",
+    "roleId": "ios-developer",
+    "skillId": "claude-xcodepreviews-cursor-skills-preview",
+    "skillName": "preview-build",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "ios-developer-realm-realm-swift-pr-8670",
+    "roleId": "ios-developer",
+    "skillId": "claude-xcodepreviews-codex-skills-xcode-preview-capture",
+    "skillName": "xcode-preview-capture",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "ios-developer-realm-realm-swift-pr-8670",
+    "roleId": "ios-developer",
+    "skillId": "claude-xcodepreviews-cursor-skills-preview",
+    "skillName": "preview-build",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "ios-developer-pointfreeco-swift-composable-architecture-pr-3796",
+    "roleId": "ios-developer",
+    "skillId": "claude-xcodepreviews-codex-skills-xcode-preview-capture",
+    "skillName": "xcode-preview-capture",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "ios-developer-pointfreeco-swift-composable-architecture-pr-3796",
+    "roleId": "ios-developer",
+    "skillId": "claude-xcodepreviews-cursor-skills-preview",
+    "skillName": "preview-build",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "llm-prompt-engineer-berriai-litellm-pr-23691",
+    "roleId": "llm-prompt-engineer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-ai-research-multimodal-clip",
+    "skillName": "clip",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "llm-prompt-engineer-berriai-litellm-pr-23691",
+    "roleId": "llm-prompt-engineer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-ai-research-rag-engineer",
+    "skillName": "rag-engineer",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "llm-prompt-engineer-berriai-litellm-pr-23691",
+    "roleId": "llm-prompt-engineer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-ai-research-rag-sentence-transformers",
+    "skillName": "sentence-transformers",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "llm-prompt-engineer-berriai-litellm-pr-23770",
+    "roleId": "llm-prompt-engineer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-ai-research-multimodal-clip",
+    "skillName": "clip",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "llm-prompt-engineer-berriai-litellm-pr-23770",
+    "roleId": "llm-prompt-engineer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-ai-research-rag-engineer",
+    "skillName": "rag-engineer",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "llm-prompt-engineer-berriai-litellm-pr-23770",
+    "roleId": "llm-prompt-engineer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-ai-research-rag-sentence-transformers",
+    "skillName": "sentence-transformers",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "llm-prompt-engineer-berriai-litellm-pr-23792",
+    "roleId": "llm-prompt-engineer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-ai-research-multimodal-clip",
+    "skillName": "clip",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "llm-prompt-engineer-berriai-litellm-pr-23792",
+    "roleId": "llm-prompt-engineer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-ai-research-rag-engineer",
+    "skillName": "rag-engineer",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "llm-prompt-engineer-berriai-litellm-pr-23792",
+    "roleId": "llm-prompt-engineer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-ai-research-rag-sentence-transformers",
+    "skillName": "sentence-transformers",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "mcp-integration-engineer-modelcontextprotocol-typescript-sdk-pr-1605",
+    "roleId": "mcp-integration-engineer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-development-mcp-builder",
+    "skillName": "mcp-builder",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "mcp-integration-engineer-modelcontextprotocol-typescript-sdk-pr-1605",
+    "roleId": "mcp-integration-engineer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-cli-mcp-development-skills-mcp-inspector-integration",
+    "skillName": "mcp-inspector-integration",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "mcp-integration-engineer-modelcontextprotocol-typescript-sdk-pr-1605",
+    "roleId": "mcp-integration-engineer",
+    "skillId": "skills-huggingface-hf-dataset-creator",
+    "skillName": "hugging-face-dataset-creator",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "mcp-integration-engineer-modelcontextprotocol-python-sdk-pr-2185",
+    "roleId": "mcp-integration-engineer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-development-mcp-builder",
+    "skillName": "mcp-builder",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "mcp-integration-engineer-modelcontextprotocol-python-sdk-pr-2185",
+    "roleId": "mcp-integration-engineer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-cli-mcp-development-skills-mcp-inspector-integration",
+    "skillName": "mcp-inspector-integration",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "mcp-integration-engineer-modelcontextprotocol-python-sdk-pr-2185",
+    "roleId": "mcp-integration-engineer",
+    "skillId": "skills-huggingface-hf-dataset-creator",
+    "skillName": "hugging-face-dataset-creator",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "mcp-integration-engineer-modelcontextprotocol-python-sdk-pr-2257",
+    "roleId": "mcp-integration-engineer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-development-mcp-builder",
+    "skillName": "mcp-builder",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "mcp-integration-engineer-modelcontextprotocol-python-sdk-pr-2257",
+    "roleId": "mcp-integration-engineer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-cli-mcp-development-skills-mcp-inspector-integration",
+    "skillName": "mcp-inspector-integration",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "mcp-integration-engineer-modelcontextprotocol-python-sdk-pr-2257",
+    "roleId": "mcp-integration-engineer",
+    "skillId": "skills-huggingface-hf-dataset-creator",
+    "skillName": "hugging-face-dataset-creator",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "ml-engineer-optuna-optuna-pr-6430",
+    "roleId": "ml-engineer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-ai-research-mlops-mlflow",
+    "skillName": "mlflow",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "ml-engineer-optuna-optuna-pr-6430",
+    "roleId": "ml-engineer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-ai-research-mlops-weights-and-biases",
+    "skillName": "weights-and-biases",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "ml-engineer-optuna-optuna-pr-6430",
+    "roleId": "ml-engineer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-development-senior-ml-engineer",
+    "skillName": "senior-ml-engineer",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "ml-engineer-huggingface-transformers-pr-44611",
+    "roleId": "ml-engineer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-ai-research-mlops-mlflow",
+    "skillName": "mlflow",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "ml-engineer-huggingface-transformers-pr-44611",
+    "roleId": "ml-engineer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-ai-research-mlops-weights-and-biases",
+    "skillName": "weights-and-biases",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "ml-engineer-huggingface-transformers-pr-44611",
+    "roleId": "ml-engineer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-development-senior-ml-engineer",
+    "skillName": "senior-ml-engineer",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "ml-engineer-ray-project-ray-pr-61603",
+    "roleId": "ml-engineer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-ai-research-mlops-mlflow",
+    "skillName": "mlflow",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "ml-engineer-ray-project-ray-pr-61603",
+    "roleId": "ml-engineer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-ai-research-mlops-weights-and-biases",
+    "skillName": "weights-and-biases",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "ml-engineer-ray-project-ray-pr-61603",
+    "roleId": "ml-engineer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-development-senior-ml-engineer",
+    "skillName": "senior-ml-engineer",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "node-backend-developer-immich-app-immich-pr-26831",
+    "roleId": "node-backend-developer",
+    "skillId": "anthropic-cybersecurity-skills-skills-conducting-api-security-testing",
+    "skillName": "conducting-api-security-testing",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "node-backend-developer-immich-app-immich-pr-26831",
+    "roleId": "node-backend-developer",
+    "skillId": "anthropic-cybersecurity-skills-skills-testing-api-security-with-owasp-top-10",
+    "skillName": "testing-api-security-with-owasp-top-10",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "node-backend-developer-immich-app-immich-pr-26831",
+    "roleId": "node-backend-developer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-qa-testing-automation-skills-api-testing",
+    "skillName": "API Testing",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "node-backend-developer-nestjs-nest-pr-16427",
+    "roleId": "node-backend-developer",
+    "skillId": "anthropic-cybersecurity-skills-skills-conducting-api-security-testing",
+    "skillName": "conducting-api-security-testing",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "node-backend-developer-nestjs-nest-pr-16427",
+    "roleId": "node-backend-developer",
+    "skillId": "anthropic-cybersecurity-skills-skills-testing-api-security-with-owasp-top-10",
+    "skillName": "testing-api-security-with-owasp-top-10",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "node-backend-developer-nestjs-nest-pr-16427",
+    "roleId": "node-backend-developer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-qa-testing-automation-skills-api-testing",
+    "skillName": "API Testing",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "node-backend-developer-nestjs-nest-pr-16506",
+    "roleId": "node-backend-developer",
+    "skillId": "anthropic-cybersecurity-skills-skills-conducting-api-security-testing",
+    "skillName": "conducting-api-security-testing",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "node-backend-developer-nestjs-nest-pr-16506",
+    "roleId": "node-backend-developer",
+    "skillId": "anthropic-cybersecurity-skills-skills-testing-api-security-with-owasp-top-10",
+    "skillName": "testing-api-security-with-owasp-top-10",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "node-backend-developer-nestjs-nest-pr-16506",
+    "roleId": "node-backend-developer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-qa-testing-automation-skills-api-testing",
+    "skillName": "API Testing",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "penetration-tester-projectdiscovery-nuclei-pr-7221",
+    "roleId": "penetration-tester",
+    "skillId": "anthropic-cybersecurity-skills-skills-conducting-network-penetration-test",
+    "skillName": "conducting-network-penetration-test",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "penetration-tester-projectdiscovery-nuclei-pr-7221",
+    "roleId": "penetration-tester",
+    "skillId": "anthropic-cybersecurity-skills-skills-exploiting-active-directory-with-bloodhound",
+    "skillName": "exploiting-active-directory-with-bloodhound",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "penetration-tester-projectdiscovery-nuclei-pr-7221",
+    "roleId": "penetration-tester",
+    "skillId": "anthropic-cybersecurity-skills-skills-performing-active-directory-penetration-test",
+    "skillName": "performing-active-directory-penetration-test",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "penetration-tester-elastic-detection-rules-pr-5809",
+    "roleId": "penetration-tester",
+    "skillId": "anthropic-cybersecurity-skills-skills-conducting-network-penetration-test",
+    "skillName": "conducting-network-penetration-test",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "penetration-tester-elastic-detection-rules-pr-5809",
+    "roleId": "penetration-tester",
+    "skillId": "anthropic-cybersecurity-skills-skills-exploiting-active-directory-with-bloodhound",
+    "skillName": "exploiting-active-directory-with-bloodhound",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "penetration-tester-elastic-detection-rules-pr-5809",
+    "roleId": "penetration-tester",
+    "skillId": "anthropic-cybersecurity-skills-skills-performing-active-directory-penetration-test",
+    "skillName": "performing-active-directory-penetration-test",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "penetration-tester-sqlmapproject-sqlmap-pr-6015",
+    "roleId": "penetration-tester",
+    "skillId": "anthropic-cybersecurity-skills-skills-conducting-network-penetration-test",
+    "skillName": "conducting-network-penetration-test",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "penetration-tester-sqlmapproject-sqlmap-pr-6015",
+    "roleId": "penetration-tester",
+    "skillId": "anthropic-cybersecurity-skills-skills-exploiting-active-directory-with-bloodhound",
+    "skillName": "exploiting-active-directory-with-bloodhound",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "penetration-tester-sqlmapproject-sqlmap-pr-6015",
+    "roleId": "penetration-tester",
+    "skillId": "anthropic-cybersecurity-skills-skills-performing-active-directory-penetration-test",
+    "skillName": "performing-active-directory-penetration-test",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "performance-engineer-grafana-k6-pr-5664",
+    "roleId": "performance-engineer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-qa-testing-automation-skills-k6-performance",
+    "skillName": "k6 Performance Testing",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "performance-engineer-grafana-k6-pr-5664",
+    "roleId": "performance-engineer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-qa-testing-automation-skills-jmeter-performance",
+    "skillName": "JMeter Performance Testing",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "performance-engineer-grafana-k6-pr-5664",
+    "roleId": "performance-engineer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-software-architecture-skills-load-test-generator",
+    "skillName": "load-test-generator",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "performance-engineer-locustio-locust-pr-3373",
+    "roleId": "performance-engineer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-qa-testing-automation-skills-k6-performance",
+    "skillName": "k6 Performance Testing",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "performance-engineer-locustio-locust-pr-3373",
+    "roleId": "performance-engineer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-qa-testing-automation-skills-jmeter-performance",
+    "skillName": "JMeter Performance Testing",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "performance-engineer-locustio-locust-pr-3373",
+    "roleId": "performance-engineer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-software-architecture-skills-load-test-generator",
+    "skillName": "load-test-generator",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "performance-engineer-grafana-k6-pr-5724",
+    "roleId": "performance-engineer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-qa-testing-automation-skills-k6-performance",
+    "skillName": "k6 Performance Testing",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "performance-engineer-grafana-k6-pr-5724",
+    "roleId": "performance-engineer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-qa-testing-automation-skills-jmeter-performance",
+    "skillName": "JMeter Performance Testing",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "performance-engineer-grafana-k6-pr-5724",
+    "roleId": "performance-engineer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-software-architecture-skills-load-test-generator",
+    "skillName": "load-test-generator",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "platform-engineer-crossplane-crossplane-pr-7156",
+    "roleId": "platform-engineer",
+    "skillId": "anthropic-cybersecurity-skills-skills-detecting-container-escape-attempts",
+    "skillName": "detecting-container-escape-attempts",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "platform-engineer-crossplane-crossplane-pr-7156",
+    "roleId": "platform-engineer",
+    "skillId": "anthropic-cybersecurity-skills-skills-implementing-container-image-minimal-base-with-distroless",
+    "skillName": "implementing-container-image-minimal-base-with-distroless",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "platform-engineer-crossplane-crossplane-pr-7156",
+    "roleId": "platform-engineer",
+    "skillId": "anthropic-cybersecurity-skills-skills-performing-container-security-scanning-with-trivy",
+    "skillName": "performing-container-security-scanning-with-trivy",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "platform-engineer-argoproj-argo-cd-pr-26803",
+    "roleId": "platform-engineer",
+    "skillId": "anthropic-cybersecurity-skills-skills-detecting-container-escape-attempts",
+    "skillName": "detecting-container-escape-attempts",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "platform-engineer-argoproj-argo-cd-pr-26803",
+    "roleId": "platform-engineer",
+    "skillId": "anthropic-cybersecurity-skills-skills-implementing-container-image-minimal-base-with-distroless",
+    "skillName": "implementing-container-image-minimal-base-with-distroless",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "platform-engineer-argoproj-argo-cd-pr-26803",
+    "roleId": "platform-engineer",
+    "skillId": "anthropic-cybersecurity-skills-skills-performing-container-security-scanning-with-trivy",
+    "skillName": "performing-container-security-scanning-with-trivy",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "platform-engineer-argoproj-argo-cd-pr-26791",
+    "roleId": "platform-engineer",
+    "skillId": "anthropic-cybersecurity-skills-skills-detecting-container-escape-attempts",
+    "skillName": "detecting-container-escape-attempts",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "platform-engineer-argoproj-argo-cd-pr-26791",
+    "roleId": "platform-engineer",
+    "skillId": "anthropic-cybersecurity-skills-skills-implementing-container-image-minimal-base-with-distroless",
+    "skillName": "implementing-container-image-minimal-base-with-distroless",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "platform-engineer-argoproj-argo-cd-pr-26791",
+    "roleId": "platform-engineer",
+    "skillId": "anthropic-cybersecurity-skills-skills-performing-container-security-scanning-with-trivy",
+    "skillName": "performing-container-security-scanning-with-trivy",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "product-manager-makeplane-plane-pr-8716",
+    "roleId": "product-manager",
+    "skillId": "claude-code-custom-plugins-plugins-product-management-skills-product-management",
+    "skillName": "product-management",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "product-manager-makeplane-plane-pr-8716",
+    "roleId": "product-manager",
+    "skillId": "claude-code-templates-cli-tool-components-skills-business-marketing-product-manager-toolkit",
+    "skillName": "product-manager-toolkit",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "product-manager-makeplane-plane-pr-8716",
+    "roleId": "product-manager",
+    "skillId": "pm-skills-pm-product-discovery-skills-brainstorm-ideas-existing",
+    "skillName": "brainstorm-ideas-existing",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "product-manager-makeplane-plane-pr-8644",
+    "roleId": "product-manager",
+    "skillId": "claude-code-custom-plugins-plugins-product-management-skills-product-management",
+    "skillName": "product-management",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "product-manager-makeplane-plane-pr-8644",
+    "roleId": "product-manager",
+    "skillId": "claude-code-templates-cli-tool-components-skills-business-marketing-product-manager-toolkit",
+    "skillName": "product-manager-toolkit",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "product-manager-makeplane-plane-pr-8644",
+    "roleId": "product-manager",
+    "skillId": "pm-skills-pm-product-discovery-skills-brainstorm-ideas-existing",
+    "skillName": "brainstorm-ideas-existing",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "product-manager-calcom-cal-com-pr-28398",
+    "roleId": "product-manager",
+    "skillId": "claude-code-custom-plugins-plugins-product-management-skills-product-management",
+    "skillName": "product-management",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "product-manager-calcom-cal-com-pr-28398",
+    "roleId": "product-manager",
+    "skillId": "claude-code-templates-cli-tool-components-skills-business-marketing-product-manager-toolkit",
+    "skillName": "product-manager-toolkit",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "product-manager-calcom-cal-com-pr-28398",
+    "roleId": "product-manager",
+    "skillId": "pm-skills-pm-product-discovery-skills-brainstorm-ideas-existing",
+    "skillName": "brainstorm-ideas-existing",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "python-backend-developer-fastapi-fastapi-pr-15038",
+    "roleId": "python-backend-developer",
+    "skillId": "claude-bootstrap-skills-supabase-python",
+    "skillName": "supabase-python",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "python-backend-developer-fastapi-fastapi-pr-15038",
+    "roleId": "python-backend-developer",
+    "skillId": "claude-bootstrap-skills-python",
+    "skillName": "python",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "python-backend-developer-fastapi-fastapi-pr-15038",
+    "roleId": "python-backend-developer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-development-python-patterns",
+    "skillName": "python-patterns",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "python-backend-developer-fastapi-fastapi-pr-14953",
+    "roleId": "python-backend-developer",
+    "skillId": "claude-bootstrap-skills-supabase-python",
+    "skillName": "supabase-python",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "python-backend-developer-fastapi-fastapi-pr-14953",
+    "roleId": "python-backend-developer",
+    "skillId": "claude-bootstrap-skills-python",
+    "skillName": "python",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "python-backend-developer-fastapi-fastapi-pr-14953",
+    "roleId": "python-backend-developer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-development-python-patterns",
+    "skillName": "python-patterns",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "python-backend-developer-scikit-learn-scikit-learn-pr-33492",
+    "roleId": "python-backend-developer",
+    "skillId": "claude-bootstrap-skills-supabase-python",
+    "skillName": "supabase-python",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "python-backend-developer-scikit-learn-scikit-learn-pr-33492",
+    "roleId": "python-backend-developer",
+    "skillId": "claude-bootstrap-skills-python",
+    "skillName": "python",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "python-backend-developer-scikit-learn-scikit-learn-pr-33492",
+    "roleId": "python-backend-developer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-development-python-patterns",
+    "skillName": "python-patterns",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "qa-engineer-microsoft-playwright-pr-39670",
+    "roleId": "qa-engineer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-desktop-development-skills-electron-mock-factory",
+    "skillName": "electron-mock-factory",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "qa-engineer-microsoft-playwright-pr-39670",
+    "roleId": "qa-engineer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-qa-testing-automation-skills-cucumber-bdd",
+    "skillName": "Cucumber BDD Testing",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "qa-engineer-microsoft-playwright-pr-39670",
+    "roleId": "qa-engineer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-development-testing-patterns",
+    "skillName": "testing-patterns",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "qa-engineer-pytest-dev-pytest-pr-14255",
+    "roleId": "qa-engineer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-desktop-development-skills-electron-mock-factory",
+    "skillName": "electron-mock-factory",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "qa-engineer-pytest-dev-pytest-pr-14255",
+    "roleId": "qa-engineer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-qa-testing-automation-skills-cucumber-bdd",
+    "skillName": "Cucumber BDD Testing",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "qa-engineer-pytest-dev-pytest-pr-14255",
+    "roleId": "qa-engineer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-development-testing-patterns",
+    "skillName": "testing-patterns",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "rag-knowledge-engineer-run-llama-llama-index-pr-21025",
+    "roleId": "rag-knowledge-engineer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-ai-research-rag-chroma",
+    "skillName": "chroma",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "rag-knowledge-engineer-run-llama-llama-index-pr-21025",
+    "roleId": "rag-knowledge-engineer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-ai-research-rag-implementation",
+    "skillName": "rag-implementation",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "rag-knowledge-engineer-run-llama-llama-index-pr-21025",
+    "roleId": "rag-knowledge-engineer",
+    "skillId": "claude-flow-agents-skills-agentdb-vector-search",
+    "skillName": "AgentDB Vector Search",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "rag-knowledge-engineer-chroma-core-chroma-pr-6657",
+    "roleId": "rag-knowledge-engineer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-ai-research-rag-chroma",
+    "skillName": "chroma",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "rag-knowledge-engineer-chroma-core-chroma-pr-6657",
+    "roleId": "rag-knowledge-engineer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-ai-research-rag-implementation",
+    "skillName": "rag-implementation",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "rag-knowledge-engineer-chroma-core-chroma-pr-6657",
+    "roleId": "rag-knowledge-engineer",
+    "skillId": "claude-flow-agents-skills-agentdb-vector-search",
+    "skillName": "AgentDB Vector Search",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "rag-knowledge-engineer-chroma-core-chroma-pr-6625",
+    "roleId": "rag-knowledge-engineer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-ai-research-rag-chroma",
+    "skillName": "chroma",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "rag-knowledge-engineer-chroma-core-chroma-pr-6625",
+    "roleId": "rag-knowledge-engineer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-ai-research-rag-implementation",
+    "skillName": "rag-implementation",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "rag-knowledge-engineer-chroma-core-chroma-pr-6625",
+    "roleId": "rag-knowledge-engineer",
+    "skillId": "claude-flow-agents-skills-agentdb-vector-search",
+    "skillName": "AgentDB Vector Search",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "react-developer-ant-design-ant-design-pr-57303",
+    "roleId": "react-developer",
+    "skillId": "claude-code-beads-orchestration-templates-skills-react-best-practices",
+    "skillName": "react-best-practices",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "react-developer-ant-design-ant-design-pr-57303",
+    "roleId": "react-developer",
+    "skillId": "agent-coworker-tui-agents-skills-vercel-react-best-practices",
+    "skillName": "vercel-react-best-practices",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "react-developer-ant-design-ant-design-pr-57303",
+    "roleId": "react-developer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-web-development-skills-nextjs",
+    "skillName": "nextjs",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "react-developer-shadcn-ui-ui-pr-10041",
+    "roleId": "react-developer",
+    "skillId": "claude-code-beads-orchestration-templates-skills-react-best-practices",
+    "skillName": "react-best-practices",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "react-developer-shadcn-ui-ui-pr-10041",
+    "roleId": "react-developer",
+    "skillId": "agent-coworker-tui-agents-skills-vercel-react-best-practices",
+    "skillName": "vercel-react-best-practices",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "react-developer-shadcn-ui-ui-pr-10041",
+    "roleId": "react-developer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-web-development-skills-nextjs",
+    "skillName": "nextjs",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "react-developer-shadcn-ui-ui-pr-10021",
+    "roleId": "react-developer",
+    "skillId": "claude-code-beads-orchestration-templates-skills-react-best-practices",
+    "skillName": "react-best-practices",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "react-developer-shadcn-ui-ui-pr-10021",
+    "roleId": "react-developer",
+    "skillId": "agent-coworker-tui-agents-skills-vercel-react-best-practices",
+    "skillName": "vercel-react-best-practices",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "react-developer-shadcn-ui-ui-pr-10021",
+    "roleId": "react-developer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-web-development-skills-nextjs",
+    "skillName": "nextjs",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "react-developer-mui-material-ui-pr-47940",
+    "roleId": "react-developer",
+    "skillId": "claude-code-beads-orchestration-templates-skills-react-best-practices",
+    "skillName": "react-best-practices",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "react-developer-mui-material-ui-pr-47940",
+    "roleId": "react-developer",
+    "skillId": "agent-coworker-tui-agents-skills-vercel-react-best-practices",
+    "skillName": "vercel-react-best-practices",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "react-developer-mui-material-ui-pr-47940",
+    "roleId": "react-developer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-web-development-skills-nextjs",
+    "skillName": "nextjs",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "robotics-engineer-ros2-rclpy-pr-1616",
+    "roleId": "robotics-engineer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-robotics-simulation-skills-nav2-navigation",
+    "skillName": "Nav2 Navigation Skill",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "robotics-engineer-ros2-rclpy-pr-1616",
+    "roleId": "robotics-engineer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-robotics-simulation-skills-ros2-control",
+    "skillName": "ros2_control Skill",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "robotics-engineer-ros2-rclpy-pr-1616",
+    "roleId": "robotics-engineer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-robotics-simulation-skills-ros-integration",
+    "skillName": "ros-integration",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "robotics-engineer-ros2-ros2cli-pr-1188",
+    "roleId": "robotics-engineer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-robotics-simulation-skills-nav2-navigation",
+    "skillName": "Nav2 Navigation Skill",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "robotics-engineer-ros2-ros2cli-pr-1188",
+    "roleId": "robotics-engineer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-robotics-simulation-skills-ros2-control",
+    "skillName": "ros2_control Skill",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "robotics-engineer-ros2-ros2cli-pr-1188",
+    "roleId": "robotics-engineer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-robotics-simulation-skills-ros-integration",
+    "skillName": "ros-integration",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "robotics-engineer-ros2-rclpy-pr-1599",
+    "roleId": "robotics-engineer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-robotics-simulation-skills-nav2-navigation",
+    "skillName": "Nav2 Navigation Skill",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "robotics-engineer-ros2-rclpy-pr-1599",
+    "roleId": "robotics-engineer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-robotics-simulation-skills-ros2-control",
+    "skillName": "ros2_control Skill",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "robotics-engineer-ros2-rclpy-pr-1599",
+    "roleId": "robotics-engineer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-robotics-simulation-skills-ros-integration",
+    "skillName": "ros-integration",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "scientific-computing-engineer-numpy-numpy-pr-30983",
+    "roleId": "scientific-computing-engineer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-domains-science-physics-skills-scipy-optimization-toolkit",
+    "skillName": "scipy-optimization-toolkit",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "scientific-computing-engineer-numpy-numpy-pr-30983",
+    "roleId": "scientific-computing-engineer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-scientific-qutip",
+    "skillName": "qutip",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "scientific-computing-engineer-numpy-numpy-pr-30983",
+    "roleId": "scientific-computing-engineer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-scientific-sympy",
+    "skillName": "sympy",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "scientific-computing-engineer-scipy-scipy-pr-24826",
+    "roleId": "scientific-computing-engineer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-domains-science-physics-skills-scipy-optimization-toolkit",
+    "skillName": "scipy-optimization-toolkit",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "scientific-computing-engineer-scipy-scipy-pr-24826",
+    "roleId": "scientific-computing-engineer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-scientific-qutip",
+    "skillName": "qutip",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "scientific-computing-engineer-scipy-scipy-pr-24826",
+    "roleId": "scientific-computing-engineer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-scientific-sympy",
+    "skillName": "sympy",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "scientific-computing-engineer-scipy-scipy-pr-24792",
+    "roleId": "scientific-computing-engineer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-domains-science-physics-skills-scipy-optimization-toolkit",
+    "skillName": "scipy-optimization-toolkit",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "scientific-computing-engineer-scipy-scipy-pr-24792",
+    "roleId": "scientific-computing-engineer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-scientific-qutip",
+    "skillName": "qutip",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "scientific-computing-engineer-scipy-scipy-pr-24792",
+    "roleId": "scientific-computing-engineer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-scientific-sympy",
+    "skillName": "sympy",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "security-engineer-schemathesis-schemathesis-pr-3604",
+    "roleId": "security-engineer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-security-compliance-skills-dast-scanner",
+    "skillName": "dast-scanner",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "security-engineer-schemathesis-schemathesis-pr-3604",
+    "roleId": "security-engineer",
+    "skillId": "anthropic-cybersecurity-skills-skills-performing-web-application-vulnerability-triage",
+    "skillName": "performing-web-application-vulnerability-triage",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "security-engineer-schemathesis-schemathesis-pr-3604",
+    "roleId": "security-engineer",
+    "skillId": "anthropic-cybersecurity-skills-skills-implementing-api-threat-protection-with-apigee",
+    "skillName": "implementing-api-threat-protection-with-apigee",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "security-engineer-trufflesecurity-trufflehog-pr-4695",
+    "roleId": "security-engineer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-security-compliance-skills-dast-scanner",
+    "skillName": "dast-scanner",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "security-engineer-trufflesecurity-trufflehog-pr-4695",
+    "roleId": "security-engineer",
+    "skillId": "anthropic-cybersecurity-skills-skills-performing-web-application-vulnerability-triage",
+    "skillName": "performing-web-application-vulnerability-triage",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "security-engineer-trufflesecurity-trufflehog-pr-4695",
+    "roleId": "security-engineer",
+    "skillId": "anthropic-cybersecurity-skills-skills-implementing-api-threat-protection-with-apigee",
+    "skillName": "implementing-api-threat-protection-with-apigee",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "security-engineer-schemathesis-schemathesis-pr-3616",
+    "roleId": "security-engineer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-security-compliance-skills-dast-scanner",
+    "skillName": "dast-scanner",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "security-engineer-schemathesis-schemathesis-pr-3616",
+    "roleId": "security-engineer",
+    "skillId": "anthropic-cybersecurity-skills-skills-performing-web-application-vulnerability-triage",
+    "skillName": "performing-web-application-vulnerability-triage",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "security-engineer-schemathesis-schemathesis-pr-3616",
+    "roleId": "security-engineer",
+    "skillId": "anthropic-cybersecurity-skills-skills-implementing-api-threat-protection-with-apigee",
+    "skillName": "implementing-api-threat-protection-with-apigee",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "site-reliability-engineer-grafana-grafana-pr-120446",
+    "roleId": "site-reliability-engineer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-development-it-operations",
+    "skillName": "it-operations",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "site-reliability-engineer-grafana-grafana-pr-120446",
+    "roleId": "site-reliability-engineer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-ai-research-datadog-cli",
+    "skillName": "datadog-cli",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "site-reliability-engineer-grafana-grafana-pr-120446",
+    "roleId": "site-reliability-engineer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-ai-research-observability-phoenix",
+    "skillName": "phoenix-observability",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "site-reliability-engineer-open-telemetry-opentelemetry-python-pr-4934",
+    "roleId": "site-reliability-engineer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-development-it-operations",
+    "skillName": "it-operations",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "site-reliability-engineer-open-telemetry-opentelemetry-python-pr-4934",
+    "roleId": "site-reliability-engineer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-ai-research-datadog-cli",
+    "skillName": "datadog-cli",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "site-reliability-engineer-open-telemetry-opentelemetry-python-pr-4934",
+    "roleId": "site-reliability-engineer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-ai-research-observability-phoenix",
+    "skillName": "phoenix-observability",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "site-reliability-engineer-grafana-loki-pr-21162",
+    "roleId": "site-reliability-engineer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-development-it-operations",
+    "skillName": "it-operations",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "site-reliability-engineer-grafana-loki-pr-21162",
+    "roleId": "site-reliability-engineer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-ai-research-datadog-cli",
+    "skillName": "datadog-cli",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "site-reliability-engineer-grafana-loki-pr-21162",
+    "roleId": "site-reliability-engineer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-ai-research-observability-phoenix",
+    "skillName": "phoenix-observability",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "soc-analyst-sigmahq-sigma-pr-5875",
+    "roleId": "soc-analyst",
+    "skillId": "anthropic-cybersecurity-skills-skills-building-detection-rule-with-splunk-spl",
+    "skillName": "building-detection-rule-with-splunk-spl",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "soc-analyst-sigmahq-sigma-pr-5875",
+    "roleId": "soc-analyst",
+    "skillId": "anthropic-cybersecurity-skills-skills-performing-malware-hash-enrichment-with-virustotal",
+    "skillName": "performing-malware-hash-enrichment-with-virustotal",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "soc-analyst-sigmahq-sigma-pr-5875",
+    "roleId": "soc-analyst",
+    "skillId": "anthropic-cybersecurity-skills-skills-building-detection-rules-with-sigma",
+    "skillName": "building-detection-rules-with-sigma",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "soc-analyst-sigmahq-sigma-pr-5801",
+    "roleId": "soc-analyst",
+    "skillId": "anthropic-cybersecurity-skills-skills-building-detection-rule-with-splunk-spl",
+    "skillName": "building-detection-rule-with-splunk-spl",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "soc-analyst-sigmahq-sigma-pr-5801",
+    "roleId": "soc-analyst",
+    "skillId": "anthropic-cybersecurity-skills-skills-performing-malware-hash-enrichment-with-virustotal",
+    "skillName": "performing-malware-hash-enrichment-with-virustotal",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "soc-analyst-sigmahq-sigma-pr-5801",
+    "roleId": "soc-analyst",
+    "skillId": "anthropic-cybersecurity-skills-skills-building-detection-rules-with-sigma",
+    "skillName": "building-detection-rules-with-sigma",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "soc-analyst-elastic-kibana-pr-257893",
+    "roleId": "soc-analyst",
+    "skillId": "anthropic-cybersecurity-skills-skills-building-detection-rule-with-splunk-spl",
+    "skillName": "building-detection-rule-with-splunk-spl",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "soc-analyst-elastic-kibana-pr-257893",
+    "roleId": "soc-analyst",
+    "skillId": "anthropic-cybersecurity-skills-skills-performing-malware-hash-enrichment-with-virustotal",
+    "skillName": "performing-malware-hash-enrichment-with-virustotal",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "soc-analyst-elastic-kibana-pr-257893",
+    "roleId": "soc-analyst",
+    "skillId": "anthropic-cybersecurity-skills-skills-building-detection-rules-with-sigma",
+    "skillName": "building-detection-rules-with-sigma",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "technical-writer-sphinx-doc-sphinx-pr-14213",
+    "roleId": "technical-writer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-technical-documentation-skills-readme-platform",
+    "skillName": "readme-platform",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "technical-writer-sphinx-doc-sphinx-pr-14213",
+    "roleId": "technical-writer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-code-migration-modernization-skills-documentation-generator",
+    "skillName": "documentation-generator",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "technical-writer-sphinx-doc-sphinx-pr-14213",
+    "roleId": "technical-writer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-desktop-development-skills-qt-translation-workflow",
+    "skillName": "qt-translation-workflow",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "technical-writer-squidfunk-mkdocs-material-pr-8352",
+    "roleId": "technical-writer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-technical-documentation-skills-readme-platform",
+    "skillName": "readme-platform",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "technical-writer-squidfunk-mkdocs-material-pr-8352",
+    "roleId": "technical-writer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-code-migration-modernization-skills-documentation-generator",
+    "skillName": "documentation-generator",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "technical-writer-squidfunk-mkdocs-material-pr-8352",
+    "roleId": "technical-writer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-desktop-development-skills-qt-translation-workflow",
+    "skillName": "qt-translation-workflow",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "technical-writer-withastro-docs-pr-13362",
+    "roleId": "technical-writer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-technical-documentation-skills-readme-platform",
+    "skillName": "readme-platform",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "technical-writer-withastro-docs-pr-13362",
+    "roleId": "technical-writer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-code-migration-modernization-skills-documentation-generator",
+    "skillName": "documentation-generator",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "technical-writer-withastro-docs-pr-13362",
+    "roleId": "technical-writer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-desktop-development-skills-qt-translation-workflow",
+    "skillName": "qt-translation-workflow",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "ux-designer-tailwindlabs-tailwindcss-pr-19745",
+    "roleId": "ux-designer",
+    "skillId": "stitch-skills-skills-enhance-prompt",
+    "skillName": "enhance-prompt",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "ux-designer-tailwindlabs-tailwindcss-pr-19745",
+    "roleId": "ux-designer",
+    "skillId": "agent-coworker-tui-agents-skills-web-design-guidelines",
+    "skillName": "web-design-guidelines",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "ux-designer-radix-ui-primitives-pr-3654",
+    "roleId": "ux-designer",
+    "skillId": "stitch-skills-skills-enhance-prompt",
+    "skillName": "enhance-prompt",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "ux-designer-radix-ui-primitives-pr-3654",
+    "roleId": "ux-designer",
+    "skillId": "agent-coworker-tui-agents-skills-web-design-guidelines",
+    "skillName": "web-design-guidelines",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "ux-designer-emilkowalski-vaul-pr-580",
+    "roleId": "ux-designer",
+    "skillId": "stitch-skills-skills-enhance-prompt",
+    "skillName": "enhance-prompt",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "ux-designer-emilkowalski-vaul-pr-580",
+    "roleId": "ux-designer",
+    "skillId": "agent-coworker-tui-agents-skills-web-design-guidelines",
+    "skillName": "web-design-guidelines",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "web3-blockchain-developer-openzeppelin-openzeppelin-contracts-pr-6391",
+    "roleId": "web3-blockchain-developer",
+    "skillId": "anthropic-cybersecurity-skills-skills-analyzing-ethereum-smart-contract-vulnerabilities",
+    "skillName": "analyzing-ethereum-smart-contract-vulnerabilities",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "web3-blockchain-developer-openzeppelin-openzeppelin-contracts-pr-6391",
+    "roleId": "web3-blockchain-developer",
+    "skillId": "openclaw-banker-skills-bankr",
+    "skillName": "bankr",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "web3-blockchain-developer-openzeppelin-openzeppelin-contracts-pr-6391",
+    "roleId": "web3-blockchain-developer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-security-research-skills-smart-contract-analysis",
+    "skillName": "Smart Contract Analysis Skill",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "web3-blockchain-developer-openzeppelin-openzeppelin-contracts-pr-6372",
+    "roleId": "web3-blockchain-developer",
+    "skillId": "anthropic-cybersecurity-skills-skills-analyzing-ethereum-smart-contract-vulnerabilities",
+    "skillName": "analyzing-ethereum-smart-contract-vulnerabilities",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "web3-blockchain-developer-openzeppelin-openzeppelin-contracts-pr-6372",
+    "roleId": "web3-blockchain-developer",
+    "skillId": "openclaw-banker-skills-bankr",
+    "skillName": "bankr",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "web3-blockchain-developer-openzeppelin-openzeppelin-contracts-pr-6372",
+    "roleId": "web3-blockchain-developer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-security-research-skills-smart-contract-analysis",
+    "skillName": "Smart Contract Analysis Skill",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "web3-blockchain-developer-openzeppelin-openzeppelin-contracts-pr-6397",
+    "roleId": "web3-blockchain-developer",
+    "skillId": "anthropic-cybersecurity-skills-skills-analyzing-ethereum-smart-contract-vulnerabilities",
+    "skillName": "analyzing-ethereum-smart-contract-vulnerabilities",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "web3-blockchain-developer-openzeppelin-openzeppelin-contracts-pr-6397",
+    "roleId": "web3-blockchain-developer",
+    "skillId": "openclaw-banker-skills-bankr",
+    "skillName": "bankr",
+    "score": null,
+    "runAt": null
+  },
+  {
+    "benchmarkId": "web3-blockchain-developer-openzeppelin-openzeppelin-contracts-pr-6397",
+    "roleId": "web3-blockchain-developer",
+    "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-security-research-skills-smart-contract-analysis",
+    "skillName": "Smart Contract Analysis Skill",
+    "score": null,
+    "runAt": null
+  }
+]

@@ -1,0 +1,115 @@
+{
+  "allRepoCount": 8297,
+  "excludedRepoCount": 2,
+  "skillRepoCount": 86,
+  "aggregatedSkillDirectoryCount": 4561,
+  "sourcesPath": "/Users/matrixy/Dev/bpro.dev/skills-marketplace/sources",
+  "skillsPath": "/Users/matrixy/Dev/bpro.dev/skills-marketplace/skills",
+  "inventoryPath": "/Users/matrixy/Dev/bpro.dev/skills-marketplace/inventory",
+  "excludedRepos": [
+    "MaTriXy/auto-skill",
+    "MaTriXy/Agent-Registry"
+  ],
+  "topReposBySkillDirectories": [
+    {
+      "nameWithOwner": "MaTriXy/babysitter-codex",
+      "skillDirectories": 2026
+    },
+    {
+      "nameWithOwner": "MaTriXy/Anthropic-Cybersecurity-Skills",
+      "skillDirectories": 734
+    },
+    {
+      "nameWithOwner": "MaTriXy/claude-code-templates",
+      "skillDirectories": 686
+    },
+    {
+      "nameWithOwner": "MaTriXy/claude-flow",
+      "skillDirectories": 263
+    },
+    {
+      "nameWithOwner": "MaTriXy/everything-claude-code",
+      "skillDirectories": 200
+    },
+    {
+      "nameWithOwner": "MaTriXy/pm-skills",
+      "skillDirectories": 65
+    },
+    {
+      "nameWithOwner": "MaTriXy/claude-bootstrap",
+      "skillDirectories": 44
+    },
+    {
+      "nameWithOwner": "MaTriXy/skills-openai",
+      "skillDirectories": 38
+    },
+    {
+      "nameWithOwner": "MaTriXy/agent-skills-jdrhyne",
+      "skillDirectories": 35
+    },
+    {
+      "nameWithOwner": "MaTriXy/Continuous-Claude-v2",
+      "skillDirectories": 34
+    },
+    {
+      "nameWithOwner": "MaTriXy/noodle-go-skills",
+      "skillDirectories": 34
+    },
+    {
+      "nameWithOwner": "MaTriXy/marketingskills",
+      "skillDirectories": 33
+    },
+    {
+      "nameWithOwner": "MaTriXy/app-store-connect-cli-skills",
+      "skillDirectories": 28
+    },
+    {
+      "nameWithOwner": "MaTriXy/agent-coworker-tui",
+      "skillDirectories": 27
+    },
+    {
+      "nameWithOwner": "MaTriXy/mcp-scan",
+      "skillDirectories": 20
+    },
+    {
+      "nameWithOwner": "MaTriXy/agent-scripts",
+      "skillDirectories": 19
+    },
+    {
+      "nameWithOwner": "MaTriXy/claude-skills",
+      "skillDirectories": 17
+    },
+    {
+      "nameWithOwner": "MaTriXy/skill-scanner",
+      "skillDirectories": 15
+    },
+    {
+      "nameWithOwner": "MaTriXy/claude-skills-Swift-Server-Skills",
+      "skillDirectories": 11
+    },
+    {
+      "nameWithOwner": "MaTriXy/gemini-cli",
+      "skillDirectories": 11
+    },
+    {
+      "nameWithOwner": "MaTriXy/Skills-codex-ios",
+      "skillDirectories": 10
+    },
+    {
+      "nameWithOwner": "MaTriXy/claude-code",
+      "skillDirectories": 10
+    },
+    {
+      "nameWithOwner": "MaTriXy/claude-skills-library",
+      "skillDirectories": 10
+    },
+    {
+      "nameWithOwner": "MaTriXy/claude-workflow",
+      "skillDirectories": 10
+    },
+    {
+      "nameWithOwner": "MaTriXy/threejs-skills",
+      "skillDirectories": 10
+    }
+  ]
+}

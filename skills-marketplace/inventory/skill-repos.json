@@ -1,0 +1,346 @@
+[
+  {
+    "nameWithOwner": "MaTriXy/SwiftUI-Agent-Skill-pro",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/agent-media-skill",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/agent-media",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/Skills-codex-ios",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/gemini-cli",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/Anthropic-Cybersecurity-Skills",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/marketingskills",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/sdlc-subagents-cli",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/chrome-cdp-skill",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/babysitter-codex",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/agent-coworker-tui",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/XcodeBuildMCP",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/agent-scripts",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/Swift-Testing-Agent-Skill-pro",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/SwiftData-Agent-Skill-pro",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/Swift-Concurrency-Agent-Skill-pro",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/everything-claude-code",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/codex-cli",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/claude-code-guide",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/debug-skill",
+    "defaultBranch": "master"
+  },
+  {
+    "nameWithOwner": "MaTriXy/skills-openai",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/agent-skills-jdrhyne",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/skills-shpigford",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/SwiftUI-Agent-Skill",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/agent-device",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/pm-skills",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/last30days-skill-run",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/app-store-connect-cli-skills",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/claude-skills-Swift-Server-Skills",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/noodle-go-skills",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/claude-code",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/skilld",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/claude-flow",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/mcp-scan",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/compose-skill",
+    "defaultBranch": "master"
+  },
+  {
+    "nameWithOwner": "MaTriXy/Claude-XcodePreviews",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/agent-browser",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/claude-code-templates",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/claude-code-video-toolkit",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/skill-scanner",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/taste-skill",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/github-review-skill",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/claude-code-best-practice",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/claudereview",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/skills-codex-ios-",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/Swift-Concurrency-Agent-Skill",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/proxySkillOpenClaw",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/codex",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/ia-agents",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/postiz-agent",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/audio-reply-skill",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/linear-skill",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/gemini-skills",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/dexter-agent-finance",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/remotion-codex",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/Openstatus-Skills-for-Agents",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/stitch-skills",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/Claude-Code-Custom-Plugins",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/human-skill",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/skills-ElevenLabs",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/webgpu-claude-skill",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/platform-design-skills",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/openclaw-banker-skills",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/ClaudeMeter",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/agent-browser-skill",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/last30days-skill",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/skills-heygen-api",
+    "defaultBranch": "master"
+  },
+  {
+    "nameWithOwner": "MaTriXy/qmd-skill",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/open-claude-cowork",
+    "defaultBranch": "master"
+  },
+  {
+    "nameWithOwner": "MaTriXy/Claude-Code-Beads-Orchestration",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/remotion-skills",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/skills",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/ui-skills-agents",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/agentation",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/claude-skills-library",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/claude-workflow",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/x-algo-skills",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/threejs-skills",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/claude-skills",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/generate-shortcuts-skill",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/claude-bootstrap",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/n8n-skills",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/Continuous-Claude-v2",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/ui-ux-pro-max-skill",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/claude-mem",
+    "defaultBranch": "main"
+  },
+  {
+    "nameWithOwner": "MaTriXy/skills-huggingface",
+    "defaultBranch": "main"
+  }
+]

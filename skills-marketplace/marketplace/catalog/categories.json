@@ -1,0 +1,726 @@
+[
+  {
+    "slug": "ai-llm-agents",
+    "title": "AI / LLM / Agents",
+    "description": "LLMs, prompts, RAG, agent workflows, and AI application engineering.",
+    "skillCount": 898,
+    "topSourceRepos": [
+      [
+        "claude-flow",
+        232
+      ],
+      [
+        "babysitter-codex",
+        203
+      ],
+      [
+        "claude-code-templates",
+        179
+      ],
+      [
+        "everything-claude-code",
+        57
+      ],
+      [
+        "noodle-go-skills",
+        30
+      ],
+      [
+        "Continuous-Claude-v2",
+        29
+      ],
+      [
+        "marketingskills",
+        25
+      ],
+      [
+        "claude-bootstrap",
+        12
+      ],
+      [
+        "skills-openai",
+        12
+      ],
+      [
+        "agent-skills-jdrhyne",
+        10
+      ]
+    ],
+    "folder": "marketplace/categories/ai-llm-agents"
+  },
+  {
+    "slug": "security",
+    "title": "Security",
+    "description": "Security engineering, red/blue teaming, vulnerability analysis, and hardening.",
+    "skillCount": 797,
+    "topSourceRepos": [
+      [
+        "Anthropic-Cybersecurity-Skills",
+        647
+      ],
+      [
+        "babysitter-codex",
+        93
+      ],
+      [
+        "claude-code-templates",
+        36
+      ],
+      [
+        "everything-claude-code",
+        12
+      ],
+      [
+        "skill-scanner",
+        3
+      ],
+      [
+        "claude-bootstrap",
+        2
+      ],
+      [
+        "skills-openai",
+        2
+      ],
+      [
+        "claude-flow",
+        1
+      ],
+      [
+        "github-review-skill",
+        1
+      ]
+    ],
+    "folder": "marketplace/categories/security"
+  },
+  {
+    "slug": "testing-debugging-quality",
+    "title": "Testing / Debugging / Quality",
+    "description": "Testing, QA, performance, debugging, accessibility, and review workflows.",
+    "skillCount": 498,
+    "topSourceRepos": [
+      [
+        "babysitter-codex",
+        339
+      ],
+      [
+        "claude-code-templates",
+        64
+      ],
+      [
+        "everything-claude-code",
+        17
+      ],
+      [
+        "claude-flow",
+        12
+      ],
+      [
+        "pm-skills",
+        11
+      ],
+      [
+        "skills-openai",
+        6
+      ],
+      [
+        "Anthropic-Cybersecurity-Skills",
+        5
+      ],
+      [
+        "agent-coworker-tui",
+        4
+      ],
+      [
+        "Continuous-Claude-v2",
+        3
+      ],
+      [
+        "claude-bootstrap",
+        3
+      ]
+    ],
+    "folder": "marketplace/categories/testing-debugging-quality"
+  },
+  {
+    "slug": "hardware-science-engineering",
+    "title": "Hardware / Science",
+    "description": "FPGA, robotics, electronics, scientific workflows, and domain engineering.",
+    "skillCount": 390,
+    "topSourceRepos": [
+      [
+        "babysitter-codex",
+        350
+      ],
+      [
+        "claude-code-templates",
+        39
+      ],
+      [
+        "everything-claude-code",
+        1
+      ]
+    ],
+    "folder": "marketplace/categories/hardware-science-engineering"
+  },
+  {
+    "slug": "general-dev-tooling",
+    "title": "General Dev Tooling",
+    "description": "General engineering skills that do not strongly fit a narrower category.",
+    "skillCount": 303,
+    "topSourceRepos": [
+      [
+        "babysitter-codex",
+        200
+      ],
+      [
+        "claude-code-templates",
+        64
+      ],
+      [
+        "agent-skills-jdrhyne",
+        6
+      ],
+      [
+        "openclaw-banker-skills",
+        5
+      ],
+      [
+        "skills-openai",
+        5
+      ],
+      [
+        "claude-bootstrap",
+        4
+      ],
+      [
+        "claude-flow",
+        2
+      ],
+      [
+        "n8n-skills",
+        2
+      ],
+      [
+        "skill-scanner",
+        2
+      ],
+      [
+        "Claude-Code-Beads-Orchestration",
+        1
+      ]
+    ],
+    "folder": "marketplace/categories/general-dev-tooling"
+  },
+  {
+    "slug": "docs-content-writing",
+    "title": "Docs / Content / Writing",
+    "description": "Documentation, technical writing, SEO, localization, and content generation.",
+    "skillCount": 291,
+    "topSourceRepos": [
+      [
+        "babysitter-codex",
+        162
+      ],
+      [
+        "everything-claude-code",
+        51
+      ],
+      [
+        "claude-code-templates",
+        44
+      ],
+      [
+        "n8n-skills",
+        4
+      ],
+      [
+        "skilld",
+        4
+      ],
+      [
+        "agent-coworker-tui",
+        3
+      ],
+      [
+        "Continuous-Claude-v2",
+        2
+      ],
+      [
+        "agent-skills-jdrhyne",
+        2
+      ],
+      [
+        "claude-bootstrap",
+        2
+      ],
+      [
+        "claude-skills",
+        2
+      ]
+    ],
+    "folder": "marketplace/categories/docs-content-writing"
+  },
+  {
+    "slug": "design-media-creative",
+    "title": "Design / Media",
+    "description": "Design systems, video, audio, graphics, and creative tooling.",
+    "skillCount": 269,
+    "topSourceRepos": [
+      [
+        "babysitter-codex",
+        183
+      ],
+      [
+        "claude-code-templates",
+        41
+      ],
+      [
+        "agent-skills-jdrhyne",
+        4
+      ],
+      [
+        "pm-skills",
+        4
+      ],
+      [
+        "Anthropic-Cybersecurity-Skills",
+        3
+      ],
+      [
+        "claude-code-video-toolkit",
+        3
+      ],
+      [
+        "skills-openai",
+        3
+      ],
+      [
+        "agent-coworker-tui",
+        2
+      ],
+      [
+        "agent-media",
+        2
+      ],
+      [
+        "claude-skills",
+        2
+      ]
+    ],
+    "folder": "marketplace/categories/design-media-creative"
+  },
+  {
+    "slug": "data-ml-analytics",
+    "title": "Data / ML / Analytics",
+    "description": "Data engineering, analytics, machine learning, databases, and pipelines.",
+    "skillCount": 255,
+    "topSourceRepos": [
+      [
+        "babysitter-codex",
+        159
+      ],
+      [
+        "claude-code-templates",
+        50
+      ],
+      [
+        "everything-claude-code",
+        10
+      ],
+      [
+        "pm-skills",
+        9
+      ],
+      [
+        "Anthropic-Cybersecurity-Skills",
+        7
+      ],
+      [
+        "skill-scanner",
+        6
+      ],
+      [
+        "x-algo-skills",
+        4
+      ],
+      [
+        "agent-skills-jdrhyne",
+        3
+      ],
+      [
+        "claude-bootstrap",
+        2
+      ],
+      [
+        "claude-skills-Swift-Server-Skills",
+        2
+      ]
+    ],
+    "folder": "marketplace/categories/data-ml-analytics"
+  },
+  {
+    "slug": "backend-api-services",
+    "title": "Backend / APIs",
+    "description": "Backend services, APIs, server-side applications, and distributed systems.",
+    "skillCount": 196,
+    "topSourceRepos": [
+      [
+        "babysitter-codex",
+        66
+      ],
+      [
+        "claude-code-templates",
+        55
+      ],
+      [
+        "everything-claude-code",
+        22
+      ],
+      [
+        "Anthropic-Cybersecurity-Skills",
+        21
+      ],
+      [
+        "claude-bootstrap",
+        8
+      ],
+      [
+        "agent-skills-jdrhyne",
+        5
+      ],
+      [
+        "claude-flow",
+        3
+      ],
+      [
+        "claude-skills-Swift-Server-Skills",
+        2
+      ],
+      [
+        "claude-workflow",
+        2
+      ],
+      [
+        "skills-ElevenLabs",
+        2
+      ]
+    ],
+    "folder": "marketplace/categories/backend-api-services"
+  },
+  {
+    "slug": "product-growth-operations",
+    "title": "Product / Growth / Ops",
+    "description": "Product management, growth, marketing, business operations, and PM tooling.",
+    "skillCount": 189,
+    "topSourceRepos": [
+      [
+        "babysitter-codex",
+        103
+      ],
+      [
+        "claude-code-templates",
+        37
+      ],
+      [
+        "pm-skills",
+        36
+      ],
+      [
+        "marketingskills",
+        8
+      ],
+      [
+        "Claude-Code-Custom-Plugins",
+        1
+      ],
+      [
+        "app-store-connect-cli-skills",
+        1
+      ],
+      [
+        "claude-bootstrap",
+        1
+      ],
+      [
+        "dexter-agent-finance",
+        1
+      ],
+      [
+        "skill-scanner",
+        1
+      ]
+    ],
+    "folder": "marketplace/categories/product-growth-operations"
+  },
+  {
+    "slug": "frontend-web",
+    "title": "Frontend / Web",
+    "description": "Frontend engineering, web apps, UI systems, and browser-facing client code.",
+    "skillCount": 151,
+    "topSourceRepos": [
+      [
+        "babysitter-codex",
+        51
+      ],
+      [
+        "claude-code-templates",
+        35
+      ],
+      [
+        "everything-claude-code",
+        14
+      ],
+      [
+        "claude-bootstrap",
+        7
+      ],
+      [
+        "threejs-skills",
+        6
+      ],
+      [
+        "agent-coworker-tui",
+        4
+      ],
+      [
+        "claude-skills",
+        3
+      ],
+      [
+        "mcp-scan",
+        3
+      ],
+      [
+        "claude-code-best-practice",
+        2
+      ],
+      [
+        "claude-skills-library",
+        2
+      ]
+    ],
+    "folder": "marketplace/categories/frontend-web"
+  },
+  {
+    "slug": "devops-cloud-infra",
+    "title": "DevOps / Cloud / Infra",
+    "description": "CI/CD, containers, infrastructure, cloud platforms, and deployment tooling.",
+    "skillCount": 148,
+    "topSourceRepos": [
+      [
+        "babysitter-codex",
+        58
+      ],
+      [
+        "Anthropic-Cybersecurity-Skills",
+        47
+      ],
+      [
+        "claude-code-templates",
+        25
+      ],
+      [
+        "claude-flow",
+        8
+      ],
+      [
+        "skills-openai",
+        4
+      ],
+      [
+        "everything-claude-code",
+        3
+      ],
+      [
+        "agent-skills-jdrhyne",
+        1
+      ],
+      [
+        "claude-bootstrap",
+        1
+      ],
+      [
+        "claude-skills-Swift-Server-Skills",
+        1
+      ]
+    ],
+    "folder": "marketplace/categories/devops-cloud-infra"
+  },
+  {
+    "slug": "app-store-publishing",
+    "title": "App Store / Publishing",
+    "description": "App Store Connect, TestFlight, screenshots, metadata, and store operations.",
+    "skillCount": 74,
+    "topSourceRepos": [
+      [
+        "app-store-connect-cli-skills",
+        25
+      ],
+      [
+        "babysitter-codex",
+        25
+      ],
+      [
+        "claude-code-templates",
+        6
+      ],
+      [
+        "claude-flow",
+        5
+      ],
+      [
+        "agent-coworker-tui",
+        4
+      ],
+      [
+        "pm-skills",
+        3
+      ],
+      [
+        "Skills-codex-ios",
+        1
+      ],
+      [
+        "agent-scripts",
+        1
+      ],
+      [
+        "openclaw-banker-skills",
+        1
+      ],
+      [
+        "skills-huggingface",
+        1
+      ]
+    ],
+    "folder": "marketplace/categories/app-store-publishing"
+  },
+  {
+    "slug": "swift-ios-apple",
+    "title": "Swift / Apple",
+    "description": "Swift, SwiftUI, iOS, macOS, visionOS, and Apple platform development.",
+    "skillCount": 60,
+    "topSourceRepos": [
+      [
+        "babysitter-codex",
+        16
+      ],
+      [
+        "everything-claude-code",
+        11
+      ],
+      [
+        "Skills-codex-ios",
+        5
+      ],
+      [
+        "agent-scripts",
+        5
+      ],
+      [
+        "platform-design-skills",
+        4
+      ],
+      [
+        "Claude-XcodePreviews",
+        3
+      ],
+      [
+        "XcodeBuildMCP",
+        2
+      ],
+      [
+        "claude-skills-Swift-Server-Skills",
+        2
+      ],
+      [
+        "skills-codex-ios-",
+        2
+      ],
+      [
+        "Anthropic-Cybersecurity-Skills",
+        1
+      ]
+    ],
+    "folder": "marketplace/categories/swift-ios-apple"
+  },
+  {
+    "slug": "browser-automation",
+    "title": "Browser Automation",
+    "description": "Playwright, browser control, scraping, CDP, and UI automation.",
+    "skillCount": 32,
+    "topSourceRepos": [
+      [
+        "babysitter-codex",
+        12
+      ],
+      [
+        "claude-code-templates",
+        10
+      ],
+      [
+        "agent-skills-jdrhyne",
+        2
+      ],
+      [
+        "skills-openai",
+        2
+      ],
+      [
+        "chrome-cdp-skill",
+        1
+      ],
+      [
+        "claude-bootstrap",
+        1
+      ],
+      [
+        "claude-code-video-toolkit",
+        1
+      ],
+      [
+        "claude-skills",
+        1
+      ],
+      [
+        "everything-claude-code",
+        1
+      ],
+      [
+        "mcp-scan",
+        1
+      ]
+    ],
+    "folder": "marketplace/categories/browser-automation"
+  },
+  {
+    "slug": "android-kotlin",
+    "title": "Android / Kotlin",
+    "description": "Android, Kotlin, Jetpack Compose, and mobile Android engineering.",
+    "skillCount": 10,
+    "topSourceRepos": [
+      [
+        "babysitter-codex",
+        6
+      ],
+      [
+        "Anthropic-Cybersecurity-Skills",
+        1
+      ],
+      [
+        "claude-bootstrap",
+        1
+      ],
+      [
+        "compose-skill",
+        1
+      ],
+      [
+        "platform-design-skills",
+        1
+      ]
+    ],
+    "folder": "marketplace/categories/android-kotlin"
+  }
+]
