@@ -59,6 +59,52 @@ All 39 roles have **3+ benchmarks** each. Average quality score: **7.6 / 10**.
 
 ---
 
+## Running the benchmark
+
+The runner executes each (benchmark × skill) slot in the leaderboard: it shallow-clones the repo at the exact base commit, installs the target skill in isolation, invokes Claude, Codex, and Gemini non-interactively with the `requestedChange` prompt, captures the resulting git diff, and scores it against the 5 `judgingCriteria` using all three models. Progress is saved after every slot so you can stop and resume at any time.
+
+### Prerequisites
+
+Make sure all three CLIs are installed and authenticated before running:
+
+```bash
+claude --version
+codex --version
+gemini --version
+```
+
+### Calibration run (recommended first step)
+
+Run 3 slots end-to-end to get a real time estimate before committing to the full dataset:
+
+```bash
+node runner/run.js --limit 3
+```
+
+Each slot clones the repo, runs claude + codex + gemini sequentially, scores the diffs, and writes results to `benchmarks/leaderboard.json`. Expect **5–15 minutes per slot** depending on task complexity.
+
+### Full run
+
+```bash
+node runner/run.js
+```
+
+341 slots total. At 5–15 min/slot that's roughly **30–85 hours** — leave it running overnight or across multiple sessions. The runner is resume-safe: if you Ctrl+C and restart, it picks up from where it left off (`runner/progress.json` tracks completed slots).
+
+### Other flags
+
+```bash
+node runner/run.js --dry-run          # preview what would run, no CLIs invoked
+node runner/run.js --limit 20         # run only the first N pending slots
+node runner/run.js --slot bm123:sk456 # run a single specific slot
+```
+
+### Leaderboard
+
+Scores are written to `benchmarks/leaderboard.json` after each slot and auto-published to GitHub Pages on push. To enable Pages: repo Settings → Pages → Source: `main` branch, `/docs` folder.
+
+---
+
 ## Related datasets
 
 - [SWE-bench](https://huggingface.co/datasets/princeton-nlp/SWE-bench_Verified)
