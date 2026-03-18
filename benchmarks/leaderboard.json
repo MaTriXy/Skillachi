@@ -4,33 +4,43 @@
     "roleId": "3d-graphics-engineer",
     "skillId": "threejs-skills-skills-threejs-shaders",
     "skillName": "threejs-shaders",
-    "score": 1,
-    "runAt": "2026-03-17T17:30:37.132Z",
+    "score": 4.8,
+    "runAt": "2026-03-18T02:25:26.396Z",
     "scoreDetail": {
       "claude": {
         "scores": [
-          1,
-          1,
-          1,
+          5,
+          2,
+          4,
           1,
           1
         ],
-        "overall": 1,
-        "notes": "No changes were made whatsoever; the implementation is an empty diff that addresses none of the criteria."
+        "overall": 2.6,
+        "notes": "The change adds `findFiberByHostInstance` which is directionally correct for React 19 DevTools compatibility, but the `as any` cast suppresses type errors rather than properly resolving them, there is no version detection or backwards-compatibility shim for React 18, no tests or demo are included, and the change has no bearing on three.js scene graph metadata exposure to DevTools."
       },
       "codex": null,
-      "gemini": null,
+      "gemini": {
+        "scores": [
+          8,
+          8,
+          9,
+          1,
+          9
+        ],
+        "overall": 7,
+        "notes": "The implementation correctly identifies the need for findFiberByHostInstance and Fiber tracking for React 19, but contains a typo in the package name and lacks verification tests."
+      },
       "average": {
         "scores": [
+          6.5,
+          5,
+          6.5,
           1,
-          1,
-          1,
-          1,
-          1
+          5
         ],
-        "overall": 1
+        "overall": 4.8
       },
-      "scoredAt": "2026-03-17T17:30:37.132Z"
+      "scoredAt": "2026-03-18T02:25:26.396Z"
     }
   },
   {
@@ -38,33 +48,53 @@
     "roleId": "3d-graphics-engineer",
     "skillId": "claude-code-templates-cli-tool-components-skills-creative-design-3d-web-experience",
     "skillName": "3d-web-experience",
-    "score": 1,
-    "runAt": "2026-03-17T17:35:47.516Z",
+    "score": 4.53,
+    "runAt": "2026-03-18T02:56:04.829Z",
     "scoreDetail": {
       "claude": {
         "scores": [
+          3,
+          2,
+          4,
           1,
-          1,
-          1,
+          2
+        ],
+        "overall": 2.4,
+        "notes": "The core premise is wrong — React 19's react-reconciler still accepts injectIntoDevTools arguments; moving fields into the constructor config is undocumented behavior, bundleType is silently dropped breaking React 18, no tests are included, and the three.js scene graph metadata criterion is entirely unaddressed."
+      },
+      "codex": {
+        "scores": [
+          8,
+          2,
+          6,
           1,
           1
         ],
-        "overall": 1,
-        "notes": "No changes were made; the implementation is entirely absent."
+        "overall": 3.6,
+        "notes": "The patch likely fixes React 19 by moving renderer metadata into the host config and switching to zero-argument DevTools injection, but it adds no React 18 compatibility path and no validation coverage."
       },
-      "codex": null,
-      "gemini": null,
+      "gemini": {
+        "scores": [
+          10,
+          8,
+          10,
+          1,
+          9
+        ],
+        "overall": 7.6,
+        "notes": "The implementation correctly adopts the React 19 reconciler initialization pattern and enables Fiber-to-Host mapping, but lacks accompanying tests in the provided diff."
+      },
       "average": {
         "scores": [
+          7,
+          4,
+          6.67,
           1,
-          1,
-          1,
-          1,
-          1
+          4
         ],
-        "overall": 1
+        "overall": 4.53
       },
-      "scoredAt": "2026-03-17T17:35:47.516Z"
+      "scoredAt": "2026-03-18T02:56:04.829Z"
     }
   },
   {
@@ -72,33 +102,43 @@
     "roleId": "3d-graphics-engineer",
     "skillId": "threejs-skills-skills-threejs-animation",
     "skillName": "threejs-animation",
-    "score": 3.4,
-    "runAt": "2026-03-17T17:41:49.824Z",
+    "score": 4.9,
+    "runAt": "2026-03-18T03:38:39.998Z",
     "scoreDetail": {
       "claude": {
         "scores": [
           5,
-          3,
+          7,
           7,
           1,
-          1
+          2
         ],
-        "overall": 3.4,
-        "notes": "Adding `findFiberByHostInstance` addresses one missing field but doesn't remove the deprecated `rendererPackageName`/`rendererVersion` fields or adopt the React 19-compatible `currentDispatcherRef`/`reconcilerVersion` shape, no backward-compat version guard exists, and there are no tests or three.js-specific metadata improvements."
+        "overall": 4.4,
+        "notes": "Adding `findFiberByHostInstance` addresses a real React 19 requirement and is backwards-compatible, but the fix is incomplete—it doesn't remove or update the deprecated `rendererPackageName`/`rendererVersion` fields called out in the task, includes zero tests, and makes no attempt to expose three.js scene-graph metadata to DevTools."
       },
       "codex": null,
-      "gemini": null,
-      "average": {
+      "gemini": {
         "scores": [
+          9,
           5,
-          3,
           7,
           1,
-          1
+          5
         ],
-        "overall": 3.4
+        "overall": 5.4,
+        "notes": "Successfully migrates to React 19 reconciler metadata patterns but lacks backward compatibility, tests, and contains a potential string literal typo."
       },
-      "scoredAt": "2026-03-17T17:41:49.824Z"
+      "average": {
+        "scores": [
+          7,
+          6,
+          7,
+          1,
+          3.5
+        ],
+        "overall": 4.9
+      },
+      "scoredAt": "2026-03-18T03:38:39.998Z"
     }
   },
   {
@@ -106,8 +146,62 @@
     "roleId": "3d-graphics-engineer",
     "skillId": "threejs-skills-skills-threejs-shaders",
     "skillName": "threejs-shaders",
-    "score": 6.8,
-    "runAt": "2026-03-17T18:13:02.663Z",
+    "score": 6.6,
+    "runAt": "2026-03-18T03:48:49.314Z",
+    "scoreDetail": {
+      "claude": {
+        "scores": [
+          8,
+          8,
+          8,
+          1,
+          7
+        ],
+        "overall": 6.4,
+        "notes": "Clean, minimal change that correctly tracks and invalidates shader state on renderer property changes, but ships with zero tests or examples to verify the fix visually or programmatically."
+      },
+      "codex": {
+        "scores": [
+          8,
+          9,
+          8,
+          1,
+          8
+        ],
+        "overall": 6.8,
+        "notes": "The runtime state polling and `material.needsUpdate` hook look like a solid minimal fix, but the diff does not show any actual test coverage or visual verification for the new behavior."
+      },
+      "gemini": {
+        "scores": [
+          10,
+          10,
+          3,
+          1,
+          9
+        ],
+        "overall": 6.6,
+        "notes": "Implementation correctly identifies and fixes the logic issue using dirty-checking, but suffers from severe metadata pollution in JSDoc and lacks required test coverage."
+      },
+      "average": {
+        "scores": [
+          8.67,
+          9,
+          6.33,
+          1,
+          8
+        ],
+        "overall": 6.6
+      },
+      "scoredAt": "2026-03-18T03:48:49.314Z"
+    }
+  },
+  {
+    "benchmarkId": "3d-graphics-engineer-mrdoob-three.js-pr-33187",
+    "roleId": "3d-graphics-engineer",
+    "skillId": "claude-code-templates-cli-tool-components-skills-creative-design-3d-web-experience",
+    "skillName": "3d-web-experience",
+    "score": 6.67,
+    "runAt": "2026-03-18T03:59:50.546Z",
     "scoreDetail": {
       "claude": {
         "scores": [
@@ -118,65 +212,41 @@
           8
         ],
         "overall": 6.8,
-        "notes": "The change-detection logic is clean and correct, capturing values only after successful recompile to naturally batch rapid changes, but the PR ships with zero tests or visual examples verifying the fix."
+        "notes": "The change-detection logic is clean and correct, snapshotting state at compile time and dirtying on mismatch, but the PR includes no tests or visual examples to verify runtime correctness."
       },
-      "codex": null,
-      "gemini": null,
-      "average": {
+      "codex": {
         "scores": [
+          8,
           9,
-          8,
-          8,
-          1,
+          7,
+          2,
           8
         ],
-        "overall": 6.8
+        "overall": 6.8,
+        "notes": "The runtime state tracking is a reasonable fit for `RenderPipeline` and should catch output transform changes on the next update, but the diff does not show any substantive test coverage proving the behavior or visual correctness."
       },
-      "scoredAt": "2026-03-17T18:13:02.663Z"
-    }
-  },
-  {
-    "benchmarkId": "3d-graphics-engineer-mrdoob-three.js-pr-33187",
-    "roleId": "3d-graphics-engineer",
-    "skillId": "claude-code-templates-cli-tool-components-skills-creative-design-3d-web-experience",
-    "skillName": "3d-web-experience",
-    "score": 7.6,
-    "runAt": "2026-03-17T18:59:27.599Z",
-    "scoreDetail": {
-      "claude": {
-        "scores": [
-          9,
-          9,
-          8,
-          1,
-          8
-        ],
-        "overall": 7,
-        "notes": "Clean, minimal change-detection approach that correctly invalidates and re-compiles on property change, but ships with zero tests or visual examples to verify correctness."
-      },
-      "codex": null,
       "gemini": {
         "scores": [
-          10,
-          10,
-          10,
-          1,
-          10
+          9,
+          9,
+          4,
+          2,
+          8
         ],
-        "overall": 8.2,
-        "notes": "The implementation correctly tracks renderer state changes to trigger shader re-compilation, but lacks the necessary test updates required by the criteria."
+        "overall": 6.4,
+        "notes": "The state-tracking logic correctly triggers updates, but the JSDoc is severely polluted with environmental metadata and the test implementation content is missing from the diff."
       },
       "average": {
         "scores": [
-          9.5,
-          9.5,
-          9,
-          1,
-          9
+          8.67,
+          8.67,
+          6.33,
+          1.67,
+          8
         ],
-        "overall": 7.6
+        "overall": 6.67
       },
-      "scoredAt": "2026-03-17T18:59:27.598Z"
+      "scoredAt": "2026-03-18T03:59:50.546Z"
     }
   },
   {
