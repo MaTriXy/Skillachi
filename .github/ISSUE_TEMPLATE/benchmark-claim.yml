@@ -1,0 +1,29 @@
+name: Benchmark Slot Claim
+description: Auto-created by skillachi-runner --contribute to coordinate slot execution
+title: "[claim] "
+labels: ["benchmark-claim"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This issue is automatically created by `npx skillachi-runner --contribute` to
+        prevent two contributors from running the same benchmark slot simultaneously.
+        It will be closed automatically when a PR is opened or after 48 hours.
+
+  - type: input
+    id: slot_id
+    attributes:
+      label: Slot ID
+      description: "Format: benchmarkId:skillId"
+      placeholder: "react-developer-vercel-swr-pr-123:react-best-practices"
+    validations:
+      required: true
+
+  - type: input
+    id: runner_info
+    attributes:
+      label: Runner info
+      description: "CLI versions (auto-filled by skillachi-runner)"
+      placeholder: "claude 2.x / codex 0.x / gemini 0.x"
+    validations:
+      required: false

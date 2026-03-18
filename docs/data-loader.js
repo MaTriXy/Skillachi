@@ -205,7 +205,20 @@ async function init() {
   updateStats(allData);
   setupSortHeaders();
   setupFilters(allData);
+
+  // Tab switching
+  document.querySelectorAll('.tab-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+      document.querySelectorAll('.tab-panel').forEach(p => p.style.display = 'none');
+      btn.classList.add('active');
+      const panel = document.getElementById(`tab-${btn.dataset.tab}`);
+      if (panel) panel.style.display = '';
+    });
+  });
+
   renderTable(allData);
+  renderCoverage(raw);
 
   // Update last-updated
   const lastUpdated = document.getElementById('last-updated');
@@ -216,3 +229,52 @@ async function init() {
 }
 
 document.addEventListener('DOMContentLoaded', init);
+
+async function renderCoverage(rawSlots) {
+  const tbody = document.getElementById('coverage-tbody');
+  if (!tbody) return;
+
+  let uncovered = [];
+
+  // Try gaps.json first
+  try {
+    const resp = await fetch('../benchmarks/gaps.json');
+    if (resp.ok) {
+      const gaps = await resp.json();
+      for (const [role, data] of Object.entries(gaps.byRole || {})) {
+        for (const slot of (data.uncovered || [])) {
+          uncovered.push({ roleId: role, ...slot });
+        }
+      }
+    }
+  } catch {}
+
+  // Fallback: null-score slots from leaderboard
+  if (!uncovered.length) {
+    uncovered = rawSlots
+      .filter(s => s.score == null)
+      .map(s => ({ roleId: s.roleId, benchmarkId: s.benchmarkId, skillId: s.skillId, skillName: s.skillName }));
+  }
+
+  if (!uncovered.length) {
+    tbody.innerHTML = '<tr><td colspan="4" style="text-align:center;padding:2rem;color:#666">All slots covered! Nothing to run.</td></tr>';
+    return;
+  }
+
+  tbody.innerHTML = uncovered.map(s => {
+    const cmd = `npx skillachi-runner --slot ${s.benchmarkId}:${s.skillId}`;
+    return `<tr>
+      <td style="color:#94a3b8;font-size:0.83em">${s.roleId || ''}</td>
+      <td style="color:#e2e8f0">${s.skillName || s.skillId}</td>
+      <td style="color:#64748b;font-size:0.78em;font-family:'JetBrains Mono',monospace">${s.benchmarkId}</td>
+      <td style="text-align:center">
+        <button class="copy-cmd" data-cmd="${cmd}" onclick="
+          navigator.clipboard.writeText(this.dataset.cmd);
+          const orig=this.textContent;
+          this.textContent='Copied!';
+          setTimeout(()=>this.textContent=orig,1500)
+        ">Copy</button>
+      </td>
+    </tr>`;
+  }).join('');
+}

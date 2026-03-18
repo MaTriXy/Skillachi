@@ -1,0 +1,21 @@
+{
+  "name": "skillachi-runner",
+  "version": "0.1.0",
+  "description": "Run Skillachi benchmarks and auto-contribute results via npx",
+  "type": "module",
+  "bin": {
+    "skillachi-runner": "./bin/skillachi-runner.js"
+  },
+  "files": [
+    "bin/",
+    "lib/",
+    "README.md"
+  ],
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "ora": "^8.0.1"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

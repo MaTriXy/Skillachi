@@ -170,6 +170,13 @@
       header, .filters, main { padding: 1rem; }
       .filters { gap: 1rem; }
     }
+    .tab-bar { display: flex; gap: 0; border-bottom: 1px solid var(--border); margin: 0 2rem 1.5rem; }
+    .tab-btn { background: none; border: none; border-bottom: 2px solid transparent; color: var(--muted); padding: 0.6rem 1.4rem; cursor: pointer; font-size: 0.9rem; font-family: 'Inter', sans-serif; transition: all 0.15s; }
+    .tab-btn.active { color: var(--accent); border-bottom-color: var(--accent); }
+    .tab-btn:hover { color: var(--text); }
+    .copy-cmd { background: var(--surface); border: 1px solid var(--border); color: var(--accent); padding: 0.2rem 0.7rem; border-radius: 4px; cursor: pointer; font-family: 'JetBrains Mono', monospace; font-size: 0.78rem; }
+    .copy-cmd:hover { border-color: var(--accent); background: rgba(88,166,255,0.08); }
+    .coverage-hint { color: var(--muted); font-size: 0.88rem; margin-bottom: 1rem; }
   </style>
 </head>
 <body>
@@ -208,6 +215,11 @@
 </div>
 
 <main>
+  <div class="tab-bar">
+    <button class="tab-btn active" data-tab="leaderboard">Leaderboard</button>
+    <button class="tab-btn" data-tab="coverage">Coverage</button>
+  </div>
+  <div id="tab-leaderboard" class="tab-panel">
   <div class="table-wrap">
     <table>
       <thead>
@@ -226,6 +238,26 @@
         <tr><td colspan="8" style="text-align:center;color:#666;padding:3rem">Loading leaderboard...</td></tr>
       </tbody>
     </table>
+  </div>
+  </div>
+
+  <div id="tab-coverage" class="tab-panel" style="display:none">
+    <p class="coverage-hint">Uncovered slots — run one of these to contribute to the leaderboard.</p>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Role</th>
+            <th>Skill</th>
+            <th style="font-family:monospace;font-size:0.8em">Benchmark ID</th>
+            <th style="text-align:center">Run this</th>
+          </tr>
+        </thead>
+        <tbody id="coverage-tbody">
+          <tr><td colspan="4" style="text-align:center;color:#666;padding:2rem">Loading...</td></tr>
+        </tbody>
+      </table>
+    </div>
   </div>
 </main>
 

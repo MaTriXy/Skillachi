@@ -9,6 +9,7 @@
  *   node runner/run.js --limit 5          # run only 5 slots
  *   node runner/run.js --slot sk123:bm456 # run single slot by benchmarkId:skillId
  *   node runner/run.js --rescore          # re-run slots missing codex or gemini scores
+ *   node runner/run.js --gaps              # print gap summary and write benchmarks/gaps.json
  */
 
 import { readFileSync, writeFileSync, existsSync, mkdirSync, rmSync, copyFileSync } from 'fs';
@@ -29,6 +30,7 @@ const LIMIT_IDX = args.indexOf('--limit');
 const LIMIT = LIMIT_IDX >= 0 ? parseInt(args[LIMIT_IDX + 1], 10) : Infinity;
 const SLOT_IDX = args.indexOf('--slot');
 const SLOT_FILTER = SLOT_IDX >= 0 ? args[SLOT_IDX + 1] : null; // "benchmarkId:skillId"
+const GAPS = args.includes('--gaps');
 
 // --- Paths ---
 const SCAFFOLD_PATH = path.join(PROJECT_DIR, 'benchmarks', 'leaderboard-scaffold.json');
@@ -59,6 +61,70 @@ function saveProgress() {
 }
 function saveLeaderboard() {
   writeFileSync(LEADERBOARD_PATH, JSON.stringify(leaderboard, null, 2));
+}
+
+// --- Gap detection ---
+if (GAPS) {
+  const lb = existsSync(LEADERBOARD_PATH)
+    ? JSON.parse(readFileSync(LEADERBOARD_PATH, 'utf8'))
+    : JSON.parse(JSON.stringify(scaffold));
+
+  const lbMap = {};
+  for (const s of lb) lbMap[`${s.benchmarkId}:${s.skillId}`] = s;
+
+  const byRole = {};
+  let totalUncovered = 0;
+  const totalSlots = scaffold.length;
+
+  for (const slot of scaffold) {
+    const key = `${slot.benchmarkId}:${slot.skillId}`;
+    const lbSlot = lbMap[key];
+    const d = lbSlot?.scoreDetail || {};
+    const hasAllModels = lbSlot?.score != null && d.claude && d.codex && d.gemini;
+    const role = slot.roleId || 'unknown';
+    if (!byRole[role]) byRole[role] = { total: 0, scored: 0, allModels: 0, uncovered: [] };
+    byRole[role].total++;
+    if (lbSlot?.score != null) byRole[role].scored++;
+    if (hasAllModels) byRole[role].allModels++;
+    else {
+      byRole[role].uncovered.push({ benchmarkId: slot.benchmarkId, skillId: slot.skillId, skillName: slot.skillName });
+      totalUncovered++;
+    }
+  }
+
+  const sortedRoles = Object.entries(byRole)
+    .sort((a, b) => b[1].uncovered.length - a[1].uncovered.length);
+
+  const gaps = {
+    generatedAt: new Date().toISOString(),
+    totalSlots,
+    totalUncovered,
+    totalCovered: totalSlots - totalUncovered,
+    coveragePercent: parseFloat(((totalSlots - totalUncovered) / totalSlots * 100).toFixed(1)),
+    byRole: Object.fromEntries(sortedRoles.map(([role, data]) => [role, {
+      total: data.total,
+      scored: data.scored,
+      allModels: data.allModels,
+      uncoveredCount: data.uncovered.length,
+      uncovered: data.uncovered,
+    }])),
+  };
+
+  const GAPS_PATH = path.join(PROJECT_DIR, 'benchmarks', 'gaps.json');
+  writeFileSync(GAPS_PATH, JSON.stringify(gaps, null, 2));
+
+  console.log('\nSkillachi Gap Report');
+  console.log('='.repeat(50));
+  console.log(`Total slots:    ${totalSlots}`);
+  console.log(`Covered:        ${totalSlots - totalUncovered} (${gaps.coveragePercent}%)`);
+  console.log(`Uncovered:      ${totalUncovered}`);
+  console.log('\nTop roles with gaps:');
+  sortedRoles
+    .filter(([, d]) => d.uncovered.length > 0)
+    .slice(0, 10)
+    .forEach(([role, d]) => console.log(`  ${role}: ${d.uncovered.length} uncovered`));
+  console.log(`\ngaps.json written to benchmarks/gaps.json`);
+  process.exit(0);
 }
 
 // --- Filter pending slots ---
