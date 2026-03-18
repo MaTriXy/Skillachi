@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-03-18T11:15:57.162Z",
+  "generatedAt": "2026-03-18T13:49:30.466Z",
   "totalSlots": 341,
-  "totalUncovered": 337,
-  "totalCovered": 4,
-  "coveragePercent": 1.2,
+  "totalUncovered": 328,
+  "totalCovered": 13,
+  "coveragePercent": 3.8,
   "byRole": {
     "cloud-architect": {
       "total": 12,
@@ -206,59 +206,6 @@
           "benchmarkId": "react-developer-mui-material-ui-pr-47940",
           "skillId": "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-web-development-skills-nextjs",
           "skillName": "nextjs"
-        }
-      ]
-    },
-    "ai-agent-engineer": {
-      "total": 9,
-      "scored": 0,
-      "allModels": 0,
-      "uncoveredCount": 9,
-      "uncovered": [
-        {
-          "benchmarkId": "ai-agent-engineer-crewaiinc-crewai-pr-4775",
-          "skillId": "claude-code-beads-orchestration",
-          "skillName": "create-beads-orchestration"
-        },
-        {
-          "benchmarkId": "ai-agent-engineer-crewaiinc-crewai-pr-4775",
-          "skillId": "agent-skills-jdrhyne-skills-task-orchestrator",
-          "skillName": "task-orchestrator"
-        },
-        {
-          "benchmarkId": "ai-agent-engineer-crewaiinc-crewai-pr-4775",
-          "skillId": "claude-bootstrap-skills-ai-models",
-          "skillName": "ai-models"
-        },
-        {
-          "benchmarkId": "ai-agent-engineer-langchain-ai-langgraph-pr-6874",
-          "skillId": "claude-code-beads-orchestration",
-          "skillName": "create-beads-orchestration"
-        },
-        {
-          "benchmarkId": "ai-agent-engineer-langchain-ai-langgraph-pr-6874",
-          "skillId": "agent-skills-jdrhyne-skills-task-orchestrator",
-          "skillName": "task-orchestrator"
-        },
-        {
-          "benchmarkId": "ai-agent-engineer-langchain-ai-langgraph-pr-6874",
-          "skillId": "claude-bootstrap-skills-ai-models",
-          "skillName": "ai-models"
-        },
-        {
-          "benchmarkId": "ai-agent-engineer-langchain-ai-langchain-pr-35779",
-          "skillId": "claude-code-beads-orchestration",
-          "skillName": "create-beads-orchestration"
-        },
-        {
-          "benchmarkId": "ai-agent-engineer-langchain-ai-langchain-pr-35779",
-          "skillId": "agent-skills-jdrhyne-skills-task-orchestrator",
-          "skillName": "task-orchestrator"
-        },
-        {
-          "benchmarkId": "ai-agent-engineer-langchain-ai-langchain-pr-35779",
-          "skillId": "claude-bootstrap-skills-ai-models",
-          "skillName": "ai-models"
         }
       ]
     },
@@ -1961,11 +1908,34 @@
         }
       ]
     },
+    "ai-agent-engineer": {
+      "total": 9,
+      "scored": 7,
+      "allModels": 6,
+      "uncoveredCount": 3,
+      "uncovered": [
+        {
+          "benchmarkId": "ai-agent-engineer-langchain-ai-langgraph-pr-6874",
+          "skillId": "agent-skills-jdrhyne-skills-task-orchestrator",
+          "skillName": "task-orchestrator"
+        },
+        {
+          "benchmarkId": "ai-agent-engineer-langchain-ai-langchain-pr-35779",
+          "skillId": "agent-skills-jdrhyne-skills-task-orchestrator",
+          "skillName": "task-orchestrator"
+        },
+        {
+          "benchmarkId": "ai-agent-engineer-langchain-ai-langchain-pr-35779",
+          "skillId": "claude-bootstrap-skills-ai-models",
+          "skillName": "ai-models"
+        }
+      ]
+    },
     "3d-graphics-engineer": {
       "total": 9,
-      "scored": 6,
-      "allModels": 4,
-      "uncoveredCount": 5,
+      "scored": 9,
+      "allModels": 7,
+      "uncoveredCount": 2,
       "uncovered": [
         {
           "benchmarkId": "3d-graphics-engineer-pmndrs-react-three-fiber-pr-3594",
@@ -1974,21 +1944,6 @@
         },
         {
           "benchmarkId": "3d-graphics-engineer-pmndrs-react-three-fiber-pr-3594",
-          "skillId": "threejs-skills-skills-threejs-animation",
-          "skillName": "threejs-animation"
-        },
-        {
-          "benchmarkId": "3d-graphics-engineer-mrdoob-three.js-pr-33174",
-          "skillId": "threejs-skills-skills-threejs-shaders",
-          "skillName": "threejs-shaders"
-        },
-        {
-          "benchmarkId": "3d-graphics-engineer-mrdoob-three.js-pr-33174",
-          "skillId": "claude-code-templates-cli-tool-components-skills-creative-design-3d-web-experience",
-          "skillName": "3d-web-experience"
-        },
-        {
-          "benchmarkId": "3d-graphics-engineer-mrdoob-three.js-pr-33174",
           "skillId": "threejs-skills-skills-threejs-animation",
           "skillName": "threejs-animation"
         }

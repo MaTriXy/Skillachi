@@ -308,80 +308,530 @@
     "roleId": "3d-graphics-engineer",
     "skillId": "threejs-skills-skills-threejs-shaders",
     "skillName": "threejs-shaders",
-    "score": null,
-    "runAt": null
+    "score": 6.67,
+    "runAt": "2026-03-18T11:38:44.220Z",
+    "scoreDetail": {
+      "claude": {
+        "scores": [
+          10,
+          8,
+          10,
+          1,
+          5
+        ],
+        "overall": 6.8,
+        "notes": "The single-character fix from `+=` to `=` precisely eliminates the double-counting bug with zero collateral change, but no tests were added or updated to cover long-header HDR files."
+      },
+      "codex": {
+        "scores": [
+          9,
+          9,
+          9,
+          2,
+          1
+        ],
+        "overall": 6,
+        "notes": "The one-line `fgets` assignment fix is likely the right parser correction, but the diff does not show the promised long-header regression test or any end-to-end HDR-to-rendering validation."
+      },
+      "gemini": {
+        "scores": [
+          10,
+          10,
+          9,
+          1,
+          6
+        ],
+        "overall": 7.2,
+        "notes": "The implementation correctly fixes the chunk-accumulation logic in fgets, but fails to provide the required tests and includes corrupted diff metadata."
+      },
+      "average": {
+        "scores": [
+          9.67,
+          9,
+          9.33,
+          1.33,
+          4
+        ],
+        "overall": 6.67
+      },
+      "scoredAt": "2026-03-18T11:38:44.219Z"
+    }
   },
   {
     "benchmarkId": "3d-graphics-engineer-mrdoob-three.js-pr-33174",
     "roleId": "3d-graphics-engineer",
     "skillId": "claude-code-templates-cli-tool-components-skills-creative-design-3d-web-experience",
     "skillName": "3d-web-experience",
-    "score": null,
-    "runAt": null
+    "score": 6.73,
+    "runAt": "2026-03-18T11:47:17.620Z",
+    "scoreDetail": {
+      "claude": {
+        "scores": [
+          9,
+          7,
+          9,
+          1,
+          5
+        ],
+        "overall": 6.2,
+        "notes": "The single-character fix correctly resolves the double-counting bug by reassigning chunk instead of appending to it, but no tests were added and the edge case handling for exact-multiple chunk sizes is untested."
+      },
+      "codex": {
+        "scores": [
+          9,
+          9,
+          8,
+          2,
+          1
+        ],
+        "overall": 5.8,
+        "notes": "The `fgets` accumulation fix appears correct, including exact chunk-boundary cases, but the diff does not show a long-header regression test and does not meaningfully address the shader-pipeline demonstration criterion."
+      },
+      "gemini": {
+        "scores": [
+          10,
+          10,
+          8,
+          3,
+          10
+        ],
+        "overall": 8.2,
+        "notes": "The implementation correctly identifies and fixes the chunk accumulation logic error in the HDR header parser, though it fails to include the actual source code for the referenced unit tests."
+      },
+      "average": {
+        "scores": [
+          9.33,
+          8.67,
+          8.33,
+          2,
+          5.33
+        ],
+        "overall": 6.73
+      },
+      "scoredAt": "2026-03-18T11:47:17.620Z"
+    }
   },
   {
     "benchmarkId": "3d-graphics-engineer-mrdoob-three.js-pr-33174",
     "roleId": "3d-graphics-engineer",
     "skillId": "threejs-skills-skills-threejs-animation",
     "skillName": "threejs-animation",
-    "score": null,
-    "runAt": null
+    "score": 6.4,
+    "runAt": "2026-03-18T11:53:45.100Z",
+    "scoreDetail": {
+      "claude": {
+        "scores": [
+          9,
+          7,
+          9,
+          1,
+          5
+        ],
+        "overall": 6.2,
+        "notes": "The single-character fix (+=  to =) correctly resolves the chunk double-counting bug and integrates cleanly, but no tests are included and the edge-case analysis for exact-multiple chunk sizes is implicit rather than verified."
+      },
+      "codex": {
+        "scores": [
+          8,
+          8,
+          6,
+          2,
+          1
+        ],
+        "overall": 5,
+        "notes": "The `fgets` rewrite appears to fix the chunk double-counting bug and the 128-byte boundary case, but the patch as shown lacks the actual regression test file and does not provide any evidence for shader-pipeline validation."
+      },
+      "gemini": {
+        "scores": [
+          10,
+          10,
+          10,
+          1,
+          9
+        ],
+        "overall": 8,
+        "notes": "The implementation correctly fixes the string accumulation logic and removes an erroneous Uint16Array cast, though it lacks the required test updates."
+      },
+      "average": {
+        "scores": [
+          9,
+          8.33,
+          8.33,
+          1.33,
+          5
+        ],
+        "overall": 6.4
+      },
+      "scoredAt": "2026-03-18T11:53:45.100Z"
+    }
   },
   {
     "benchmarkId": "ai-agent-engineer-crewaiinc-crewai-pr-4775",
     "roleId": "ai-agent-engineer",
     "skillId": "claude-code-beads-orchestration",
     "skillName": "create-beads-orchestration",
-    "score": null,
-    "runAt": null
+    "score": 9,
+    "runAt": "2026-03-18T12:02:38.056Z",
+    "scoreDetail": {
+      "claude": {
+        "scores": [
+          9,
+          8,
+          9,
+          9,
+          8
+        ],
+        "overall": 8.6,
+        "notes": "Solid, minimal fix that correctly merges consecutive toolResult blocks by checking the last message's first content block, though it misses an edge case where a non-toolResult block could be first in a user message content list, and test coverage stops at 2 parallel calls without testing 3+ or interleaved non-tool messages."
+      },
+      "codex": {
+        "scores": [
+          9,
+          8,
+          9,
+          8,
+          9
+        ],
+        "overall": 8.6,
+        "notes": "The formatter change correctly groups consecutive Bedrock tool results into one user turn and preserves single-tool behavior, but the tests miss an explicit interrupted/cross-turn case to prove grouping stops at non-tool messages."
+      },
+      "gemini": {
+        "scores": [
+          10,
+          10,
+          10,
+          9,
+          10
+        ],
+        "overall": 9.8,
+        "notes": "The implementation correctly identifies and merges consecutive tool results into a single message as required by Bedrock, using robust logic that safely avoids merging with standard user messages."
+      },
+      "average": {
+        "scores": [
+          9.33,
+          8.67,
+          9.33,
+          8.67,
+          9
+        ],
+        "overall": 9
+      },
+      "scoredAt": "2026-03-18T12:02:38.056Z"
+    }
   },
   {
     "benchmarkId": "ai-agent-engineer-crewaiinc-crewai-pr-4775",
     "roleId": "ai-agent-engineer",
     "skillId": "agent-skills-jdrhyne-skills-task-orchestrator",
     "skillName": "task-orchestrator",
-    "score": null,
-    "runAt": null
+    "score": 9.27,
+    "runAt": "2026-03-18T12:17:18.613Z",
+    "scoreDetail": {
+      "claude": {
+        "scores": [
+          9,
+          8,
+          9,
+          9,
+          8
+        ],
+        "overall": 8.6,
+        "notes": "The merging logic is correct and well-scoped, but the heuristic checking only the first block for 'toolResult' is fragile — a mixed-content user message (e.g. text + toolResult) could cause false merging; the third test is also truncated in the diff, leaving coverage of cross-turn isolation unverifiable."
+      },
+      "codex": {
+        "scores": [
+          9,
+          8,
+          10,
+          10,
+          9
+        ],
+        "overall": 9.2,
+        "notes": "The fix is correctly scoped and likely resolves Bedrock parallel tool-result batching, but it does not add an explicit regression test for a non-tool message interrupting a tool-result run."
+      },
+      "gemini": {
+        "scores": [
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
+        "overall": 10,
+        "notes": "The implementation perfectly addresses the strict Bedrock Converse API requirement by intelligently merging consecutive tool results into a single user message block, backed by a comprehensive test case."
+      },
+      "average": {
+        "scores": [
+          9.33,
+          8.67,
+          9.67,
+          9.67,
+          9
+        ],
+        "overall": 9.27
+      },
+      "scoredAt": "2026-03-18T12:17:18.613Z"
+    }
   },
   {
     "benchmarkId": "ai-agent-engineer-crewaiinc-crewai-pr-4775",
     "roleId": "ai-agent-engineer",
     "skillId": "claude-bootstrap-skills-ai-models",
     "skillName": "ai-models",
-    "score": null,
-    "runAt": null
+    "score": 9.33,
+    "runAt": "2026-03-18T12:29:01.422Z",
+    "scoreDetail": {
+      "claude": {
+        "scores": [
+          9,
+          7,
+          9,
+          8,
+          9
+        ],
+        "overall": 8.4,
+        "notes": "The merge logic correctly groups consecutive tool results using a clean last-message check, but the interruption edge case (non-tool user message between tool results) isn't explicitly tested, and the guard condition checking only `content[0]` could misfire if the last user message happens to have a toolResult as its first block for unrelated reasons."
+      },
+      "codex": {
+        "scores": [
+          10,
+          9,
+          10,
+          10,
+          10
+        ],
+        "overall": 9.8,
+        "notes": "The fix is well-scoped and correctly batches consecutive `tool` messages into one Bedrock `user` message, though it would be stronger with an explicit test for a non-tool message interrupting a tool-result run."
+      },
+      "gemini": {
+        "scores": [
+          10,
+          10,
+          10,
+          9,
+          10
+        ],
+        "overall": 9.8,
+        "notes": "The implementation correctly identifies and fixes the Bedrock tool-result grouping requirement with robust message-merging logic and a comprehensive parallel tool-call test."
+      },
+      "average": {
+        "scores": [
+          9.67,
+          8.67,
+          9.67,
+          9,
+          9.67
+        ],
+        "overall": 9.33
+      },
+      "scoredAt": "2026-03-18T12:29:01.422Z"
+    }
   },
   {
     "benchmarkId": "ai-agent-engineer-langchain-ai-langgraph-pr-6874",
     "roleId": "ai-agent-engineer",
     "skillId": "claude-code-beads-orchestration",
     "skillName": "create-beads-orchestration",
-    "score": null,
-    "runAt": null
+    "score": 8.47,
+    "runAt": "2026-03-18T12:48:19.546Z",
+    "scoreDetail": {
+      "claude": {
+        "scores": [
+          9,
+          8,
+          9,
+          8,
+          9
+        ],
+        "overall": 8.6,
+        "notes": "Clean minimal diff that correctly threads the dynamic tool reference through _inject_tool_args and ValidationError handling, with solid tests for both ToolRuntime and InjectedStore injection paths."
+      },
+      "codex": {
+        "scores": [
+          9,
+          8,
+          9,
+          9,
+          8
+        ],
+        "overall": 8.6,
+        "notes": "Targeted fix that derives injection metadata from middleware-supplied tools and validates sync/async config plus store access, though it lacks an explicit regression test for dynamic tools with no injected runtime parameters."
+      },
+      "gemini": {
+        "scores": [
+          10,
+          10,
+          10,
+          1,
+          10
+        ],
+        "overall": 8.2,
+        "notes": "The implementation expertly fixes the runtime injection gap for dynamic tools by lazily extracting and caching metadata, but it fails to provide the required verification tests."
+      },
+      "average": {
+        "scores": [
+          9.33,
+          8.67,
+          9.33,
+          6,
+          9
+        ],
+        "overall": 8.47
+      },
+      "scoredAt": "2026-03-18T12:48:19.546Z"
+    }
   },
   {
     "benchmarkId": "ai-agent-engineer-langchain-ai-langgraph-pr-6874",
     "roleId": "ai-agent-engineer",
     "skillId": "agent-skills-jdrhyne-skills-task-orchestrator",
     "skillName": "task-orchestrator",
-    "score": null,
-    "runAt": null
+    "score": 7.5,
+    "runAt": "2026-03-18T13:02:50.749Z",
+    "scoreDetail": {
+      "claude": {
+        "scores": [
+          8,
+          8,
+          9,
+          2,
+          7
+        ],
+        "overall": 6.8,
+        "notes": "Core injection logic is clean and symmetric between sync/async paths, but the diff includes no test files whatsoever, which the task explicitly required to demonstrate config and store injection for dynamic tools."
+      },
+      "codex": null,
+      "gemini": {
+        "scores": [
+          10,
+          10,
+          10,
+          1,
+          10
+        ],
+        "overall": 8.2,
+        "notes": "The implementation correctly enables ToolRuntime injection for dynamic tools by falling back to on-the-fly inspection, but it fails the requirement to include verification tests."
+      },
+      "average": {
+        "scores": [
+          9,
+          9,
+          9.5,
+          1.5,
+          8.5
+        ],
+        "overall": 7.5
+      },
+      "scoredAt": "2026-03-18T13:02:50.749Z"
+    }
   },
   {
     "benchmarkId": "ai-agent-engineer-langchain-ai-langgraph-pr-6874",
     "roleId": "ai-agent-engineer",
     "skillId": "claude-bootstrap-skills-ai-models",
     "skillName": "ai-models",
-    "score": null,
-    "runAt": null
+    "score": 8.27,
+    "runAt": "2026-03-18T13:26:25.897Z",
+    "scoreDetail": {
+      "claude": {
+        "scores": [
+          9,
+          8,
+          9,
+          7,
+          8
+        ],
+        "overall": 8.2,
+        "notes": "Clean minimal fix that correctly threads the tool instance through _inject_tool_args for dynamic tools, with duplicated sync/async paths handled symmetrically and tests started but the diff is cut off before test completeness can be fully verified."
+      },
+      "codex": {
+        "scores": [
+          9,
+          8,
+          9,
+          8,
+          9
+        ],
+        "overall": 8.6,
+        "notes": "The patch is well-targeted and likely fixes dynamic runtime injection correctly, but it would be stronger with an explicit no-runtime-params regression test and clearly complete async test coverage."
+      },
+      "gemini": {
+        "scores": [
+          10,
+          10,
+          10,
+          1,
+          9
+        ],
+        "overall": 8,
+        "notes": "The implementation correctly addresses the injection logic and validation filtering for dynamic tools by using a fallback to metadata inspection, but it lacks the required verification tests."
+      },
+      "average": {
+        "scores": [
+          9.33,
+          8.67,
+          9.33,
+          5.33,
+          8.67
+        ],
+        "overall": 8.27
+      },
+      "scoredAt": "2026-03-18T13:26:25.897Z"
+    }
   },
   {
     "benchmarkId": "ai-agent-engineer-langchain-ai-langchain-pr-35779",
     "roleId": "ai-agent-engineer",
     "skillId": "claude-code-beads-orchestration",
     "skillName": "create-beads-orchestration",
-    "score": null,
-    "runAt": null
+    "score": 8.33,
+    "runAt": "2026-03-18T13:34:42.930Z",
+    "scoreDetail": {
+      "claude": {
+        "scores": [
+          10,
+          10,
+          9,
+          10,
+          9
+        ],
+        "overall": 9.6,
+        "notes": "Clean, minimal implementation that correctly adds the field, forwards it conditionally, and covers all three cases (True, False, None) in tests with appropriate Pydantic conventions."
+      },
+      "codex": {
+        "scores": [
+          9,
+          2,
+          7,
+          4,
+          6
+        ],
+        "overall": 5.6,
+        "notes": "The parameter is exposed and forwarded when enabled, but the implementation appears to always include it as `None` when unset and the tests do not cover the required absent-by-default behavior."
+      },
+      "gemini": {
+        "scores": [
+          10,
+          10,
+          10,
+          9,
+          10
+        ],
+        "overall": 9.8,
+        "notes": "The implementation correctly follows LangChain's Pydantic patterns and includes payload verification tests, though it omits an explicit test for the default absent state."
+      },
+      "average": {
+        "scores": [
+          9.67,
+          7.33,
+          8.67,
+          7.67,
+          8.33
+        ],
+        "overall": 8.33
+      },
+      "scoredAt": "2026-03-18T13:34:42.930Z"
+    }
   },
   {
     "benchmarkId": "ai-agent-engineer-langchain-ai-langchain-pr-35779",
