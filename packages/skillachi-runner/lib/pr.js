@@ -44,7 +44,7 @@ export async function forkAndPR({ benchmarkId, skillId, skillName, roleId, score
     const idx = lb.findIndex(s => s.benchmarkId === benchmarkId && s.skillId === skillId);
     const entry = idx >= 0 ? lb[idx] : { benchmarkId, skillId, skillName, roleId };
     entry.score = scoreResult.average?.overall ?? null;
-    entry.scoreDetail = scoreResult;
+    entry.scoreDetail = { ...scoreResult, diff: (diffs?.claude || '').slice(0, 8000) };
     entry.runAt = new Date().toISOString();
     if (idx >= 0) lb[idx] = entry; else lb.push(entry);
     writeFileSync(lbPath, JSON.stringify(lb, null, 2));

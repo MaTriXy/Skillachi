@@ -1,0 +1,112 @@
+name: Verify Contribution
+
+on:
+  pull_request:
+    paths:
+      - 'benchmarks/leaderboard.json'
+
+permissions:
+  pull-requests: write
+  contents: write
+
+jobs:
+  verify-scores:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout PR
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Claude CLI
+        run: npm install -g @anthropic-ai/claude-code
+        continue-on-error: true
+
+      - name: Get base leaderboard
+        run: |
+          git fetch origin "${{ github.base_ref }}" 2>/dev/null || true
+          git show "origin/${{ github.base_ref }}:benchmarks/leaderboard.json" > /tmp/base-leaderboard.json 2>/dev/null \
+            || echo '[]' > /tmp/base-leaderboard.json
+
+      - name: Run verification
+        id: verify
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          node runner/verify-contribution.js \
+            --pr-leaderboard benchmarks/leaderboard.json \
+            --base-leaderboard /tmp/base-leaderboard.json \
+            --output runner/verify-result.json && echo "passed=true" >> "$GITHUB_OUTPUT" \
+            || echo "passed=false" >> "$GITHUB_OUTPUT"
+
+      - name: Build PR comment
+        id: comment
+        run: |
+          node -e "
+            const fs = require('fs');
+            const r = fs.existsSync('runner/verify-result.json')
+              ? JSON.parse(fs.readFileSync('runner/verify-result.json','utf8'))
+              : { passed: true, slots: [] };
+            const lines = [
+              '## Skillachi Score Verification',
+              '',
+              r.passed
+                ? '**Result: PASSED** -- all scores within +/-2 points'
+                : '**Result: FAILED** -- one or more scores outside +/-2 points',
+              '',
+              '| Slot | Submitted | Re-score | Delta | Result |',
+              '|------|-----------|----------|-------|--------|',
+              ...r.slots.map(s =>
+                '| ' + s.slotKey + ' | ' + (s.submitted ?? '--') + ' | ' + (s.rescore ?? '--') + ' | ' + (s.delta ?? '--') + ' | ' + (s.pass ? 'PASS' : 'FAIL') + ' |'
+              ),
+              '',
+              r.slots.length === 0 ? '_No scored slots changed._' : '',
+              '',
+              '_Verified by Skillachi CI using Claude re-score (+/-2 point tolerance)_',
+            ];
+            const body = lines.join('\n');
+            fs.writeFileSync('/tmp/pr-comment.txt', body);
+            console.log('comment written');
+          "
+
+      - name: Post PR comment
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: |
+          gh pr comment "$PR_NUMBER" --body-file /tmp/pr-comment.txt
+
+      - name: Label — scores verified
+        if: steps.verify.outputs.passed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: |
+          gh pr edit "$PR_NUMBER" --add-label "scores-verified" || true
+
+      - name: Label — needs review
+        if: steps.verify.outputs.passed != 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: |
+          gh pr edit "$PR_NUMBER" --add-label "needs-review" || true
+
+      - name: Auto-merge if verified
+        if: steps.verify.outputs.passed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: |
+          gh pr merge "$PR_NUMBER" --auto --squash || true
+
+      - name: Fail if not verified
+        if: steps.verify.outputs.passed != 'true'
+        run: |
+          echo "Score verification failed — PR requires human review."
+          exit 1
