@@ -32,13 +32,14 @@
       "Three.js animation - keyframe animation, skeletal animation, morph targets, animation mixing. Use when animating objects, playing GLTF animations, creating procedural motion, or blending animations."
     ],
     "judgingCriteria": [
-      "Does the implementation correctly call `injectIntoDevTools` with a React 19-compatible argument shape so that react-three-fiber components appear in the React DevTools panel?",
-      "Does it handle both React 18 and React 19 environments gracefully, either via version detection or by using a signature that is backwards compatible?",
-      "Does the code follow TypeScript and React reconciler conventions used elsewhere in the `packages/fiber` package?",
-      "Does it include or update tests or a demo that confirms React DevTools can inspect a react-three-fiber scene tree without errors?",
-      "Does it demonstrate threejs-shaders expertise by ensuring renderer metadata exposed to DevTools accurately reflects the three.js scene graph structure?"
+      "Does the implementation call injectIntoDevTools with an object containing a findFiberByHostInstance function, which is the React 19-compatible signature (replacing the deprecated rendererPackageName/rendererVersion approach)?",
+      "Does it remove or replace the old rendererPackageName and rendererVersion fields from the injectIntoDevTools call so they no longer cause silent failures in React 19?",
+      "Does the code follow TypeScript and React reconciler conventions used elsewhere in the packages/fiber package, with correct types and no unnecessary any casts?",
+      "Does the change scope itself to the DevTools injection call only, without restructuring unrelated reconciler initialization or breaking the existing canvas/root setup?",
+      "Does the implementation expose renderer metadata (bundleType, version, rendererConfig) in a way that allows React DevTools to correctly identify and display react-three-fiber components in the component tree?"
     ],
-    "qualityScore": 8
+    "qualityScore": 8,
+    "qualityNotes": "Criteria rewritten after empirical scoring showed C5 was unachievable (threejs-shaders mismatch) and C2 was ambiguous. New criteria are all directly observable from the diff."
   },
   {
     "benchmarkId": "3d-graphics-engineer-mrdoob-three.js-pr-33187",
@@ -1122,7 +1123,7 @@
       "title": "",
       "body": ""
     },
-    "requestedChange": "Fix the broken public API surface of `deltalake::writer::create_add`, whose signature references `delta_kernel::expressions::Scalar` and `delta_kernel::table_properties::DataSkippingNumIndexedCols` \u2014 types that are not re-exported from `deltalake`, making the function impossible to call without adding a pinned `delta_kernel` dependency separately. Remove or make `create_add` private in the writer module's public re-export since it has not been an actively maintained public entry point since early 2024. The solution should ensure the `deltalake` crate compiles without exposing types that callers cannot name, leaving internal write paths that use the helper unchanged.",
+    "requestedChange": "Fix the broken public API surface of `deltalake::writer::create_add`, whose signature references `delta_kernel::expressions::Scalar` and `delta_kernel::table_properties::DataSkippingNumIndexedCols` — types that are not re-exported from `deltalake`, making the function impossible to call without adding a pinned `delta_kernel` dependency separately. Remove or make `create_add` private in the writer module's public re-export since it has not been an actively maintained public entry point since early 2024. The solution should ensure the `deltalake` crate compiles without exposing types that callers cannot name, leaving internal write paths that use the helper unchanged.",
     "candidateSkillIds": [
       "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-code-migration-modernization-skills-etl-pipeline-builder",
       "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-data-engineering-analytics-skills-data-lineage-mapper",
@@ -1204,7 +1205,7 @@
       "title": "indexing with a `Categorical` of `Interval`s is inefficient",
       "body": "This line converts the `IntervalIndex` into a numpy object array, then in this block, a TypeError is raised and causes that object array to be converted into strings:\n\n> TypeError: (-0.00872, 0.439] of type `<class 'pandas._libs.interval.Interval'>` is not a valid type for hashing, must be string or null"
     },
-    "requestedChange": "Fix the inefficient indexing path when using a `Categorical` of `Interval` objects to index a pandas `IntervalIndex`. The current code converts the `IntervalIndex` to a numpy object array and then, upon a `TypeError` during hashing, falls back to string conversion \u2014 a costly two-step detour. The solution should detect `Interval`-typed categoricals early and take the efficient direct lookup path without the intermediate object-array and string-conversion fallback.",
+    "requestedChange": "Fix the inefficient indexing path when using a `Categorical` of `Interval` objects to index a pandas `IntervalIndex`. The current code converts the `IntervalIndex` to a numpy object array and then, upon a `TypeError` during hashing, falls back to string conversion — a costly two-step detour. The solution should detect `Interval`-typed categoricals early and take the efficient direct lookup path without the intermediate object-array and string-conversion fallback.",
     "candidateSkillIds": [
       "claude-code-templates-cli-tool-components-skills-development-senior-data-scientist",
       "claude-code-templates-cli-tool-components-skills-scientific-vaex",
@@ -1325,7 +1326,7 @@
     "issueReference": {
       "number": 29309,
       "title": "Compound cursor with DateTime field returns 0 rows via driver adapter (@prisma/adapter-mariadb)",
-      "body": "## Bug description\n\nWhen using `@prisma/adapter-mariadb`, a `findMany` with a compound cursor (`@@id`) containing a `DateTime` field returns 0 rows. The equivalent `WHERE`-based query returns correct results. The cursor subquery reaches the database but the DateTime comparison silently fails.\n\n## Severity\n\n\u26a0\ufe0f Major: Breaks core functionality \u2014 cursor-based pagination is unusable for any table with a DateTime in its compound primary key."
+      "body": "## Bug description\n\nWhen using `@prisma/adapter-mariadb`, a `findMany` with a compound cursor (`@@id`) containing a `DateTime` field returns 0 rows. The equivalent `WHERE`-based query returns correct results. The cursor subquery reaches the database but the DateTime comparison silently fails.\n\n## Severity\n\n⚠️ Major: Breaks core functionality — cursor-based pagination is unusable for any table with a DateTime in its compound primary key."
     },
     "requestedChange": "Fix the compound cursor pagination bug in the `@prisma/adapter-mariadb` driver adapter where `findMany` with a compound `@@id` cursor containing a `DateTime` field silently returns zero rows. The current adapter fails to correctly serialize or compare `DateTime` values in the generated cursor subquery, causing the comparison to always evaluate false. The solution should ensure `DateTime` fields are properly formatted for MariaDB's cursor comparison SQL.",
     "candidateSkillIds": [
@@ -1366,7 +1367,7 @@
     "issueReference": {
       "number": 29257,
       "title": "Browser-imported 'Prisma.DBNull' create an empty object",
-      "body": "### Bug description\n\nUsing 'prisma-client' (Prisma 7.4.x), using 'Prisma.DBNull' from the browser import results in an empty object `{}` being persisted into a nullable Json field.\n\n\n### Severity\n\n\ud83d\udd39 Minor: Unexpected behavior, but does not block development\n\n### Reproduction\n\n```ts\nimport { Prisma a"
+      "body": "### Bug description\n\nUsing 'prisma-client' (Prisma 7.4.x), using 'Prisma.DBNull' from the browser import results in an empty object `{}` being persisted into a nullable Json field.\n\n\n### Severity\n\n🔹 Minor: Unexpected behavior, but does not block development\n\n### Reproduction\n\n```ts\nimport { Prisma a"
     },
     "requestedChange": "Fix the browser import of `Prisma.DbNull` in `prisma-client` (Prisma 7.4.x) producing an empty object `{}` when persisted to a nullable JSON field. The current serialization code uses an `instanceof` check that fails across module boundaries in bundled browser environments such as Next.js, causing the sentinel value to be serialized as `{}` instead of `NULL`. The solution should update the browser entry point's serialization logic to identify `Prisma.DbNull` by structural identity or a tagged property rather than relying on `instanceof`.",
     "candidateSkillIds": [
@@ -2141,9 +2142,9 @@
     "issueReference": {
       "number": 50980,
       "title": "feat(early-access): Add option to ignore opt-out list when promoting to GA",
-      "body": "## Summary\n\nWhen an early access feature is promoted to General Availability (GA), users who previously opted out still receive `false` for the feature flag. This is the current intended behavior, but it can be surprising and creates friction when teams want to roll out a feature to everyone.\n\n### Current behavior\n\n1. User opts out of an early access feature \u2192 `$feature_enrollment/{flag_key}` is set to `false`\n2. Feature is promoted to GA\n3. Opted-out users **still get `false`** because the `sup"
+      "body": "## Summary\n\nWhen an early access feature is promoted to General Availability (GA), users who previously opted out still receive `false` for the feature flag. This is the current intended behavior, but it can be surprising and creates friction when teams want to roll out a feature to everyone.\n\n### Current behavior\n\n1. User opts out of an early access feature → `$feature_enrollment/{flag_key}` is set to `false`\n2. Feature is promoted to GA\n3. Opted-out users **still get `false`** because the `sup"
     },
-    "requestedChange": "Implement a 'Roll out to all users \u2014 include users who previously opted out' option in the GA promotion dialog for early access features in the posthog/posthog codebase. The current GA promotion flow preserves `super_groups` conditions, so users who opted out of an early access feature remain opted out indefinitely after the feature goes GA, with no UI mechanism to override this. The solution should add a checkbox in `GAPromotionDialogContent.tsx` backed by `earlyAccessFeatureLogic.ts` and a corresponding `rollout_to_all` field in the backend serializer (`api.py`) that, when selected, clears `super_groups` and sets the rollout percentage to 100%; default behavior should be preserved when the option is unchecked.",
+    "requestedChange": "Implement a 'Roll out to all users — include users who previously opted out' option in the GA promotion dialog for early access features in the posthog/posthog codebase. The current GA promotion flow preserves `super_groups` conditions, so users who opted out of an early access feature remain opted out indefinitely after the feature goes GA, with no UI mechanism to override this. The solution should add a checkbox in `GAPromotionDialogContent.tsx` backed by `earlyAccessFeatureLogic.ts` and a corresponding `rollout_to_all` field in the backend serializer (`api.py`) that, when selected, clears `super_groups` and sets the rollout percentage to 100%; default behavior should be preserved when the option is unchecked.",
     "candidateSkillIds": [
       "claude-code-templates-cli-tool-components-skills-business-marketing-marketing-demand-acquisition",
       "marketingskills-skills-analytics-tracking",
@@ -2161,7 +2162,7 @@
     ],
     "judgingCriteria": [
       "Does the implementation correctly clear `super_groups` and set rollout to 100% when the 'include opted-out users' option is selected during GA promotion?",
-      "Does it preserve existing behavior \u2014 keeping opted-out users opted out \u2014 when the option is not selected?",
+      "Does it preserve existing behavior — keeping opted-out users opted out — when the option is not selected?",
       "Does the code follow PostHog React, Kea logic, and Django REST serializer conventions used in the early access features module?",
       "Does it include or update backend tests covering both the opt-in (clear super_groups) and opt-out (preserve super_groups) scenarios for the GA promotion endpoint?",
       "Does it demonstrate product-analytics expertise by correctly modeling feature flag `super_groups` semantics and their interaction with enrollment override logic?"
@@ -2380,7 +2381,7 @@
       "title": "",
       "body": ""
     },
-    "requestedChange": "Fix a TCA 1.21.0 regression where child stores in `StackState` have their state immediately nil-ed out upon dismissal, causing child views to go blank before the pop animation completes. The change in 1.21.0 that cleans up child reducer state fires too eagerly \u2014 before SwiftUI has finished the dismissal transition. Add a delay to the child store nil-ing so SwiftUI can complete the pop animation before the child state is cleared. The solution should restore the pre-1.21.0 behavior where views remain visible during their pop animation and also preserve the original fix that cleans up child reducer state after dismissal.",
+    "requestedChange": "Fix a TCA 1.21.0 regression where child stores in `StackState` have their state immediately nil-ed out upon dismissal, causing child views to go blank before the pop animation completes. The change in 1.21.0 that cleans up child reducer state fires too eagerly — before SwiftUI has finished the dismissal transition. Add a delay to the child store nil-ing so SwiftUI can complete the pop animation before the child state is cleared. The solution should restore the pre-1.21.0 behavior where views remain visible during their pop animation and also preserve the original fix that cleans up child reducer state after dismissal.",
     "candidateSkillIds": [
       "claude-xcodepreviews-codex-skills-xcode-preview-capture",
       "claude-xcodepreviews-cursor-skills-preview"
@@ -2395,7 +2396,7 @@
     ],
     "judgingCriteria": [
       "Does the implementation add a delay before nil-ing out the child store, so the view remains visible throughout the pop animation before state cleanup?",
-      "Does it preserve the original cleanup behavior \u2014 child reducer state is still cleared after the animation \u2014 to avoid state leaks?",
+      "Does it preserve the original cleanup behavior — child reducer state is still cleared after the animation — to avoid state leaks?",
       "Does the Swift code follow TCA's store/reducer lifecycle conventions and SwiftUI navigation integration patterns?",
       "Does the implementation include tests or snapshot tests verifying that child store state persists through a dismissal animation and is cleaned up afterward?",
       "Does it demonstrate iOS developer skill by correctly coordinating SwiftUI navigation animation timing with TCA's state management lifecycle?"
@@ -2582,7 +2583,7 @@
       "title": "ClientCredentialsOAuthProvider: Missing client_id in token request body for client_secret_post",
       "body": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before opening this issue\n\n### Description\n\n## Bug: Missing `client_id` in token request body for `client_`"
     },
-    "requestedChange": "Fix `ClientCredentialsOAuthProvider` in the MCP Python SDK to include `client_id` in the token request body when using `client_secret_post` authentication. The current `prepare_token_auth()` implementation adds `client_secret` to the POST body for `client_secret_post` but omits `client_id`, violating RFC 6749 \u00a72.3.1 which requires both fields. The solution should update `prepare_token_auth()` to include `client_id` alongside `client_secret` in the request body when the authentication method is `client_secret_post`.",
+    "requestedChange": "Fix `ClientCredentialsOAuthProvider` in the MCP Python SDK to include `client_id` in the token request body when using `client_secret_post` authentication. The current `prepare_token_auth()` implementation adds `client_secret` to the POST body for `client_secret_post` but omits `client_id`, violating RFC 6749 §2.3.1 which requires both fields. The solution should update `prepare_token_auth()` to include `client_id` alongside `client_secret` in the request body when the authentication method is `client_secret_post`.",
     "candidateSkillIds": [
       "claude-code-templates-cli-tool-components-skills-development-mcp-builder",
       "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-cli-mcp-development-skills-mcp-inspector-integration",
@@ -2685,7 +2686,7 @@
       "Does it handle the case where there are no completed trials yet, avoiding division-by-zero or empty-sequence errors when computing the imputed value?",
       "Does the code follow optuna Python idioms for sampler configuration, type annotations, and integration with the storage/trial state API?",
       "Does it include or update tests verifying that batched suggestions via `GPSampler` with `constant_liar=True` do not repeat identical hyperparameter points?",
-      "Does it demonstrate senior-ml-engineer expertise by correctly integrating Bayesian optimization theory \u2014 specifically sequential simulation with imputed liars \u2014 into the sampler implementation?"
+      "Does it demonstrate senior-ml-engineer expertise by correctly integrating Bayesian optimization theory — specifically sequential simulation with imputed liars — into the sampler implementation?"
     ],
     "qualityScore": 9
   },
@@ -2787,7 +2788,7 @@
       "title": "",
       "body": ""
     },
-    "requestedChange": "Fix 360\u00b0 panorama video playback failing at \"Original\" quality in Immich v2.5.x for high-resolution videos. The regression was introduced in PR #25436, which changed `video-panorama-viewer.svelte` to use `getAssetUrl({ asset, forceOriginal: true })` \u2014 but `targetImageSize()` returns `AssetMediaSize.Fullsize` (not `Original`) for video assets, causing the panorama viewer to receive a non-original URL. Restore the use of `getAssetOriginalUrl(assetId)` (or equivalent) in the panorama viewer so video assets always use the true original URL. The solution should allow 360\u00b0 video at resolutions above 1440p to load in the web client without a \"panorama cannot be loaded\" error.",
+    "requestedChange": "Fix 360° panorama video playback failing at \"Original\" quality in Immich v2.5.x for high-resolution videos. The regression was introduced in PR #25436, which changed `video-panorama-viewer.svelte` to use `getAssetUrl({ asset, forceOriginal: true })` — but `targetImageSize()` returns `AssetMediaSize.Fullsize` (not `Original`) for video assets, causing the panorama viewer to receive a non-original URL. Restore the use of `getAssetOriginalUrl(assetId)` (or equivalent) in the panorama viewer so video assets always use the true original URL. The solution should allow 360° video at resolutions above 1440p to load in the web client without a \"panorama cannot be loaded\" error.",
     "candidateSkillIds": [
       "anthropic-cybersecurity-skills-skills-conducting-api-security-testing",
       "anthropic-cybersecurity-skills-skills-testing-api-security-with-owasp-top-10",
@@ -2804,7 +2805,7 @@
       "Comprehensive API testing for REST and GraphQL endpoints with contract validation"
     ],
     "judgingCriteria": [
-      "Does the implementation make the panorama viewer request the correct original-quality URL for video assets so high-resolution 360\u00b0 videos load without error?",
+      "Does the implementation make the panorama viewer request the correct original-quality URL for video assets so high-resolution 360° videos load without error?",
       "Does it handle the edge case where the asset is an image (not a video), preserving the existing fullsize image URL behavior in the same viewer?",
       "Does the code follow Immich Svelte/TypeScript conventions and keep the fix minimal, touching only the affected URL helper call?",
       "Does the implementation include or update tests that verify the panorama viewer generates the correct original URL for a video asset?",
@@ -3399,8 +3400,8 @@
     "baseCommit": "60385078233e00f9f13307ff038f12f88fc5c240",
     "issueReference": {
       "number": null,
-      "title": "\ud83d\udc1b Fix, avoid yield from a TaskGroup, only as an async context manager, closed in the request async exit stack",
-      "body": "\ud83d\udc1b Fix, avoid yield from a TaskGroup, only as an async context manager, closed in the request async exit stack\r\n\r\nRef: https://peps.python.org/pep-0789/\r\n\r\nDiscovered by extrapolating insights by @graingert while discussing another comparable external use case."
+      "title": "🐛 Fix, avoid yield from a TaskGroup, only as an async context manager, closed in the request async exit stack",
+      "body": "🐛 Fix, avoid yield from a TaskGroup, only as an async context manager, closed in the request async exit stack\r\n\r\nRef: https://peps.python.org/pep-0789/\r\n\r\nDiscovered by extrapolating insights by @graingert while discussing another comparable external use case."
     },
     "requestedChange": "Fix FastAPI's dependency injection system in the fastapi/fastapi codebase to prevent `yield`-based dependencies from wrapping a `TaskGroup` in a generator, and instead manage it exclusively as an async context manager closed in the request's async exit stack. The current approach of using `yield` inside a `TaskGroup` violates PEP 789, which prohibits yielding from within a task group because it can leave tasks orphaned if the generator is abandoned mid-flight. The solution should refactor affected dependency patterns to use `async with TaskGroup()` as a context manager added to the exit stack, ensuring the task group is always properly joined on request teardown.",
     "candidateSkillIds": [
@@ -3440,8 +3441,8 @@
     "baseCommit": "d2c17b603d2f986d5f3800d3bf24acba8e1f485b",
     "issueReference": {
       "number": null,
-      "title": "\u267b\ufe0f Fix JSON Schema for bytes, use `\"contentMediaType\": \"application/octet-stream\"` instead of `\"format\": \"binary\"`",
-      "body": "\u267b\ufe0f Fix JSON Schema for bytes, use `\"contentMediaType\": \"application/octet-stream\"` instead of `\"format\": \"binary\"`\r\n\r\n## Background\r\n\r\n`format: binary` was defined in OpenAPI 3.0.x, in OpenAPI 3.1.x the schema was aligned with the latest JSON Schema, recommending instead `contentMediaType: application/octet-stream`.\r\n\r\nI suspect the JSON Schema for `bytes` using `\"format\": \"binary\"` comes from my first impl"
+      "title": "♻️ Fix JSON Schema for bytes, use `\"contentMediaType\": \"application/octet-stream\"` instead of `\"format\": \"binary\"`",
+      "body": "♻️ Fix JSON Schema for bytes, use `\"contentMediaType\": \"application/octet-stream\"` instead of `\"format\": \"binary\"`\r\n\r\n## Background\r\n\r\n`format: binary` was defined in OpenAPI 3.0.x, in OpenAPI 3.1.x the schema was aligned with the latest JSON Schema, recommending instead `contentMediaType: application/octet-stream`.\r\n\r\nI suspect the JSON Schema for `bytes` using `\"format\": \"binary\"` comes from my first impl"
     },
     "requestedChange": "Fix the JSON Schema generation for `bytes` fields in fastapi/fastapi to use `\"contentMediaType\": \"application/octet-stream\"` instead of `\"format\": \"binary\"`, aligning with OpenAPI 3.1 and JSON Schema 2020-12 semantics. The current output emits `\"format\": \"binary\"`, which was an OpenAPI 3.0.x convention that is not valid JSON Schema and has been replaced in OpenAPI 3.1 by the `contentMediaType` keyword. The solution should update the schema generation logic for `bytes` type annotations so that the emitted schema uses `contentMediaType: application/octet-stream`, and update existing golden-file or snapshot tests to reflect the corrected output.",
     "candidateSkillIds": [
@@ -4046,7 +4047,7 @@
       "title": "CI: linalg: `_fblasmodule.c` build failures in dev deps job",
       "body": "see e.g. https://github.com/scipy/scipy/actions/runs/22860406868/job/66312463487?pr=24771\n\n```\n[558/1163] Compiling C object scipy/linalg/_fblas.cpython-314-x86_64-linux-gnu.so.p/meson-generated_..__fblasmodule.c.o\nFAILED: [code=1] scipy/linalg/_fblas.cpython-314-x86_64-linux-gnu.so.p/meson-generated_..__fblasmodule.c.o \n...\nscipy/linalg/_fblasmodule.c: In function 'f2py_rout__fblas_caxpy':\nscipy/linalg/_fblasmodule.c:4838:28: error: request for member 'r' in something not a structure or union\n "
     },
-    "requestedChange": "Restore `.r` and `.i` field access on complex number types in `numpy/f2py/cfuncs.py` that was broken when a prior refactor replaced the internal `complex_double`/`complex_float`/`complex_long_double` struct typedefs with direct `npy_cdouble`/`npy_cfloat`/`npy_clongdouble` aliases. The current f2py-generated C code accesses `.r` and `.i` member fields that no longer exist on the aliased NumPy complex types, causing C compilation failures for BLAS/LAPACK wrappers in dependent projects like SciPy. The solution should restore struct definitions that expose `.r` and `.i` fields \u2014 either by keeping the wrapper structs or by adding `#define` aliases for the real and imaginary accessors \u2014 so that f2py-generated code compiles cleanly against modern NumPy.",
+    "requestedChange": "Restore `.r` and `.i` field access on complex number types in `numpy/f2py/cfuncs.py` that was broken when a prior refactor replaced the internal `complex_double`/`complex_float`/`complex_long_double` struct typedefs with direct `npy_cdouble`/`npy_cfloat`/`npy_clongdouble` aliases. The current f2py-generated C code accesses `.r` and `.i` member fields that no longer exist on the aliased NumPy complex types, causing C compilation failures for BLAS/LAPACK wrappers in dependent projects like SciPy. The solution should restore struct definitions that expose `.r` and `.i` fields — either by keeping the wrapper structs or by adding `#define` aliases for the real and imaginary accessors — so that f2py-generated code compiles cleanly against modern NumPy.",
     "candidateSkillIds": [
       "babysitter-codex-upstream-babysitter-skills-babysit-process-specializations-domains-science-physics-skills-scipy-optimization-toolkit",
       "claude-code-templates-cli-tool-components-skills-scientific-qutip",
